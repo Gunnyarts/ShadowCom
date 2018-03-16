@@ -405,7 +405,7 @@ thead .tbl__cell {
 .campaign__icon > svg > circle {fill: #111 !important;}
 .campaign__icon::after {background:linear-gradient(to top,rgba(255,255,255,0) 0,#111 100%) !important}
 .color-map__early-2018-brand-refresh .campaign__entry-exit__item, .color-map__early-2018-brand-refresh .campaign__entry-exit {border-color: #111;}
-body {background-color: #222;}
+
 
 
 
