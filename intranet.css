@@ -1,0 +1,238 @@
+/* brand specific style */
+
+/* Zitcom */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
+	background-image: url(/img/logo/zitcom-logo-white.svg);
+}
+
+/* ScanNet */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"] img {
+    background-image: url(/img/logo/scannet-logo-white.svg);
+}
+body.theme-scannet div.relationship-breadcrumb > span > a:hover {
+	color: #4CD981;
+}
+body.theme-scannet .toolbar {
+	border-top-color: #4CD981;
+}
+body.theme-scannet div.menu>ul>li>a:hover, body.theme-scannet div.menu>ul>li.openMenuNode>a, body.theme-scannet div.menu ul.nav-sub li a:hover {
+	color: #4CD981;
+}
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png);
+}
+body.theme-scannet .list-group-item.active, body.theme-scannet .list-group-item.active:hover, body.theme-scannet .list-group-item.active:focus, body.theme-scannet a.list-group-item:hover, body.theme-scannet button.list-group-item:hover, body.theme-scannet a.list-group-item:focus, body.theme-scannet button.list-group-item:focus {
+	background-color: #4CD981;
+    border-color: #4CD981;
+    color: #111;
+}
+body.theme-scannet .sidebar .sidebar-nav a:hover, body.theme-scannet .sidebar .sidebar-nav a.active {color: #4CD981;border-bottom-color: #4CD981;}
+
+/* Curanet */
+body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
+    background-image: url(/img/logo/curanet-white.png);
+}
+body.theme-curanet div.relationship-breadcrumb > span > a:hover {
+	color: #7AB55C;
+}
+body.theme-curanet .toolbar {
+	border-top-color: #7AB55C;
+}
+body.theme-curanet div.menu>ul>li>a:hover, body.theme-curanet div.menu>ul>li.openMenuNode>a, body.theme-curanet div.menu ul.nav-sub li a:hover {
+	color: #7AB55C;
+}
+body.theme-curanet .list-group-item.active, body.theme-curanet .list-group-item.active:hover, body.theme-curanet .list-group-item.active:focus, body.theme-curanet a.list-group-item:hover, body.theme-curanet button.list-group-item:hover, body.theme-curanet a.list-group-item:focus, body.theme-curanet button.list-group-item:focus {
+	background-color: #7AB55C;
+    border-color: #7AB55C;
+    color: #111;
+}
+body.theme-curanet .sidebar .sidebar-nav a:hover, body.theme-curanet .sidebar .sidebar-nav a.active {color: #7AB55C;border-bottom-color: #7AB55C;}
+
+/* Wannafind */
+body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
+    background-image: url(/img/logo/wannafind.png);
+}
+body.theme-wannafind div.relationship-breadcrumb > span > a:hover {
+	color: #3C73E7;
+}
+body.theme-wannafind .toolbar {
+	border-top-color: #3C73E7;
+}
+body.theme-wannafind div.menu>ul>li>a:hover, body.theme-curanet div.menu>ul>li.openMenuNode>a, body.theme-curanet div.menu ul.nav-sub li a:hover {
+	color: #3C73E7;
+}
+body.theme-wannafind .list-group-item.active, body.theme-wannafind .list-group-item.active:hover, body.theme-wannafind .list-group-item.active:focus, body.theme-wannafind a.list-group-item:hover, body.theme-wannafind button.list-group-item:hover, body.theme-wannafind a.list-group-item:focus, body.theme-wannafind button.list-group-item:focus {
+	background-color: #3C73E7;
+    border-color: #3C73E7;
+    color: #fff;
+}
+body.theme-wannafind .sidebar .sidebar-nav a:hover, body.theme-wannafind .sidebar .sidebar-nav a.active {color: #3C73E7;border-bottom-color: #3C73E7;}
+
+/********************/
+/* General styles 	*/
+/********************/
+
+
+body {
+    background-color: #444;
+    color: #eee;
+}
+body > .toolbar {
+	background-color: #111;
+}
+.relationship-breadcrumb span>a {
+	color: #e6e6e6;
+}
+
+
+
+/* Dashboard */
+
+.box {
+    background-color: rgba(0,0,0,0.58);
+}
+.box .box-header {
+	background-color: inherit;
+    border-color: #444;
+}
+tr.row-clickable:hover {
+	background-color: rgba(0,0,0,0.58)
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-color: #444;
+}
+
+.box .box-header.box-header-flex .lnr.pull-right {
+	color: #fff;
+}
+
+.box .box-header.box-header-flex .lnr.pull-right:hover {
+	color: #aaa;
+}
+
+.form-control {
+	background-color: #333 !important;
+    color: #fff;
+    border-color: #555 !important;
+}
+
+/* Zenegy */
+.dashboard .box-zenegy .box-header img {
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/zenegy-white.png);
+    background-size: 106.11px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 106.11px;
+    box-sizing: border-box;
+    padding-left: 106.11px;
+}
+.dashboard .box-zenegy tr.zenegy.zenegy-vacation {
+	color: #5fc2f5;
+}
+
+/* Pending orders */
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
+	background-color: #a22323;
+}
+.text-danger.glyphicon {
+	color: #eee;
+}
+
+/* Dashboard sidebar */
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
+}
+.dashboard .genfak-circle.genfak-circle-zitcom {
+    background-image: url(/img/logo/zitcom-white.png);
+}
+.dashboard .genfak-circle.genfak-circle-scannet {
+	background-image: url(/img/logo/scannet-white.png);
+}
+.dashboard .genfak-circle.genfak-circle-curanet {
+    background-image: url(/img/logo/curanet-white.png);
+}
+.box .box-content+.box-content {
+    border-top: 1px solid #444;
+}
+
+/* subscription detail */
+.ui-tabs .ui-tabs-nav li {
+	background-color: #222;
+    border-color: #222;
+}
+.ui-tabs .ui-tabs-nav li a {
+	color: #ccc;
+}
+.ui-tabs .ui-tabs-nav li a:hover {
+	color: #fff !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	background: #333 !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	color: #fff !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
+	color: #fff !important;
+}
+
+.content-body .tabsContainer .tabsContent {
+	background-color: rgba(0,0,0,0.48);
+    border-color: #111;
+}
+.ui-widget-content {
+	color: #eee;
+}
+.content-body .tabsContainer .tabsContent .tab-streamer {
+	background-color: #111;
+    border-color: #555;
+}
+
+.productAdminTable>tbody>tr.productControl>td {
+	background-color: rgba(0,0,0,0.24) !important;
+    box-shadow: inset 0 11px 8px -10px #000, inset 0 -11px 8px -10px #000;
+}
+.table-hover>tbody>tr:hover {
+	background-color: #222 !important;
+}
+.productAdminTable table {
+	background-color: transparent !important;
+}
+.list-group-item, a.list-group-item {
+	background-color: #333;
+    border-color: #333;
+    color: #ccc;
+}
+.well {background-color: rgba(0,0,0,0.24);border-color:transparent;}
+.table-striped>tbody>tr:nth-of-type(odd) {background-color: #111;}
+
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {background-color:#232323;color:#55a60d}
+
+.sidebar {background-color:#222;color:#eee;border-color:#111;}
+.sidebar .sidebar-nav, .sidebar .sidebar-buttons, .sidebar .type-container .type-header, .sidebar .sidebar-item {border-color:#444;}
+.sidebar .sidebar-item.sidebar-item-clickable:hover, .sidebar .sidebar-item.sidebar-item-clickable.active, .sidebar .sidebarContentHistory .date {background-color:#111;}
+.sidebar .sidebar-nav a {color:#ccc;}
+.sidebar .sidebar-nav a:hover, .sidebar .sidebar-nav a.active {color: #fff;border-bottom-color: #fff;}
+
+.productAdminTable>tbody>tr.productControlOpen>td {background-color:#444}
+
+/* modal */
+.modal-content {background-color: #333;}
+.modal-header, .modal-footer {border-color:#111;}
+
+/* Sales */
+div.brandpicker a img {
+	display:inline-block;
+    box-sizing: border-box;
+    width:140px;
+    height:30px;
+    padding-left:140px;
+    background-size:140px;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+tbody > tr.mainlevel.open > td, tbody > tr.sublevel > td {
+	background-color: #222 !important;
+}
+
+table.table>tbody>tr.colorOne {background-color:#111}
