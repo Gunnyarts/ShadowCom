@@ -228,16 +228,7 @@ border-color: #0e1012;
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
     color: #c7c7c7!important;
     
-}
-.dashboard .genfak-circle.genfak-circle-zitcom {
-background-image: url(/img/logo/zitcom-logo-white.svg);
-}
-.dashboard .genfak-circle.genfak-circle-scannet {
-    background-image: url(/img/logo/scannet-logo-white.svg);
-}
-.dashboard .genfak-circle.genfak-circle-curanet {
-    background-image: url(/img/logo/curanet-white.png);
-}
+
 
 
 .swushTable .swushTableHeader {
