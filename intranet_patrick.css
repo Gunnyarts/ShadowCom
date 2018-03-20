@@ -348,3 +348,7 @@ table.table>tbody>tr.colorOne {
     color: white !important;
     font-weight: bold !important;
 }
+
+.chosen-container .chosen-drop {
+    color: #333333;
+}
