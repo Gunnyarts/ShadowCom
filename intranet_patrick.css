@@ -342,3 +342,9 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 table.table>tbody>tr.colorOne {
     background-color: #2f3134;
 }
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: white!important;
+    font-weight: bold;
+}
