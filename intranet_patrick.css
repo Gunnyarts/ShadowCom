@@ -340,3 +340,34 @@ table.table>tbody>tr.colorOne {
 ul.section-navigation>li:hover {
     color: #fff;
 }
+
+
+
+
+
+
+/* brand specific style */
+
+/* Zitcom */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
+	background-image: url(/img/logo/zitcom-logo-white.svg);
+}
+
+/* ScanNet */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"] img {
+    background-image: url(/img/logo/scannet-logo-white.svg);
+}
+
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png);
+}
+
+/* Curanet */
+body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
+    background-image: url(/img/logo/curanet-white.png);
+}
+
+/* Wannafind */
+body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
+    background-image: url(/img/logo/wannafind.png);
+}
