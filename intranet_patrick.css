@@ -16,7 +16,8 @@ body {
 
     Søren  
     background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
-	
+	   background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
+
     Due
     background-image: url(https://i.gyazo.com/a03dfdd57c93005e305ef4547344526e.jpg);
 
@@ -27,8 +28,7 @@ body {
  background-image: url(https://i.gyazo.com/200b55d5b7fea89f531819457cdf123e.jpg);
 
     */
-      background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
-
+   
 
 
 
@@ -351,4 +351,8 @@ table.table>tbody>tr.colorOne {
 
 .chosen-container .chosen-drop {
     color: #333333;
+}
+
+ul.section-navigation>li:hover {
+    color: #fff;
 }
