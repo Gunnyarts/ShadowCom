@@ -177,7 +177,7 @@ tr.row-clickable:hover {
 }
 
 .content-body .tabsContainer .tabsContent {
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(17, 17, 17, 0.8);
     border-color: #111;
 }
 .ui-widget-content {
@@ -239,4 +239,15 @@ table.table>tbody>tr.colorOne {background-color:#111}
 
 .chosen-container .chosen-drop {
     color: #333;
+}
+
+
+div.menu {
+
+    background: #111111;
+}
+
+.toolbar .toolbar-header {
+
+    background-color: #111111;
 }
