@@ -345,6 +345,6 @@ table.table>tbody>tr.colorOne {
 
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
-    color: white!important;
-    font-weight: bold;
+    color: white !important;
+    font-weight: bold !important;
 }
