@@ -236,3 +236,7 @@ tbody > tr.mainlevel.open > td, tbody > tr.sublevel > td {
 }
 
 table.table>tbody>tr.colorOne {background-color:#111}
+
+.chosen-container .chosen-drop {
+    color: #333;
+}
