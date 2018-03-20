@@ -504,3 +504,11 @@ thead .tbl__cell {
 .color-map__early-2018-brand-refresh .m__rule-card__predicate-dropdown, .color-map__early-2018-brand-refresh .m__rule-card__predicate-input {
     color: #e0dfdf;
 }
+
+.beta__left-nav-colors .m__rules__priority-indicator__text, .color-map__early-2018-brand-refresh .beta__left-nav-colors .m__rules__priority-indicator__text {
+    background-color: #333;
+}
+
+.color-map__early-2018-brand-refresh .m__rules__priority-indicator:before {
+    background-color: #333;
+}
