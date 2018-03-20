@@ -480,3 +480,24 @@ thead .tbl__cell {
 .color-map__early-2018-brand-refresh .visibility__row__name {
     color: #fff;
 }
+
+
+.color-map__early-2018-brand-refresh .m__rule-card__content-wrapper {
+ 
+    background-color: #444;
+}
+
+
+
+
+
+
+.color-map__early-2018-brand-refresh .card__header.o__expanded {
+    background-color: #333;
+}
+
+
+
+.color-map__early-2018-brand-refresh .m__rule-card__predicate-dropdown, .color-map__early-2018-brand-refresh .m__rule-card__predicate-input {
+    color: #e0dfdf;
+}
