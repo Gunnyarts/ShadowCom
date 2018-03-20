@@ -372,3 +372,7 @@ body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img 
 body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
     background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png);
 }
+
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
+}
