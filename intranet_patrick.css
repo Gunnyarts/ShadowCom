@@ -4,36 +4,20 @@
     color: #d4d4d4
 }
 
+
+
+
 body {
     color: #d8d8d8;
-    background-color: #030304;        
+    background-color: #6e6e6e;
     background-attachment: fixed;
-    background-size: cover;
-    /*
-    
-    Søren & flems 
-        background-image: url(https://i.gyazo.com/86cd2f215d1e97ae510b3ac7ed58e458.jpg);
-
-    Søren  
-    background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
-	   background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
-
-    Due
-    background-image: url(https://i.gyazo.com/a03dfdd57c93005e305ef4547344526e.jpg);
-
-    
-    Flems
-   background-image: url(https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-8/291345_10150279857534266_4831123_o.jpg?oh=ab0ee7a2328e9a0723d1d772e3da490e&oe=5AF54AC9);
- background-image: url(https://i.gyazo.com/200b55d5b7fea89f531819457cdf123e.jpg);
- background-image: url(https://i.gyazo.com/200b55d5b7fea89f531819457cdf123e.jpg);
-
-    */
-   
-
-
-
+    background-size: auto;
+    background-image: url(https://static.intercomassets.com/ember/assets/images/messenger-backgrounds/background-1-413726a5db9a71101b3256558807a3aa.png);
 
 }
+
+
+
 
 .content-container {
 
