@@ -349,3 +349,40 @@ table.table>tbody>tr.colorOne {
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
     color: #f6f6f6!important;
 }
+
+
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(/images/betalingsservice-white.png);
+}
+
+
+
+/* brand specific style */
+
+/* Zitcom */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img, .dashboard .genfak-circle.genfak-circle-zitcom {
+	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
+}
+
+/* ScanNet */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"] img, .dashboard .genfak-circle.genfak-circle-scannet {
+    background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg);
+}
+
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png);
+}
+
+/* Curanet */
+body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img, .dashboard .genfak-circle.genfak-circle-curanet {
+    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
+}
+
+/* Wannafind */
+body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
+    background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png);
+}
+
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
+}
