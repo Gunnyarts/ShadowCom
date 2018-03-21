@@ -84,10 +84,11 @@ body.theme-wannafind .sidebar .sidebar-nav a:hover, body.theme-wannafind .sideba
 
 
 body {
-    background-color: #444;
-    color: #eee;
-	background-image: url(https://picsum.photos/1920/1080);
-	background-blend-mode: multiply;
+  background-color: #444;
+  color: #eee;
+  background-image: url(https://gunnyarts.github.io/ShadowCom/images/dennis/rand.php);
+  background-blend-mode: multiply;
+  background-size: cover;
 }
 body > .toolbar {
 	background-color: #111;
