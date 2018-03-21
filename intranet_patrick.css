@@ -4,26 +4,37 @@
     color: #d4d4d4
 }
 
-
-
-
 body {
     color: #d8d8d8;
-    background-color: #7a7a7a;
+    background-color: #030304;        
     background-attachment: fixed;
-    background-size: auto;
-    background-image: url(https://static.intercomassets.com/ember/assets/images/messenger-backgrounds/background-1-413726a5db9a71101b3256558807a3aa.png);
+    background-size: cover;
+    /*
+    
+    Søren & flems 
+    background-image: url(https://i.gyazo.com/86cd2f215d1e97ae510b3ac7ed58e458.jpg);
+    
+    Søren  
+    background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
+	
+    Due
+    background-image: url(https://i.gyazo.com/a03dfdd57c93005e305ef4547344526e.jpg);
+
+
+    */
+    background-image: url(https://i.gyazo.com/86cd2f215d1e97ae510b3ac7ed58e458.jpg);
+
+
+
+
 
 }
-
 
 
 
 .content-container {
-
-    background-color: #000000b5;
+    background: #000000b8;
 }
-
 
 
 
@@ -47,7 +58,6 @@ body {
     background-color: #252931!important;
     border-bottom: 1px #252931 solid!important;
     border-color: #0e1012;
-    color: #c1c1c1;
 }
 
 
@@ -113,9 +123,12 @@ border-color: #0e1012;
 
 
 
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #ffffff!important;
+}
 
 .ui-tabs .ui-tabs-nav li a {
- color: #ffffff!important;
+ color: #c0c0c0!important;
 }
     
 
@@ -225,7 +238,16 @@ border-color: #0e1012;
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
     color: #c7c7c7!important;
     
-
+}
+.dashboard .genfak-circle.genfak-circle-zitcom {
+background-image: url(https://intranet.zitcom.dk//img/logo/zitcom-logo-white.svg);
+}
+.dashboard .genfak-circle.genfak-circle-scannet {
+    background-image: url(https://intranet.zitcom.dk//img/logo/scannet-logo-white.svg);
+}
+.dashboard .genfak-circle.genfak-circle-curanet {
+    background-image: url(https://intranet.zitcom.dk//img/logo/curanet-white.png);
+}
 
 
 .swushTable .swushTableHeader {
@@ -317,29 +339,20 @@ table.table>tbody>tr.colorOne {
 }
 
 
+.form-control {
+
+    color: #aeaeae!important;
+
+}
+
+
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
-    color: white !important;
-    font-weight: bold !important;
-}
-
-.chosen-container .chosen-drop {
-    color: #333333;
-}
-
-ul.section-navigation>li:hover {
-    color: #fff;
+    color: #f6f6f6!important;
 }
 
 
-.dashboard .genfak-circle {
-	display: inline-block;
-	box-sizing: border-box;
-	width: 170px;
-    height: 45px;
-	padding-left: 170px;
-	background-size: 170px;
-	background-position: center center;
-	background-repeat: no-repeat;
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(/images/betalingsservice-white.png);
 }
 
 
@@ -376,91 +389,41 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
 
 
 
+.chosen-container-single .chosen-single {
 
-.swushTable .swushTableHeader {
-
-    filter: invert(40%);
-}
-
-
-.swushTable td, .swushTable th {
-
-    border-bottom: 1px solid #2f3134;
-}
-
-
-a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
-
-    background-color: #252a31;
-}
-
-.modal-header, .modal-footer {
-    border-color: #2f3134;
-}
-
-
-.sidebar .sidebarContentHistory .date {
-    background: #0e1012;
-}
-
-
-.modal-logtime .modal-logtime-line:hover {
-    background-color: #252a31;
-}
-
-
-
-.modal-logtime .modal-logtime-line .input-group input, .modal-logtime .modal-logtime-line .input-group .input-group-addon {
-  
-    border-color: #2f3134;
+    border: 1px solid #14161a;
 
     background-color: #252931;
-}
 
-
-
-.tmtimeline:before {
-
-    background: #36383c;
+    color: #aaaaac;
 
 }
 
-.select2-container--bootstrap .select2-selection--single {
 
-      background: #36383c;
-        border: 0;
-    border-radius: 3;
+
+.chosen-container .chosen-drop {
+
+    border: 1px solid #14161a;
+    background: #252931;
+
+    color: #aaaaac;
 }
 
 
-.select2-container--bootstrap .select2-dropdown {
-
-    border-color: #252931;
-
-    background: #191c21;
-}
-
-.billingsTable>tbody>tr:nth-last-child(2)>td {
-    border-color: #727579;
-}
-
-.billingsTable>tbody>tr:last-child>td {
-
-    border-color: #727579;
-}
-
-.relationship-breadcrumb span>a {
-    color: #d2d2d2;
- 
-}
-
-
-.well {
+.chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #6f747c;
     background-color: #191c21;
-    border-color: #191c21;
+    box-shadow: 0 1px 0 #14161a inset;
 }
 
 
-table.table>tbody>tr.colorOne {
-    background-color: #2f3134;
+
+.chosen-container-single .chosen-search input[type="text"] {
+    border: 1px solid #767575;
+}
+
+
+.chosen-container .chosen-results li.highlighted
+{
+background-color: #575757;
 }
