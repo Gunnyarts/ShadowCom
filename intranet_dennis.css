@@ -14,7 +14,7 @@ Make white cloud.dk logo
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
 	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
-.brand-icon.brand-zitcom, .relationship-breadcrumb span.zitcom>a span {
+.brand-icon.brand-zitcom {
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png);
 }
 /* ScanNet */
