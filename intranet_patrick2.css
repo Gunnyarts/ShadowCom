@@ -11,7 +11,7 @@
 body {
     color: #d8d8d8;
 	/*	background-color: #7a7a7a; */
-	backgorund-color: #321654;
+	background-color: #321654;
     background-attachment: fixed;
     background-size: auto;
     background-image: url(https://static.intercomassets.com/ember/assets/images/messenger-backgrounds/background-1-413726a5db9a71101b3256558807a3aa.png);
@@ -378,3 +378,10 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
 .dashboard .genfak-circle.genfak-circle-betalingsservice {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
 }
+
+
+
+.genfak-circle {
+	background-color: #654875;
+}
+
