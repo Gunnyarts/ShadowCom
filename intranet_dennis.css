@@ -12,12 +12,14 @@ Make white cloud.dk logo
 
 /* Zitcom */
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
-	background-image: url(/img/logo/zitcom-logo-white.svg);
+	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
-
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png);
+}
 /* ScanNet */
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"] img {
-    background-image: url(/img/logo/scannet-logo-white.svg);
+    background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg);
 }
 body.theme-scannet div.relationship-breadcrumb > span > a:hover {
 	color: #4CD981;
@@ -40,7 +42,7 @@ body.theme-scannet .sidebar .sidebar-nav a:hover, body.theme-scannet .sidebar .s
 
 /* Curanet */
 body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
-    background-image: url(/img/logo/curanet-white.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
 }
 body.theme-curanet div.relationship-breadcrumb > span > a:hover {
 	color: #7AB55C;
@@ -60,7 +62,7 @@ body.theme-curanet .sidebar .sidebar-nav a:hover, body.theme-curanet .sidebar .s
 
 /* Wannafind */
 body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
-    background-image: url(/img/logo/wannafind.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png);
 }
 body.theme-wannafind div.relationship-breadcrumb > span > a:hover {
 	color: #3C73E7;
@@ -164,6 +166,9 @@ tr.row-clickable:hover {
 }
 .dashboard .genfak-circle.genfak-circle-curanet {
     background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
+}
+.dashboard .genfak-circle.genfak-circle-clouddk {
+    background-image: url(https://intranet.zitcom.dk/img/logo/clouddk-white.png);
 }
 .box .box-content+.box-content {
     border-top: 1px solid #444;
