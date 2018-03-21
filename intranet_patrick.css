@@ -368,7 +368,16 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
 }
 
-
+.dashboard .genfak-circle {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 170px;
+    height: 45px;
+	padding-left: 170px;
+	background-size: 170px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
 
 .dashboard .genfak-circle.genfak-circle-curanet {
     background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
