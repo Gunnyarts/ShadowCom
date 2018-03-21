@@ -124,7 +124,7 @@ border-color: #0e1012;
 
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
-    color: #c0c0c0!important;
+    color: #ffffff!important;
 }
 
 .ui-tabs .ui-tabs-nav li a {
@@ -343,4 +343,9 @@ table.table>tbody>tr.colorOne {
 
     color: #aeaeae!important;
 
+}
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #f6f6f6!important;
 }
