@@ -240,13 +240,13 @@ border-color: #0e1012;
     
 }
 .dashboard .genfak-circle.genfak-circle-zitcom {
-background-image: url(/img/logo/zitcom-logo-white.svg);
+background-image: url(https://intranet.zitcom.dk//img/logo/zitcom-logo-white.svg);
 }
 .dashboard .genfak-circle.genfak-circle-scannet {
-    background-image: url(/img/logo/scannet-logo-white.svg);
+    background-image: url(https://intranet.zitcom.dk//img/logo/scannet-logo-white.svg);
 }
 .dashboard .genfak-circle.genfak-circle-curanet {
-    background-image: url(/img/logo/curanet-white.png);
+    background-image: url(https://intranet.zitcom.dk//img/logo/curanet-white.png);
 }
 
 
