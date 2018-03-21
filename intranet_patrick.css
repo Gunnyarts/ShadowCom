@@ -341,7 +341,7 @@ ul.section-navigation>li:hover {
 /* brand specific style */
 
 /* Zitcom */
-body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img, .dashboard .genfak-circle.genfak-circle-zitcom {
 	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
 
@@ -372,10 +372,6 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
 
 .dashboard .genfak-circle.genfak-circle-curanet {
     background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
-}
-
-.dashboard .genfak-circle.genfak-circle-zitcom {
-    background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
 
 .dashboard .genfak-circle.genfak-circle-scannet {
