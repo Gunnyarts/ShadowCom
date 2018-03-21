@@ -376,3 +376,94 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
 .dashboard .genfak-circle.genfak-circle-betalingsservice {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
 }
+
+
+
+
+.swushTable .swushTableHeader {
+
+    filter: invert(40%);
+}
+
+
+.swushTable td, .swushTable th {
+
+    border-bottom: 1px solid #2f3134;
+}
+
+
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+
+    background-color: #252a31;
+}
+
+.modal-header, .modal-footer {
+    border-color: #2f3134;
+}
+
+
+.sidebar .sidebarContentHistory .date {
+    background: #0e1012;
+}
+
+
+.modal-logtime .modal-logtime-line:hover {
+    background-color: #252a31;
+}
+
+
+
+.modal-logtime .modal-logtime-line .input-group input, .modal-logtime .modal-logtime-line .input-group .input-group-addon {
+  
+    border-color: #2f3134;
+
+    background-color: #252931;
+}
+
+
+
+.tmtimeline:before {
+
+    background: #36383c;
+
+}
+
+.select2-container--bootstrap .select2-selection--single {
+
+      background: #36383c;
+        border: 0;
+    border-radius: 3;
+}
+
+
+.select2-container--bootstrap .select2-dropdown {
+
+    border-color: #252931;
+
+    background: #191c21;
+}
+
+.billingsTable>tbody>tr:nth-last-child(2)>td {
+    border-color: #727579;
+}
+
+.billingsTable>tbody>tr:last-child>td {
+
+    border-color: #727579;
+}
+
+.relationship-breadcrumb span>a {
+    color: #d2d2d2;
+ 
+}
+
+
+.well {
+    background-color: #191c21;
+    border-color: #191c21;
+}
+
+
+table.table>tbody>tr.colorOne {
+    background-color: #2f3134;
+}
