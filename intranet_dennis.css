@@ -14,7 +14,7 @@ Make white cloud.dk logo
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
 	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
-.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+.brand-icon.brand-zitcom, .relationship-breadcrumb span.zitcom>a span {
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png);
 }
 /* ScanNet */
@@ -169,7 +169,7 @@ tr.row-clickable:hover {
     background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
 }
 .dashboard .genfak-circle.genfak-circle-clouddk {
-    background-image: url(https://intranet.zitcom.dk/img/logo/clouddk-white.png);
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/clouddk-white.png);
 }
 .box .box-content+.box-content {
     border-top: 1px solid #444;
