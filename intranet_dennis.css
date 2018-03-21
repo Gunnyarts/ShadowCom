@@ -86,9 +86,10 @@ body.theme-wannafind .sidebar .sidebar-nav a:hover, body.theme-wannafind .sideba
 body {
   background-color: #444;
   color: #eee;
-  background-image: url(https://stuff.gunnyarts.com/zitcom/rand.php);
+  background: url(https://stuff.gunnyarts.com/zitcom/rand.php) no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
+  background-attachment: fixed;
 }
 body > .toolbar {
 	background-color: #111;
