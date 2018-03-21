@@ -143,13 +143,13 @@ tr.row-clickable:hover {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
 }
 .dashboard .genfak-circle.genfak-circle-zitcom {
-    background-image: url(/img/logo/zitcom-white.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-white.png);
 }
 .dashboard .genfak-circle.genfak-circle-scannet {
-	background-image: url(/img/logo/scannet-white.png);
+	background-image: url(https://intranet.zitcom.dk/img/logo/scannet-white.png);
 }
 .dashboard .genfak-circle.genfak-circle-curanet {
-    background-image: url(/img/logo/curanet-white.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
 }
 .box .box-content+.box-content {
     border-top: 1px solid #444;
