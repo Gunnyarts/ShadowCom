@@ -386,3 +386,44 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
 .dashboard .genfak-circle.genfak-circle-betalingsservice {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
 }
+
+
+
+.chosen-container-single .chosen-single {
+
+    border: 1px solid #14161a;
+
+    background-color: #252931;
+
+    color: #aaaaac;
+
+}
+
+
+
+.chosen-container .chosen-drop {
+
+    border: 1px solid #14161a;
+    background: #252931;
+
+    color: #aaaaac;
+}
+
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #6f747c;
+    background-color: #191c21;
+    box-shadow: 0 1px 0 #14161a inset;
+}
+
+
+
+.chosen-container-single .chosen-search input[type="text"] {
+    border: 1px solid #767575;
+}
+
+
+.chosen-container .chosen-results li.highlighted
+{
+background-color: #575757;
+}
