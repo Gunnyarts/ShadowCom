@@ -512,3 +512,8 @@ thead .tbl__cell {
 .color-map__early-2018-brand-refresh .m__rules__priority-indicator:before {
     background-color: #333;
 }
+
+.color-map__early-2018-brand-refresh .ds-new__dropdown__group__filter__input {
+
+    color: white;
+}
