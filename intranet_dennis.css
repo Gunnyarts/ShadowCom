@@ -272,3 +272,16 @@ div.menu {
 .select2-results__option[aria-selected] {
 	background-color:#444;
 }
+.toolbar .toolbar-user .toolbar-user-notifications .notifications {
+	background-color: #333;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications>ul>li .notification .timeleft.overdue {
+	color: #111;
+}
+
+/* Call logger */
+
+.box.box-lightgray {
+	background: rgba(0,0,0,0.58);
+	color:#eee;
+}
