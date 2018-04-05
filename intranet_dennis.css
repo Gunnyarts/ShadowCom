@@ -263,3 +263,12 @@ div.menu {
 
     background-color: #111111;
 }
+
+/* Notifications */
+
+.select2-results__option {
+	color: #999;
+}
+.select2-results__option[aria-selected] {
+	background-color:#444;
+}
