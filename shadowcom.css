@@ -517,3 +517,8 @@ thead .tbl__cell {
 
     color: white;
 }
+
+/* Remove stupid gradients */
+.submenu__sections__section__mask {
+    background-image: none !important;
+}
