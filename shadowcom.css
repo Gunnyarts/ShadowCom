@@ -518,6 +518,12 @@ thead .tbl__cell {
     color: white;
 }
 
+/* Account settings */
+.card__inner {
+	background-color: #333 !important;
+	border-color: #1f1f1f;
+}
+
 /* Remove stupid gradients */
 .submenu__sections__section__mask {
     background-image: none !important;
