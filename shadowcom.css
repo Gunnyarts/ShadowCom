@@ -523,6 +523,9 @@ thead .tbl__cell {
 	background-color: #333 !important;
 	border-color: #1f1f1f;
 }
+.card__inner .layout__box .layout__media {
+	border-color: #1f1f1f;
+}
 
 /* Remove stupid gradients */
 .submenu__sections__section__mask {
