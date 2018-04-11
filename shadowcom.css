@@ -533,6 +533,6 @@ thead .tbl__cell {
 .left-nav {
 	background: #1f1f1f;
 }
-.product-icon__link.o__subscribed .product-icon__symbol {
+.product-icon__link.o__subscribed .product-icon__symbol, .product-icon__link .product-icon__symbol {
 	fill: #ccc !important;
 }
