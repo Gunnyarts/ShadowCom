@@ -514,7 +514,6 @@ thead .tbl__cell {
 }
 
 .color-map__early-2018-brand-refresh .ds-new__dropdown__group__filter__input {
-
     color: white;
 }
 
@@ -530,4 +529,10 @@ thead .tbl__cell {
 /* Remove stupid gradients */
 .submenu__sections__section__mask {
     background-image: none !important;
+}
+.left-nav {
+	background: #1f1f1f;
+}
+.product-icon__link.o__subscribed .product-icon__symbol {
+	fill: #ccc;
 }
