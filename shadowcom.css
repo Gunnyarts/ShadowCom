@@ -534,5 +534,5 @@ thead .tbl__cell {
 	background: #1f1f1f;
 }
 .product-icon__link.o__subscribed .product-icon__symbol {
-	fill: #ccc;
+	fill: #ccc !important;
 }
