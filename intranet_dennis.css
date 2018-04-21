@@ -122,8 +122,9 @@ tr.row-clickable:hover {
 .form-control {
 	background-color: #333 !important;
     color: #fff;
-    border-color: transparent !important;
+    border: 0;
 }
+.form-control:focus, .form-control:hover,  .form-control:active {border:0;} 
 .login-modal {background-color:#333}
 /* Zenegy */
 .dashboard .box-zenegy .box-header img {
