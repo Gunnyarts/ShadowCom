@@ -122,7 +122,7 @@ tr.row-clickable:hover {
 .form-control {
 	background-color: #333 !important;
     color: #fff;
-    border-color: #555 !important;
+    border-color: transparent !important;
 }
 
 /* Zenegy */
