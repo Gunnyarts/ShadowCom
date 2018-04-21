@@ -119,13 +119,16 @@ tr.row-clickable:hover {
 	color: #aaa;
 }
 
+/*
 .form-control {
-	background-color: #333 !important;
+	background-color: #333;
     color: #fff;
-    border: 0;
+    border: 1px solid #000;
 }
 .form-control:focus, .form-control:hover,  .form-control:active {border:0;} 
-.login-modal {background-color:#333}
+*/
+.login-modal {background-color:#555}
+.login-modal:after {background-color: #222}
 /* Zenegy */
 .dashboard .box-zenegy .box-header img {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/zenegy-white.png);
