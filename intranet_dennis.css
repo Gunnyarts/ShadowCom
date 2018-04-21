@@ -124,7 +124,7 @@ tr.row-clickable:hover {
     color: #fff;
     border-color: transparent !important;
 }
-
+.login-modal {background-color:#333}
 /* Zenegy */
 .dashboard .box-zenegy .box-header img {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/zenegy-white.png);
