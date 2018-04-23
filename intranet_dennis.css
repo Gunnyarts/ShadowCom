@@ -282,6 +282,14 @@ div.menu {
 .toolbar .toolbar-user .toolbar-user-notifications .notifications>ul>li .notification .timeleft.overdue {
 	color: #111;
 }
+div.sidebarNotificationWindow {
+	background-color: #444;
+	box-shadow: none;
+}
+div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
+	background-color: inherit;
+	border-color: #000;
+}
 
 /* Call logger */
 
@@ -289,3 +297,4 @@ div.menu {
 	background: rgba(0,0,0,0.58);
 	color:#eee;
 }
+
