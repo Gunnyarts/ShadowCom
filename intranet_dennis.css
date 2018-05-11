@@ -82,7 +82,6 @@ body {
   color: #eee;
   background-image: url(https://stuff.gunnyarts.com/zitcom/rand.php);
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
 }
