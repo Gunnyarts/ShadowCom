@@ -536,3 +536,10 @@ thead .tbl__cell {
 .product-icon__link.o__subscribed .product-icon__symbol, .product-icon__link .product-icon__symbol {
 	fill: #ccc !important;
 }
+
+
+.profile__note-textarea {
+   
+    background-color: rgb(255, 232, 194);
+
+}
