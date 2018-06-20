@@ -1,0 +1,556 @@
+body {background-color: #222;}
+
+.color-map__early-2018-brand-refresh .conversation__inbox__outlet, .color-map__early-2018-brand-refresh .conversation__inbox__current-conversation {
+    background-color: #333 !important;
+}
+
+.color-map__early-2018-brand-refresh .conversation__inbox__list-header, .color-map__early-2018-brand-refresh .conversation__inbox__current-context, .color-map__early-2018-brand-refresh .conversation__inbox__list, .color-map__early-2018-brand-refresh .conversation__inbox__list-filter, .color-map__early-2018-brand-refresh .conversation__list__item {
+    background-color: #1f1f1f;
+}
+
+.color-map__early-2018-brand-refresh .conversation__inbox__list-wrapper {
+        border-right: 1px solid rgba(0, 0, 0, 0.83);
+}
+
+.color-map__early-2018-brand-refresh .submenu__collapse-toggle__icon {
+    color: #c7c7c7;
+}
+
+.submenu__collapse-toggle__icon {
+    color: #d0d0d0;
+}
+
+
+.color-map__early-2018-brand-refresh {
+    color: #c9c9c9;
+    background-color: #eee;
+}
+
+
+
+.color-map__early-2018-brand-refresh .btn.o__secondary, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay, .color-map__early-2018-brand-refresh .f__custom-select__box {
+    color: #c9c9c9;
+}
+
+
+.color-map__early-2018-brand-refresh .submenu {
+    background-image: none;
+    background-color: #181818;
+}
+
+
+.color-map__early-2018-brand-refresh .nav-vertical__link, .color-map__early-2018-brand-refresh .nav-vertical__link.ember-transitioning-out, .color-map__early-2018-brand-refresh .submenu__header__search-icon, .color-map__early-2018-brand-refresh .submenu__header__title, .color-map__early-2018-brand-refresh .submenu__sections__section__items__item, .color-map__early-2018-brand-refresh .submenu__sections__section__title__link {
+    color: #cecece;
+}
+
+
+.color-map__early-2018-brand-refresh .conversation__list__item.o__active, .color-map__early-2018-brand-refresh .conversation__list__item.o__active:hover, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected:hover, .color-map__early-2018-brand-refresh .conversation__list__item:hover {
+    background-color: #4c4c4c;
+}
+
+
+.beta__left-nav-colors.color-map__early-2018-brand-refresh .inbox__main-container__wrapper, .beta__left-nav-colors.color-map__early-2018-brand-refresh .left-nav.o__vertical-nav, .beta__left-nav-colors.color-map__early-2018-brand-refresh .nav-vertical {
+    background-image: none;
+    background-color: #020202;
+}
+
+
+.color-map__early-2018-brand-refresh .lock__overlay, .lock__overlay {
+    background-color: rgba(65, 65, 65, 0.9);
+}
+
+
+.color-map__early-2018-brand-refresh .profile__location.o__product-refresh, .color-map__early-2018-brand-refresh .t__conversation-summary {
+    color: #b3b3b3;
+}
+
+.color-map__early-2018-brand-refresh .t__h4 {
+    font-size: 14px;
+    color: #d5d5d5;
+}
+
+.color-map__early-2018-brand-refresh .conversation__list__item__main-participant__name {
+    color: #d5d5d5;
+}
+
+.color-map__early-2018-brand-refresh .conversation__list__item.o__active .conversation__list__item__summary {
+    color: #d5d5d5;
+}
+
+.color-map__early-2018-brand-refresh .btn.o__secondary:hover, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay:hover, .color-map__early-2018-brand-refresh .f__custom-select__box.o__subtle:hover, .color-map__early-2018-brand-refresh .f__custom-select__box:hover {
+    color: #286efa;
+    border: 1px solid #286efa;
+    box-shadow: none;
+    background-color: #252525;
+}
+
+
+.color-map__early-2018-brand-refresh .btn.o__destructive, .color-map__early-2018-brand-refresh .btn.o__destructive:focus, .color-map__early-2018-brand-refresh .btn.o__destructive:hover, .color-map__early-2018-brand-refresh .btn.o__secondary, .color-map__early-2018-brand-refresh .btn.o__secondary-destructive, .color-map__early-2018-brand-refresh .btn.o__secondary-destructive:focus, .color-map__early-2018-brand-refresh .btn.o__secondary-destructive:hover, .color-map__early-2018-brand-refresh .btn.o__secondary-live, .color-map__early-2018-brand-refresh .btn.o__secondary:focus, .color-map__early-2018-brand-refresh .btn.o__secondary:hover, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay:focus, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay:hover, .color-map__early-2018-brand-refresh .f__custom-select__box, .color-map__early-2018-brand-refresh .f__custom-select__box:focus, .color-map__early-2018-brand-refresh .f__custom-select__box:hover {
+    background-color: #020202;
+}
+
+.color-map__early-2018-brand-refresh .conversation__inbox, .conversation__inbox {
+    background: #ccc;
+}
+.color-map__early-2018-brand-refresh .inbox__card__header {
+    background-color: #1f1f1f;
+}
+.color-map__early-2018-brand-refresh .conversation__card__title__em-link {
+    color: #ccc;
+}
+.color-map__early-2018-brand-refresh .btn.o__secondary, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay, .color-map__early-2018-brand-refresh .f__custom-select__box {
+    color: #ccc;
+}
+
+.color-map__early-2018-brand-refresh .t__h3 {
+    color: #a4a4a4;
+}
+
+.color-map__early-2018-brand-refresh .profile-sidebar-section__section-title {
+    color: #a4a4a4;
+}
+.profile-sidebar-section__section-title {
+    font-weight: 500;
+    color: #a4a4a4;
+}
+
+.color-map__early-2018-brand-refresh .ds-new__dropdown, .ds-new__dropdown, .if-this-then-that__main {
+    background-color: #313131;
+}
+
+.color-map__early-2018-brand-refresh .dropdown__list-item, .color-map__early-2018-brand-refresh .ds-new__dropdown__block__item {
+    font-weight: 500;
+    padding: 6px 12px;
+    color: #b0b0b0;
+}
+
+.color-map__early-2018-brand-refresh .conversation__bubble.o__user-comment {
+    background-color: #666!important;
+    color: #eee !important;
+   border-color: #666!important;
+}
+.color-map__early-2018-brand-refresh .conversation__bubble.o__admin-comment {
+   background-color: #444!important;
+   color: #fff!important;
+   border-color:#444!important;
+}
+
+.color-map__early-2018-brand-refresh .t__body {
+    color: #d2d2d2;
+}
+
+.color-map__early-2018-brand-refresh .conversation__mini-card:hover {
+    background-color: #333!important;
+    border-color: #1e1e1e;
+}
+
+.color-map__early-2018-brand-refresh .submenu__information-overlay {
+background: #333;
+
+}
+
+.color-map__early-2018-brand-refresh .tooltips__inbox-hovercard__title {
+    color: #fafafa;
+}
+
+.color-map__early-2018-brand-refresh .submenu__information-overlay__caret-vector {
+    fill: #333;
+}
+
+.submenu__information-overlay__caret-vector {
+    fill: #333;
+    stroke: #333;
+}
+
+
+.card, .color-map__early-2018-brand-refresh .card {
+    background-color: #222;
+}
+.color-map__early-2018-brand-refresh .inbox__conversation-controls__pane-selector.o__note-selected {
+    background-color: #333;
+}
+.color-map__early-2018-brand-refresh .inbox__conversation-controls__internal-part {
+    background-color: #333 !important;
+}
+.color-map__early-2018-brand-refresh .tabs__discrete-tab, .color-map__early-2018-brand-refresh .tabs__tab {
+    color: #ccc
+}
+
+.color-map__early-2018-brand-refresh .conversation__bubble.o__admin-comment.o__is-typing-on {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+.color-map__early-2018-brand-refresh .conversation__bubble.o__admin-note {
+    border-color: #ffe8c2 !important;
+    background-color: #ffe8c2 !important;
+    color: black;
+}
+
+.color-map__early-2018-brand-refresh .conversation__list__item.o__active .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item.o__active:hover .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item.o__active:not(.o__selected) .conversation__list__timestamp, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected:hover .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item:hover .conversation__card__header__company-name {
+    color: #b0b0b0;
+}
+
+.beta__left-nav-colors.color-map__early-2018-brand-refresh .left-nav.o__vertical-nav .product-icon__link.o__subscribed .product-icon__symbol {
+    fill: #6b6b6b!important;
+}
+
+.conversation__outlet__inner__background.o__background-1 {
+   background-color: #222;
+}
+
+.color-map__early-2018-brand-refresh .conversation__bubble.o__user-comment {
+   background-color: #393939;
+   color: #fff !important;
+   border-color: #333;
+}
+
+.color-map__early-2018-brand-refresh .inbox__conversation-controls__pane-selector.o__note-selected {
+    background-color: #ffe8c2;
+}
+
+.color-map__early-2018-brand-refresh .inbox__conversation-controls__internal-part {
+    background-color: #ffe8c2 !important;
+    color: black;
+}
+ 
+
+.color-map__early-2018-brand-refresh .left-nav__link.o__guide .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__messenger .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__operator .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__product-changes .left-nav__icon {
+    fill: #a4a3a3!important;
+}
+
+
+
+.color-map__early-2018-brand-refresh .user-list__header.o__visual-refresh, .color-map__early-2018-brand-refresh .user-list__header.o__without-select-all.o__without-selected-users.o__visual-refresh, .user-list__header.o__visual-refresh, .user-list__header.o__without-select-all.o__without-selected-users.o__visual-refresh {
+    background-color: #444;
+    border-bottom: 0;
+}
+
+.color-map__early-2018-brand-refresh .nav-vertical__search__input {
+    background-color: transparent;
+    border: 0px solid rgba(0,0,0,.1);
+    outline: 0;
+    color: #bfbfbf;
+}
+
+
+.color-map__early-2018-brand-refresh .nav-vertical__search__backing {
+    background-color: #585858;
+
+}
+
+
+
+.color-map__early-2018-brand-refresh .inbox__conversation-controls__pane-selector, .ember-power-calendar, .ember-power-calendar-days, .ember-power-calendar-days *, .ember-power-calendar-nav, .ember-power-calendar-nav *, .import.csv *, .import.csv .csv_completion .tagging_form {
+
+    background: #333;
+}
+
+.color-map__early-2018-brand-refresh .conversation__inbox__list-wrapper {background-color:#1f1f1f}
+
+
+.color-map__early-2018-brand-refresh .message__editor__audience__sidebar {
+    background-color: #333333;
+}
+
+.color-map__early-2018-brand-refresh .message__editor__audience__main, .message__editor__audience__main {
+    background: #333333;
+}
+
+.color-map__early-2018-brand-refresh .message__editor__panel__inner-container, .message__editor__panel__inner-container {
+    background-color: #333333;
+}
+
+
+.color-map__early-2018-brand-refresh .f__horizontal-select.o__selected {
+    background-color: #1f1f1f;
+    border-color: #286efa;
+    box-shadow: inset 0 0 0 1px #286efa;
+}
+
+.color-map__early-2018-brand-refresh .f__horizontal-select {
+    background-color: #333;
+    border-color: #1f1f1f #1f1f1f #1f1f1f transparent;
+}
+
+.color-map__early-2018-brand-refresh .f__horizontal-select.o__disabled:hover {
+    background-color: #1f1f1f;
+}
+
+.f__horizontal-select.o__disabled:hover {
+    background-color: #1f1f1f;
+}
+.color-map__early-2018-brand-refresh .f__horizontal-select:active {
+    background-color: #1f1f1f;
+    box-shadow: 0 1px 3px 0 rgba(59,62,66,.1);
+}
+
+.color-map__early-2018-brand-refresh .f__horizontal-select:hover {
+    background-color: #1f1f1f;
+}
+
+.color-map__early-2018-brand-refresh .message__editor__review__panel, .message__editor__review__panel {
+    background-color: #333;
+}
+
+.color-map__early-2018-brand-refresh .message__editor__review__validation-message {
+    background: #1f1f1f;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.color-map__early-2018-brand-refresh .reporting__report-card-filters {
+    background-color: #333;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.color-map__early-2018-brand-refresh .users-and-companies__predicates-editor {
+    background-color: #333;
+}
+
+/**************************/
+/*  Articles & Helpcenter */
+/**************************/
+.beta__left-nav-colors .main, .color-map__early-2018-brand-refresh .beta__left-nav-colors .main {
+    background-color: #222;
+}
+.color-map__early-2018-brand-refresh .t__h1 {
+    color: #ccc;
+}
+.btn__footer, .color-map__early-2018-brand-refresh .tbl__cell, .color-map__early-2018-brand-refresh td.tbl__cell, .tbl__cell, td.tbl__cell {
+    background-color: #333;
+}
+.color-map__early-2018-brand-refresh .educate__collection__card__icon, .color-map__early-2018-brand-refresh .educate__collection__dropdown__icon, .color-map__early-2018-brand-refresh .educate__icon {
+    stroke: #fff;
+}
+.color-map__early-2018-brand-refresh .c__darkest {
+    color: #fff;
+}
+.beta__left-nav-colors .about__overlay.o__no-product, .beta__left-nav-colors .about__overlay.o__productized, .color-map__early-2018-brand-refresh .beta__left-nav-colors .about__overlay.o__no-product, .color-map__early-2018-brand-refresh .beta__left-nav-colors .about__overlay.o__productized {
+    background-color: #222;
+}
+/**************************/
+/*  Insights                  */
+/**************************/
+.beta__left-nav-colors .main__content-outlet {
+    background-color: #222;
+}
+.color-map__early-2018-brand-refresh thead tr:first-child th.tbl__cell {
+    border-color: #333;
+    background-color: #333;
+}
+.color-map__early-2018-brand-refresh .t__h2 {
+    color: #fff;
+}
+/**************************/
+/*  About                 */
+/**************************/
+.color-map__early-2018-brand-refresh .about {
+    background-color: #333;
+}
+.color-map__early-2018-brand-refresh .about__section.o__info {
+    background-color: #333;
+}
+
+
+
+/*****************************/
+/*  Messages                */
+/******************************/
+.color-map__early-2018-brand-refresh .message__list-legacy__message-list-title, .message__list-legacy__message-list-title {
+    background-color: #1f1f1f;
+    border-color: #1f1f1f;
+}
+.color-map__early-2018-brand-refresh .message__list-legacy__message-list-outer-container, .message__list-legacy__message-list-outer-container {
+    background-color: #222;
+}
+.color-map__early-2018-brand-refresh .message__list-legacy__message-list-table.tbl.o__fit th, .message__list-legacy__message-list-table.tbl.o__fit th {
+    background-color: #393939;
+}
+.color-map__early-2018-brand-refresh .message__editor__panel__title {
+    background-color: #333;
+}
+.color-map__early-2018-brand-refresh h2.message__editor__panel__fadable-text {
+    color: #fff;
+}
+.message__editor__panel__fadable-text.o__product-ui-enabled {
+    color: #ccc;
+}
+.color-map__early-2018-brand-refresh .message__editor__content, .message__editor__content {
+    background-color: #333;
+}
+.color-map__early-2018-brand-refresh .message__editor__stats__container {
+    background-color: #444;
+}
+.color-map__early-2018-brand-refresh .message__editor__stats__tab.o__active {
+    background-color: #ccc;
+}
+.color-map__early-2018-brand-refresh .message__editor__stats__tab:hover:not(.o__disabled):not(.o__active) {
+    background-color: #bbb;
+}
+.color-map__early-2018-brand-refresh .table__body__wrapper {
+    background-color: #444;
+}
+thead .tbl__cell {
+    background-color: #444 !important;
+}
+.color-map__early-2018-brand-refresh .message__editor__panel__fadable-text.o__product-ui-enabled {
+    color: #ccc;
+}
+/* Campaigns > Example Campaign */
+.color-map__early-2018-brand-refresh .content-editor__step,.color-map__early-2018-brand-refresh .campaign__setup-header ,.campaign__setup-content, .color-map__early-2018-brand-refresh .campaign__setup-content {
+    background-color: #333;
+}
+.campaign__icon::before {background: linear-gradient(to bottom,rgba(255,255,255,0) 0,#111 100%) !important}
+.campaign__icon > svg > circle {fill: #111 !important;}
+.campaign__icon::after {background:linear-gradient(to top,rgba(255,255,255,0) 0,#111 100%) !important}
+.color-map__early-2018-brand-refresh .campaign__entry-exit__item, .color-map__early-2018-brand-refresh .campaign__entry-exit {border-color: #111;}
+
+
+
+
+.conversation__stream::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.conversation__stream::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
+}
+ 
+.conversation__stream::-webkit-scrollbar-thumb {
+  background-color: #444;
+  outline: 0px solid slategrey;
+}
+
+.o__vertical-nav::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.o__vertical-nav::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
+}
+ 
+.o__vertical-nav::-webkit-scrollbar-thumb {
+  background-color: #444;
+  outline: 0px solid slategrey;
+}
+
+.o__scrolls::-webkit-scrollbar-thumb {
+  background-color: #444;
+  outline: 0px solid slategrey;
+}
+
+.o__scrolls::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.o__scrolls::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
+}
+.ember-view::-webkit-scrollbar-thumb {
+  background-color: #444;
+  outline: 0px solid slategrey;
+}
+
+.ember-view::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.ember-view::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
+}
+
+
+.color-map__early-2018-brand-refresh .visibility__row {
+    color: #888;
+    background-color: #333;
+  
+}
+
+.color-map__early-2018-brand-refresh .visibility__row {
+    border: 0;
+    border-bottom: 1px solid #444;
+    padding: 5px 20px 5px 10px;
+}
+
+.color-map__early-2018-brand-refresh .color-map__early-2018-brand-refresh .visibility__row:first-of-type, .color-map__early-2018-brand-refresh .visibility__row:first-of-type {
+    border-top: 1px solid #444;
+}
+
+.color-map__early-2018-brand-refresh .visibility__row__name {
+    color: #fff;
+}
+
+
+.color-map__early-2018-brand-refresh .m__rule-card__content-wrapper {
+ 
+    background-color: #444;
+}
+
+
+
+.color-map__early-2018-brand-refresh .m__rule-card__content-wrapper {
+ 
+    background-color: #444;
+}
+
+
+.color-map__early-2018-brand-refresh .card__header.o__expanded {
+    background-color: #333;
+}
+
+
+
+.color-map__early-2018-brand-refresh .m__rule-card__predicate-dropdown, .color-map__early-2018-brand-refresh .m__rule-card__predicate-input {
+    color: #e0dfdf;
+}
+
+.beta__left-nav-colors .m__rules__priority-indicator__text, .color-map__early-2018-brand-refresh .beta__left-nav-colors .m__rules__priority-indicator__text {
+    background-color: #333;
+}
+
+.color-map__early-2018-brand-refresh .m__rules__priority-indicator:before {
+    background-color: #333;
+}
+
+.color-map__early-2018-brand-refresh .ds-new__dropdown__group__filter__input {
+    color: white;
+}
+
+/* Account settings */
+.card__inner {
+	background-color: #333 !important;
+	border-color: #1f1f1f;
+}
+.card__inner .layout__box .layout__media {
+	border-color: #1f1f1f;
+}
+
+/* Remove stupid gradients */
+.submenu__sections__section__mask {
+    background-image: none !important;
+}
+.left-nav {
+	background: #1f1f1f;
+}
+.product-icon__link.o__subscribed .product-icon__symbol, .product-icon__link .product-icon__symbol {
+	fill: #ccc !important;
+}
+
+
+.profile__note-textarea {
+   
+    background-color: rgb(255, 232, 194);
+
+}
+
+
+
+
+
+
+
+
+
+
+
