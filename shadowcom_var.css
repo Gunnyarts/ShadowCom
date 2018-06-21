@@ -12,6 +12,8 @@ body {background-color: var(main-background-color)}
 
 /* Inbox */
 
+.color-map__early-2018-brand-refresh .conversation__inbox__outlet {background-color:var(main-background-color)}
+
 /* Articles */
 
 /* Messenger */
