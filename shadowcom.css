@@ -1,3 +1,5 @@
+/* Updated 21-06-2018 10:08 AM*/
+
 body {background-color: #222;}
 
 .color-map__early-2018-brand-refresh .conversation__inbox__outlet, .color-map__early-2018-brand-refresh .conversation__inbox__current-conversation {
@@ -195,8 +197,8 @@ background: #333;
     fill: #6b6b6b!important;
 }
 
-.conversation__outlet__inner__background.o__background-1 {
-   background-color: #222;
+.conversation__outlet__inner__background.o__background-1, .color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray {
+   background-color: #222 !important;
 }
 
 .color-map__early-2018-brand-refresh .conversation__bubble.o__user-comment {
@@ -544,7 +546,24 @@ thead .tbl__cell {
 
 }
 
+.color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray+div.layout__box .conversation__bubble.o__operator-comment {
+  background-color: #444 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
 
+.color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray+div.layout__box .conversation__bubble.o__user-comment {
+  background-color: #666!important;
+  color: #eee !important;
+  border-color: #666!important;
+}
+
+
+.color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray+div.layout__box .conversation__bubble.o__admin-comment {
+  background-color: #444 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
 
 
 
