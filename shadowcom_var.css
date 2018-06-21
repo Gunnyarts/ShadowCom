@@ -1,10 +1,10 @@
 :root {
   /* Color Variables */
-  main-background-color: #333;
+  --main-background-color: #333;
 }
 
 /* General Colors */
-body {background-color: var(main-background-color)}
+body {background-color: var(--main-background-color)}
 
 /* Platform */
 
@@ -12,7 +12,7 @@ body {background-color: var(main-background-color)}
 
 /* Inbox */
 
-.color-map__early-2018-brand-refresh .conversation__inbox__outlet {background-color:var(main-background-color)}
+.color-map__early-2018-brand-refresh .conversation__inbox__outlet {background-color:var(--main-background-color)}
 
 /* Articles */
 
