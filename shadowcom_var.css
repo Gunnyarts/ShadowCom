@@ -1,7 +1,27 @@
 :root {
-  --background-color: #333;
+  /* Color Variables */
+  main-background-color: #333;
 }
 
-.color-map__early-2018-brand-refresh .conversation__inbox__current-context, .color-map__early-2018-brand-refresh .conversation__inbox__current-conversation, .color-map__early-2018-brand-refresh .conversation__inbox__list, .color-map__early-2018-brand-refresh .conversation__inbox__list-filter, .color-map__early-2018-brand-refresh .conversation__inbox__outlet {
-  background-color: var(--background-color);
-}
+/* General Colors */
+body {background-color: var(main-background-color)}
+
+/* Platform */
+
+/* Messages */
+
+/* Inbox */
+
+/* Articles */
+
+/* Messenger */
+
+/* Operator */
+
+/* App Store */
+
+/* Product Changes */
+
+/* Settings */
+
+/* Your Account */
