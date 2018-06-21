@@ -565,7 +565,9 @@ thead .tbl__cell {
   border-color: #444 !important;
 }
 
-
+.color-map__early-2018-brand-refresh .conversation__stream .intercom-interblocks-link-title, .color-map__early-2018-brand-refresh .conversation__text a, .color-map__early-2018-brand-refresh .conversation__text.o__admin-comment a, .color-map__early-2018-brand-refresh .conversation__text.o__operator-comment a {
+	color: #9ebfff !important;
+}
 
 
 
