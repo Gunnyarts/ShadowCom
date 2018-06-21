@@ -127,9 +127,9 @@ body {background-color: #222;}
 }
 
 .color-map__early-2018-brand-refresh .conversation__bubble.o__user-comment {
-    background-color: #666!important;
+    background-color: #393939!important;
     color: #eee !important;
-   border-color: #666!important;
+   border-color: #333!important;
 }
 .color-map__early-2018-brand-refresh .conversation__bubble.o__admin-comment {
    background-color: #444!important;
