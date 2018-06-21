@@ -4,7 +4,7 @@
 }
 
 /* General Colors */
-body {background-color: var(--main-background-color)}
+body, .loading__main-application {background-color: var(--main-background-color) !important}
 
 /* Platform */
 
