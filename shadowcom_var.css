@@ -1,3 +1,4 @@
+@import ("https://gunnyarts.github.io/ShadowCom/intercom_colors_initial.css");
 :root {
   /*******************/
   /* Color Variables */
@@ -19,7 +20,7 @@
 }
 
 /* General Colors */
-body, .loading__main-application, .ember-view {background-color: var(--background-0) !important, color: var(--text)}
+/*body, .loading__main-application, .ember-view {background-color: var(--background-0) !important, color: var(--text)}*/
 
 /* Platform */
 
@@ -27,9 +28,11 @@ body, .loading__main-application, .ember-view {background-color: var(--backgroun
 
 /* Inbox */
 
+/*
 .color-map__early-2018-brand-refresh .conversation__inbox__outlet, .color-map__early-2018-brand-refresh .conversation__inbox__current-conversation {background-color:var(--background-1) !important}
 
 .color-map__early-2018-brand-refresh .conversation__inbox__list-header, .color-map__early-2018-brand-refresh .conversation__inbox__current-context, .color-map__early-2018-brand-refresh .conversation__inbox__list, .color-map__early-2018-brand-refresh .conversation__inbox__list-filter, .color-map__early-2018-brand-refresh .conversation__list__item {background-color: var(--background-2)}
+*/
 
 /* Articles */
 
