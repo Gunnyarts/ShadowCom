@@ -3,14 +3,14 @@
 /* brand specific style */
 
 /* Zitcom */
-body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
+body.theme-scannet :not(.brand-history) .reseller-logo:not, div.brandpicker a[href="?brand=zitcom"] img {
 	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
 .brand-icon.brand-zitcom {
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png);
 }
 /* ScanNet */
-body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"] img {
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"]  img {
     background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg);
 }
 body.theme-scannet div.relationship-breadcrumb > span > a:hover {
@@ -33,7 +33,7 @@ body.theme-scannet .list-group-item.active, body.theme-scannet .list-group-item.
 body.theme-scannet .sidebar .sidebar-nav a:hover, body.theme-scannet .sidebar .sidebar-nav a.active {color: #4CD981;border-bottom-color: #4CD981;}
 
 /* Curanet */
-body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
+body.theme-curanet :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
     background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
 }
 body.theme-curanet div.relationship-breadcrumb > span > a:hover {
@@ -53,7 +53,7 @@ body.theme-curanet .list-group-item.active, body.theme-curanet .list-group-item.
 body.theme-curanet .sidebar .sidebar-nav a:hover, body.theme-curanet .sidebar .sidebar-nav a.active {color: #7AB55C;border-bottom-color: #7AB55C;}
 
 /* Wannafind */
-body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
+body.theme-wannafind :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
     background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png);
 }
 body.theme-wannafind div.relationship-breadcrumb > span > a:hover {
@@ -309,3 +309,15 @@ div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
 	color:#eee;
 }
 
+/* Brand history */
+.brand-history {
+	background-color: #ddd;
+    border-color: #ccc;
+    color: #000;
+}
+.brand-history .text-muted {
+	color: inherit;
+}
+.brand-history-description {
+	color: inherit;
+}
