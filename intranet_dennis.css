@@ -280,6 +280,14 @@ div.menu {
 
 /* Notifications */
 
+.toolbar-user-notifications, .toolbar .toolbar-user .toolbar-user-notifications:hover, .toolbar .toolbar-user .toolbar-user-notifications.active {
+	background-color: #92032e;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger {
+	background: #fff;
+    color: #000;
+}
+
 .select2-results__option {
 	color: #999;
 }
