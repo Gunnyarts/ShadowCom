@@ -3,7 +3,7 @@
 /* brand specific style */
 
 /* Zitcom */
-body.theme-scannet :not(.brand-history) .reseller-logo:not, div.brandpicker a[href="?brand=zitcom"] img {
+body.theme-scannet :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
 	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
 }
 .brand-icon.brand-zitcom {
