@@ -316,6 +316,9 @@ div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
 	background: rgba(0,0,0,0.58);
 	color:#eee;
 }
+.modal-logtime .modal-logtime-line:hover {
+	background-color:#222;
+}
 
 /* Brand history */
 .brand-history {
