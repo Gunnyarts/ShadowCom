@@ -421,7 +421,7 @@ body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] 
 .chosen-container-single .chosen-search input[type="text"] {
     border: 1px solid #767575;
 }
-
+ 
 
 .chosen-container .chosen-results li.highlighted
 {
@@ -433,6 +433,14 @@ background-color: #575757;
    
     color: #d2d2d2;
 }
+
+#creditNoteBottom {
+
+    -moz-box-shadow: 0 -5px 20px 0 #101013;
+    -webkit-box-shadow: 0 -5px 20px 0 #101013;
+    box-shadow: 0 -5px 20px 0 #101013;
+}
+ 
 
 
 .toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger
