@@ -99,7 +99,7 @@
     <a href="#" id="download" class="btn">Download themes</a>
   </section>
 </section>
-
+<a href="#" id="download-link" download hidden></a>
   <script>
     $('#download').click(function(e){
       e.preventDefault()
@@ -129,7 +129,7 @@
         // intranet_dennis
         file = "intr-dj"
       }
-      $(document.createElement("a")).attr({href: "styles/"+file+".dms",download: "true", target: "_blank"}).click()
+      $("#download-link").attr("href", "styles/"+file+".dms").click()
     })
   </script>
   
