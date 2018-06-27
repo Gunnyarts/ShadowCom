@@ -452,3 +452,39 @@ background-color: #575757;
    /* color: black; */
    /* font-size: 20px; */
 }
+
+
+
+
+
+/* Notifications */
+
+.toolbar-user-notifications, .toolbar .toolbar-user .toolbar-user-notifications:hover, .toolbar .toolbar-user .toolbar-user-notifications.active {
+	background-color: #92032e;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger {
+	background: #fff;
+    color: #000;
+}
+
+.select2-results__option {
+	color: #999;
+}
+.select2-results__option[aria-selected] {
+	background-color:#444;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications {
+	background-color: #333;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications .notification .notification-description {color:#111}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications>ul>li .notification .timeleft.overdue {
+	color: #111;
+}
+div.sidebarNotificationWindow {
+	background-color: #444;
+	box-shadow: none;
+}
+div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
+	background-color: inherit;
+	border-color: #000;
+}
