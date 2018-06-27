@@ -99,10 +99,8 @@
     <a href="#" id="download" class="btn">Download themes</a>
   </section>
 </section>
-<a href="#" id="download-link" download hidden></a>
   <script>
-    $('#download').click(function(e){
-      e.preventDefault()
+    $('#styles-form input[type="checkbox"]').change(function(){
       var styles = $("#styles-form").serialize().split("&")
       for(let i=0;i<styles.length;i++){
         styles[i] = styles[i].split("=")[1]
@@ -125,11 +123,11 @@
       } else if (!styles.includes("intercom") && styles.includes("intranet_patrick") && !styles.includes("intranet_dennis")){
         // intranet_patrick
         file = "intr-pr"
-      } else if (!styles.includes("intercom") && styles.includes("intranet_patrick") && styles.includes("intranet_dennis")){
+      } else if (!styles.includes("intercom") && !styles.includes("intranet_patrick") && styles.includes("intranet_dennis")){
         // intranet_dennis
         file = "intr-dj"
       }
-      $("#download-link").attr("href", "styles/"+file+".dms").click()
+      $("#download").attr("href", "styles/"+file+".dms")
     })
   </script>
   
