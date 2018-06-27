@@ -445,10 +445,10 @@ background-color: #575757;
 
 .toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger
 {
-    padding: 20px 60px 30px 60px;
-    top: 63px;
-    left: -60px;
-    background: yellow;
-    color: black;
-    font-size: 20px;
+   /* padding: 20px 60px 30px 60px; */
+   /* top: 63px; */
+   /* left: -60px; */
+   /* background: yellow; */
+   /* color: black; */
+   /* font-size: 20px; */
 }
