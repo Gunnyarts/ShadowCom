@@ -564,7 +564,9 @@ thead .tbl__cell {
   color: #fff !important;
   border-color: #444 !important;
 }
-
+.conversation__action__text {
+    background-color: initial;
+}
 
 
 
