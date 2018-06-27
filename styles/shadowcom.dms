@@ -1,0 +1,1 @@
+[{"method":"saveStyle","name":"ShadowCom","enabled":true,"sections":[{"urls":[],"urlPrefixes":["https://app.intercom.io"],"domains":[],"regexps":[],"code":"@import \"https://gunnyarts.github.io/ShadowCom/shadowcom.css\";"}],"updateUrl":null,"md5Url":null,"url":null,"originalMd5":null,"id":1}]

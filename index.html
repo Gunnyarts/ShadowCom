@@ -4,22 +4,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Untitled Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+    }
+
+    section {
+      margin: 20px auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .stylish-install .row + .row {
+      margin-top: 20px;
+    }
+    .stylish-install .row div[class^="col"] img {
+      width: 100%;
+    }
+    @media (max-width: 575px) {
+      .stylish-install .row div[class^="col"] {
+        margin: 10px;
+      }
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ccc;
+      color: #111;
+      text-decoration: none;
+    }
+    .btn:hover, .btn:active {
+      background-color: #bbb;
+      color: #111;
+    }
+
+    section.packs ul {
+      list-style: none;
+      padding: 0;
+    }
+    section.packs ul label {
+      padding: 5px 0;
+    }
+    section.packs ul label input {
+      margin: 5px;
+    }
+  </style>
 </head>
-<body style="text-align:center; background-color: #222; background-image: url(https://static.intercomassets.com/ember/assets/images/messenger-backgrounds/background-1-413726a5db9a71101b3256558807a3aa.png);">
+<body>
+<section class="container">
+  <h1>ShadowCom - Dark mode everything!</h1>
+  <section class="container">
+  <h3>Install guide</h3>
+  <ol>
+    <li>Install Chrome addon: <a href="https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe" target="_blank">Stylish</a></li>
+    <li>Download desired theme pack(s) - see bottom of this page</li>
+    <li>Install theme pack</li>
+    <li>Profit 😎</li>
+  </ol>
+  </section>
+  <section class="stylish-install container">
+    <h3>How to install theme packs</h3>
+    <div class="row">
+      <div class="col-sm">
+        <img src="http://via.placeholder.com/400x400">
+      </div>
+      <div class="col-sm">
+        <img src="http://via.placeholder.com/400x400">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <img src="http://via.placeholder.com/400x400">
+      </div>
+      <div class="col-sm">
+        <img src="http://via.placeholder.com/400x400">
+      </div>
+    </div>
+  </section>
+  <section class="packs container">
+    <h3>Select the packs you want - then press download</h3>
+    <form id="styles-form">
+      <ul>
+        <li><label for="dark_intercom"><input type="checkbox" name="styles" value="intercom" id="dark_intercom">Dark Intercom</label></li>
+        <li><label for="intranet_patrick"><input type="checkbox" name="styles" value="intranet_patrick" id="intranet_patrick">Intranet by Patrick</label></li>
+        <li><label for="intranet_dennis"><input type="checkbox" name="styles" value="intranet_dennis" id="intranet_dennis">Intranet by Dennis</label></li>
+      </ul>
+    </form>
+    <a href="#" id="download" class="btn">Download themes</a>
+  </section>
+</section>
 
-<h1 style="color:white;">DARK MODE INSTALL GUIDE</h1>
-<a style="color: white; font-size: 40px; margin-top: 240px;" target="_blank" href="https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe">DOWNLOAD CHROME PLUGIN</a>
-<br/><br/><br/><br/>
-<img src="https://gunnyarts.github.io/ShadowCom/images/guide/1.png" style="display: block; margin: 30px 33%;">
-<img src="https://gunnyarts.github.io/ShadowCom/images/guide/2.png" style="display: block; margin: 30px 33%;">
-<img src="https://gunnyarts.github.io/ShadowCom/images/guide/3.png" style="display: block; margin: 30px 33%;">
-<img src="https://gunnyarts.github.io/ShadowCom/images/guide/4.png" style="display: block; margin: 30px 33%;"><br/><br/>
-<a  style="color: white; font-size: 110px; margin-top: 240px;" href="https://gunnyarts.github.io/ShadowCom/alt.bin" download>DOWNLOAD ME</a>
-<br/><br/>
-  <p><a href="intranet.css">Intranet styling</a></p>
-  <p><a href="shadowcom.css">Intercom styling</a></p>
-
+  <script>
+    $('#download').click(function(e){
+      e.preventDefault()
+      var styles = $("#styles-form").serialize().split("&")
+      for(let i=0;i<styles.length;i++){
+        styles[i] = styles[i].split("=")[1]
+      }
+      let file = ""
+      if (styles.includes("intercom") && styles.includes("intranet_patrick") && styles.includes("intranet_dennis")){
+        file = "all"
+      } else if (styles.includes("intercom") && styles.includes("intranet_patrick") && !styles.includes("intranet_dennis")){
+        // intercom and intranet_patrick
+        file = "shadowcom_intr-pr"
+      } else if (styles.includes("intercom") && !styles.includes("intranet_patrick") && styles.includes("intranet_dennis")){
+        // intercom and intranet_dennis
+        file = "shadowcom_intr-dj"
+      } else if (styles.includes("intercom") && !styles.includes("intranet_patrick") && !styles.includes("intranet_dennis")){
+        // intercom
+        file = "shadowcom"
+      } else if (!styles.includes("intercom") && styles.includes("intranet_patrick") && styles.includes("intranet_dennis")){
+        // intercom
+        file = "intranets"
+      } else if (!styles.includes("intercom") && styles.includes("intranet_patrick") && !styles.includes("intranet_dennis")){
+        // intranet_patrick
+        file = "intr-pr"
+      } else if (!styles.includes("intercom") && styles.includes("intranet_patrick") && styles.includes("intranet_dennis")){
+        // intranet_dennis
+        file = "intr-dj"
+      }
+      $(document.createElement("a")).attr({href: "styles/"+file+".dms",download: "true", target: "_blank"}).click()
+    })
+  </script>
+  
 </body> 
 </html>
 
