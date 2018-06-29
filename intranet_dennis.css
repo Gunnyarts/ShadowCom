@@ -118,7 +118,7 @@ tr.row-clickable:hover {
 	background-color: rgba(0,0,0,0.58)
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-	border-color: #444;
+	border-color: transparent;
 }
 
 .box .box-header.box-header-flex .lnr.pull-right {
