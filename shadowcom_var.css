@@ -1,38 +1,118 @@
-@import ("https://gunnyarts.github.io/ShadowCom/intercom_colors_initial.css");
+@import "https://gunnyarts.github.io/ShadowCom/intercom_colors_initial.css";
+
+/* Further resets */
+
+.submenu__sections__section__mask {background-image:none !important}
+
 :root {
-  /*******************/
-  /* Color Variables */
-  /*******************/
+	--bg-main: #333;
+  --bg-2: #222;
+  --bg-3: #111;
   
+  --nav-bg: #111;
   
-  /* background colors */
-  --background-0: #222;
-  --background-1: #333;
-  --background-2: #1f1f1f;
-  
-  /* border colors */
-  --border: #111;
-  --border-contrast: #ccc;
-  
-  /* font colors */
-  --text: #fff;
+  --text-main: #fff;
   --text-contrast: #111;
+  --text-links: #55c4e0;
+  --text-hover: #ddd;
+  --highlight: #dc2eba;
+  --highlight-active: #59eae5;
+  
+  --tooltip-bg: #333;
+  --tooltip-text: #65ff82;
+  --tooltip-highlight: #ff6582;
+  
+  --away-toggle-bg: #111;
+  --away-toggle-switch: #888;
+  --away-toggle-off: #59eae5;
+  --away-toggle-on: #ff6582;
+  
+  --notif-bg: #ffe2b3;
+  --notif-text: #111;
+  
+  --filter-btn-bg: #888;
+  --filter-btn-text: #fff;
+  --filter-btn-bg-active: #555;
+  --filter-btn-text-active: #ccc;
+  
+  --btn-bg: transparent;
+  --btn-text: #fff;
+  --btn-bg-active: transparent;
+  --btn-text-active: #ccc;
 }
+/***********/
+/* General */
+/***********/
 
-/* General Colors */
-/*body, .loading__main-application, .ember-view {background-color: var(--background-0) !important, color: var(--text)}*/
+body {
+	background-color: var(--bg-main);
+}
+.color-map__early-2018-brand-refresh .nav-vertical__link, .color-map__early-2018-brand-refresh .nav-vertical__link.ember-transitioning-out, .color-map__early-2018-brand-refresh .submenu__header__search-icon, .color-map__early-2018-brand-refresh .submenu__header__title, .color-map__early-2018-brand-refresh .submenu__sections__section__items__item, .color-map__early-2018-brand-refresh .submenu__sections__section__title__link, .color-map__early-2018-brand-refresh,.submenu__sections__section__items__item__count, .color-map__early-2018-brand-refresh .submenu__collapse-toggle__icon, .t__label, .c__active {color:var(--text-main)}
+.submenu__sections__section__items__item.ember-transitioning-in, .submenu__sections__section__items__item.ember-transitioning-in .submenu__sections__section__items__item__count, .submenu__sections__section__items__item.o__selected:not(.ember-transitioning-out), .submenu__sections__section__items__item.o__selected:not(.ember-transitioning-out) .submenu__sections__section__items__item__count, .submenu__sections__section__items__item:hover, .submenu__sections__section__items__item:hover .submenu__sections__section__items__item__count, .color-map__early-2018-brand-refresh .btn__tertiary__deemphasized:hover, .color-map__early-2018-brand-refresh .educate__settings__card .cancel:hover, .color-map__early-2018-brand-refresh .nav-vertical__link.ember-transitioning-in, .color-map__early-2018-brand-refresh .nav-vertical__link.ember-transitioning-in:hover, .color-map__early-2018-brand-refresh .nav-vertical__link.o__selected, .color-map__early-2018-brand-refresh .nav-vertical__link.o__selected:hover, .color-map__early-2018-brand-refresh .nav-vertical__link:hover, .color-map__early-2018-brand-refresh .nav-vertical__settings-icon:hover, .color-map__early-2018-brand-refresh .submenu__header__search-icon:hover, .color-map__early-2018-brand-refresh .submenu__sections__section__items__item:hover, .color-map__early-2018-brand-refresh .submenu__sections__section__title__link:hover, .color-map__early-2018-brand-refresh .user-list__cell-link:hover {color: var(--highlight)}
 
+.t__body, .t__h1, .t__h2, .t__h1__deem, .t__h2__deem {color:var(--text-main)}
+
+.filter-block {background-color:var(--filter-btn-bg);color:var(--filter-btn-text)}
+.filter-block__details, .filter-block__details__specific-error, .filter-block__name {color:var(--filter-btn-text)}
+.filter-block.o__clickable:hover, .filter-block.o__open, .filter-block.o__open:hover {background-color:var(--filter-btn-bg-active)}
+.filter-block.o__clickable:hover .filter-block__details, .filter-block.o__clickable:hover .filter-block__name, .filter-block.o__open .filter-block__details, .filter-block.o__open .filter-block__name, .filter-block.o__open:hover .filter-block__details, .filter-block.o__open:hover .filter-block__name,.filter-block__delete {color:var(--filter-btn-text-active)}
+
+.color-map__early-2018-brand-refresh .submenu__collapse-toggle__icon:hover {background-color: var(--filter-btn-bg)}
+
+.f__custom-select__box, .btn.o__destructive, .btn.o__destructive:focus, .btn.o__destructive:hover, .btn.o__secondary, .btn.o__secondary-destructive, .btn.o__secondary-destructive:focus, .btn.o__secondary-destructive:hover, .btn.o__secondary-live, .btn.o__secondary:focus, .btn.o__secondary:hover {background-color: var(--btn-bg);color:var(--btn-text);border-color:transparent;}
+
+
+
+.btn__tertiary {color: #fff80e}
+.btn__tertiary:hover {color: #d2cc0c}
+/*******/
+/* Nav */
+/*******/
+
+.left-nav {background-color: var(--nav-bg)}
+
+.left-nav__link, .product-icon__link.o__subscribed .product-icon__symbol,.product-icon__link .product-icon__symbol, .left-nav__link.o__appstore .left-nav__icon, .left-nav__link.o__guide .left-nav__icon, .left-nav__link.o__messenger .left-nav__icon, .left-nav__link.o__operator .left-nav__icon, .left-nav__link.o__product-changes .left-nav__icon {fill: var(--highlight) !important}
+
+.product-icon__link.ember-transitioning-in .product-icon__symbol, .product-icon__link.o__selected.o__subscribed:not(.ember-transitioning-out) .product-icon__symbol, .product-icon__link.o__selected:not(.ember-transitioning-out) .product-icon__symbol, .product-icon__link.o__subscribed.ember-transitioning-in .product-icon__symbol, .product-icon__link.o__subscribed:hover .product-icon__symbol, .product-icon__link:hover .product-icon__symbol, .left-nav__link.o__appstore.ember-transitioning-in .left-nav__icon, .left-nav__link.o__appstore.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__appstore:hover .left-nav__icon, .left-nav__link.o__guide.ember-transitioning-in .left-nav__icon, .left-nav__link.o__guide.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__guide:hover .left-nav__icon, .left-nav__link.o__messenger.ember-transitioning-in .left-nav__icon, .left-nav__link.o__messenger.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__messenger:hover .left-nav__icon, .left-nav__link.o__operator.ember-transitioning-in .left-nav__icon, .left-nav__link.o__operator.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__operator:hover .left-nav__icon, .left-nav__link.o__product-changes.ember-transitioning-in .left-nav__icon, .left-nav__link.o__product-changes.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__product-changes:hover .left-nav__icon {fill:var(--highlight-active)!important}
+
+.left-nav__icon__purchasable {border-color: var(--nav-bg);background-color:var(--highlight)}
+.left-nav__icon__purchasable:after, .left-nav__icon__purchasable:before {background-color: var(--nav-bg)}
+.product-icon__link:hover .left-nav__icon__purchasable {background-color:var(--highlight-active)}
+.product-icon__plus {display:none}
+/* popovers */
+.overlay-dummy-component.packaging__tooltip, .menu__popover, .color-map__early-2018-brand-refresh .overlay__standard-tooltip, .color-map__early-2018-brand-refresh .packaging__tooltip {background-color:var(--tooltip-bg);color:var(--tooltip-text)}
+.packaging__tooltip__triangle.o__left-top {color: var(--tooltip-bg);}
+.color-map__early-2018-brand-refresh .overlay__standard-tooltip .overlay__tooltip__caret path {fill:var(--tooltip-bg)}
+
+/* nav > Profile */
+.away-mode__admin-details__active-indicator {background-color: #1bb157;}
+.away-mode__admin-details__active-indicator-admin-is-away, .away-mode__settings__modal-body .toggle__on-off.o__on {background-color: #ffb948;}
+.away-mode__admin-details__active-indicator.o__indicator-in-sidebar {border-color:var(--nav-bg)}
+.menu__popover__item, .menu__popover__item__deemphasized {color:inherit}
+.menu__popover__item.o__selected, .menu__popover__item:hover {color: var(--tooltip-highlight)}
+.menu__popover__triangle:after {border-right: 5px solid var(--tooltip-bg);}
+.away-mode__admin-details__avatar-container .avatar__media, .away-mode__admin-details__active-indicator {border-color: var(--tooltip-bg)}
+	/*away toggle*/
+.color-map__early-2018-brand-refresh .away-mode__toggle .toggle__on-off.o__off, .color-map__early-2018-brand-refresh .away-mode__toggle .toggle__on-off.o__on {background-color: var(--away-toggle-bg)}
+.color-map__early-2018-brand-refresh .away-mode__toggle .toggle__on-off__label.o__on {color:var(--away-toggle-on)}
+.toggle__on-off__label.o__active {color:var(--away-toggle-off)}
+.toggle__on-off__switch {background-color:var(--away-toggle-switch)}
+.color-map__early-2018-brand-refresh .inbox__away-mode-notifier {background-color:var(--notif-bg);color:var(--notif-text)}
+
+/************/
 /* Platform */
+/************/
+
+
+
+
 
 /* Messages */
 
 /* Inbox */
-
-/*
-.color-map__early-2018-brand-refresh .conversation__inbox__outlet, .color-map__early-2018-brand-refresh .conversation__inbox__current-conversation {background-color:var(--background-1) !important}
-
-.color-map__early-2018-brand-refresh .conversation__inbox__list-header, .color-map__early-2018-brand-refresh .conversation__inbox__current-context, .color-map__early-2018-brand-refresh .conversation__inbox__list, .color-map__early-2018-brand-refresh .conversation__inbox__list-filter, .color-map__early-2018-brand-refresh .conversation__list__item {background-color: var(--background-2)}
-*/
+.conversation__inbox__list-wrapper {
+	background-color: var(--bg-2);
+}
 
 /* Articles */
 
