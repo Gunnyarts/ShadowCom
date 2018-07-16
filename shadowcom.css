@@ -21,7 +21,9 @@ body {background-color: #222;}
 .submenu__collapse-toggle__icon {
     color: #d0d0d0;
 }
-
+.conversation__inbox__list-header.o__uses-product-refresh-iteration {
+	border-bottom-color: transparent;
+}
 
 .color-map__early-2018-brand-refresh {
     color: #c9c9c9;
@@ -220,7 +222,9 @@ background: #333;
 .color-map__early-2018-brand-refresh .left-nav__link.o__guide .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__messenger .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__operator .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__product-changes .left-nav__icon {
     fill: #a4a3a3!important;
 }
-
+.beta__product-refresh-iter-2, .beta__product-refresh-iter-2 .left-nav__link.o__selected, .beta__product-refresh-iter-2 .left-nav__link.o__selected .left-nav__icon__purchasable:after, .beta__product-refresh-iter-2 .left-nav__link.o__selected .left-nav__icon__purchasable:before {
+    background-color: transparent;
+}
 
 
 .color-map__early-2018-brand-refresh .user-list__header.o__visual-refresh, .color-map__early-2018-brand-refresh .user-list__header.o__without-select-all.o__without-selected-users.o__visual-refresh, .user-list__header.o__visual-refresh, .user-list__header.o__without-select-all.o__without-selected-users.o__visual-refresh {
