@@ -195,6 +195,10 @@ background: #333;
     color: #b0b0b0;
 }
 
+.conversation__list__item.o__active .conversation__list__item__summary__quotes, .conversation__list__item.o__active:hover .conversation__list__item__summary__quotes, .conversation__list__item__summary__quotes {
+    background-color: transparent;
+}
+
 .beta__left-nav-colors.color-map__early-2018-brand-refresh .left-nav.o__vertical-nav .product-icon__link.o__subscribed .product-icon__symbol {
     fill: #6b6b6b!important;
 }
