@@ -9,6 +9,8 @@ body.theme-zitcom :not(.brand-history) .reseller-logo, div.brandpicker a[href="?
 .brand-icon.brand-zitcom {
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png);
 }
+/* DanDomain */
+.brand-icon.brand-dandomain {background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png);}
 /* ScanNet */
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"]  img, .reseller-logo.reseller-logo-scannet {
     background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg);
