@@ -1,0 +1,495 @@
+.toolbar {
+
+        background: #191c21;
+    color: #d4d4d4
+}
+
+body {
+    color: #d8d8d8;
+    background-color: #030304;        
+    background-attachment: fixed;
+    background-size: cover;
+    /*
+    
+    Søren & flems 
+    background-image: url(https://i.gyazo.com/86cd2f215d1e97ae510b3ac7ed58e458.jpg);
+    
+    Søren  
+    background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
+	
+    Due
+    background-image: url(https://i.gyazo.com/a03dfdd57c93005e305ef4547344526e.jpg);
+
+
+    */
+    background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
+
+
+
+
+
+}
+
+
+
+.content-container {
+    background: #000000b8;
+}
+
+
+
+.box .box-header {
+    background-color: #0d0f12;
+    border-color: #383838;
+    box-shadow: 0 -1px 1px rgba(0,0,0,.1);
+}
+
+.box {
+    background-color: #191c21de!important;
+}
+
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-color: #2f3134;
+}
+
+.form-control
+{
+    background-color: #252931!important;
+    border-bottom: 1px #252931 solid!important;
+    border-color: #0e1012;
+}
+
+
+.input-group-addon {
+    background-color: #191c21;
+    border-color: #0e1012;
+}
+
+
+
+tr.row-clickable:hover {
+    background-color: #252a31;
+}
+
+.box .box-content+.box-content {
+    border-color: #252931;
+}
+
+.toolbar input {
+    background-color: #252931;
+}
+
+
+.table>thead>tr>td.danger, .table>tbody>tr>td.danger, .table>tfoot>tr>td.danger, .table>thead>tr>th.danger, .table>tbody>tr>th.danger, .table>tfoot>tr>th.danger, .table>thead>tr.danger>td, .table>tbody>tr.danger>td, .table>tfoot>tr.danger>td, .table>thead>tr.danger>th, .table>tbody>tr.danger>th, .table>tfoot>tr.danger>th {
+    background-color: #963030;
+}
+
+
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {
+    background-color: #3e5a32;
+}
+
+
+.box-gray-arrow {
+  
+    background: #191c21;
+
+}
+
+
+
+
+.modal-content {
+   
+    background-color: #191c21;
+
+}
+
+.box .box-header {
+    background-color: #0e1012;
+    border-color: #141414;
+}
+
+
+
+
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #0e1012!important;
+border-color: #0e1012;
+}
+
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #ffffff!important;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+ color: #c0c0c0!important;
+}
+    
+
+
+
+
+
+.content-body .tabsContainer .tabsContent {
+    background-color: #191c21de;
+    border-color: #191c21;
+}
+
+
+
+
+
+.ui-widget-content {
+
+    color: #d2d2d2;
+}
+
+
+.ui-tabs .ui-tabs-nav li {
+
+   border-color: #252931;
+
+    background: #252931;
+}
+
+.content-body .tabsContainer .tabsContent .tab-streamer {
+    background-color: #191c21!important;
+   border-color: #2f3134;
+}
+
+
+
+.productAdminTable>tbody>tr.productControl>td {
+  
+    background-color: #191c21!important;
+    box-shadow: inset 0 11px 8px -10px #191c21, inset 0 -11px 8px -10px #191c21;
+}
+
+.productAdminTable table {
+    background-color: #191c21!important;
+}
+
+.list-group-item {
+    background-color: #0e1012;
+   border-color: #0e1012;
+}
+
+.table>thead>tr>th {
+ 
+    border-color: #2f3134;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #252931;
+}
+
+
+.sidebar {
+
+    color: #4a4a4a;
+    border-color: #191c21;
+    background-color: #191c21;
+}
+
+.table-hover>tbody>tr:hover {
+   background-color: #252a31;
+}
+
+
+
+.chosen-container-multi .chosen-choices {
+    border-color: #252931;
+    background-color: #252931;
+}
+
+.sidebar .sidebar-nav {
+
+   border-color: #2f3134;
+}
+
+.sidebar .sidebar-buttons {
+
+    border-color: #2f3134;
+    
+}
+
+.sidebar .type-container .type-header {
+
+    border-color: #2f3134;
+}
+
+.sidebar .sidebar-item {
+    border-color: #2f3134;
+
+}
+
+
+.sidebar .sidebar-item.sidebar-item-clickable:hover, .sidebar .sidebar-item.sidebar-item-clickable.active {
+
+    background-color: #252a31;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
+    color: #c7c7c7!important;
+    
+}
+.dashboard .genfak-circle.genfak-circle-zitcom {
+background-image: url(https://intranet.zitcom.dk//img/logo/zitcom-logo-white.svg);
+}
+.dashboard .genfak-circle.genfak-circle-scannet {
+    background-image: url(https://intranet.zitcom.dk//img/logo/scannet-logo-white.svg);
+}
+.dashboard .genfak-circle.genfak-circle-curanet {
+    background-image: url(https://intranet.zitcom.dk//img/logo/curanet-white.png);
+}
+
+
+.swushTable .swushTableHeader {
+
+    filter: invert(40%);
+}
+
+
+.swushTable td, .swushTable th {
+
+    border-bottom: 1px solid #2f3134;
+}
+
+
+a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
+
+    background-color: #252a31;
+}
+
+.modal-header, .modal-footer {
+    border-color: #2f3134;
+}
+
+
+.sidebar .sidebarContentHistory .date {
+    background: #0e1012;
+}
+
+
+.modal-logtime .modal-logtime-line:hover {
+    background-color: #252a31;
+}
+
+
+
+.modal-logtime .modal-logtime-line .input-group input, .modal-logtime .modal-logtime-line .input-group .input-group-addon {
+  
+    border-color: #2f3134;
+
+    background-color: #252931;
+}
+
+
+
+.tmtimeline:before {
+
+    background: #36383c;
+
+}
+
+.select2-container--bootstrap .select2-selection--single {
+
+      background: #36383c;
+        border: 0;
+    border-radius: 3;
+}
+
+
+.select2-container--bootstrap .select2-dropdown {
+
+    border-color: #252931;
+
+    background: #191c21;
+}
+
+.billingsTable>tbody>tr:nth-last-child(2)>td {
+    border-color: #727579;
+}
+
+.billingsTable>tbody>tr:last-child>td {
+
+    border-color: #727579;
+}
+
+.relationship-breadcrumb span>a {
+    color: #d2d2d2;
+ 
+}
+
+
+.well {
+    background-color: #191c21;
+    border-color: #191c21;
+}
+
+
+table.table>tbody>tr.colorOne {
+    background-color: #2f3134;
+}
+
+
+.form-control {
+
+    color: #aeaeae!important;
+
+}
+
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #f6f6f6!important;
+}
+
+
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(/images/betalingsservice-white.png);
+}
+
+
+
+/* brand specific style */
+
+/* Zitcom */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img, .dashboard .genfak-circle.genfak-circle-zitcom {
+	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
+}
+
+/* ScanNet */
+body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"] img, .dashboard .genfak-circle.genfak-circle-scannet {
+    background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg);
+}
+
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png);
+}
+
+/* Curanet */
+body.theme-curanet .reseller-logo, div.brandpicker a[href="?brand=curanet"] img, .dashboard .genfak-circle.genfak-circle-curanet {
+    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
+}
+
+/* Wannafind */
+body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
+    background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png);
+}
+
+.dashboard .genfak-circle.genfak-circle-betalingsservice {
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
+}
+
+
+
+.chosen-container-single .chosen-single {
+
+    border: 1px solid #14161a;
+
+    background-color: #252931;
+
+    color: #aaaaac;
+
+}
+
+
+
+.chosen-container .chosen-drop {
+
+    border: 1px solid #14161a;
+    background: #252931;
+
+    color: #aaaaac;
+}
+
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #6f747c;
+    background-color: #191c21;
+    box-shadow: 0 1px 0 #14161a inset;
+}
+
+
+
+.chosen-container-single .chosen-search input[type="text"] {
+    border: 1px solid #767575;
+}
+ 
+
+.chosen-container .chosen-results li.highlighted
+{
+background-color: #575757;
+}
+
+
+.sidebar .type-container {
+   
+    color: #d2d2d2;
+}
+
+#creditNoteBottom {
+
+    -moz-box-shadow: 0 -5px 20px 0 #101013;
+    -webkit-box-shadow: 0 -5px 20px 0 #101013;
+    box-shadow: 0 -5px 20px 0 #101013;
+}
+  
+
+
+.toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger
+{
+   /* padding: 20px 60px 30px 60px; */
+   /* top: 63px; */
+   /* left: -60px; */
+   /* background: yellow; */
+   /* color: black; */
+   /* font-size: 20px; */
+}
+
+
+
+
+
+/* Notifications */
+
+.toolbar-user-notifications, .toolbar .toolbar-user .toolbar-user-notifications:hover, .toolbar .toolbar-user .toolbar-user-notifications.active {
+	background-color: #92032e;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger {
+	background: #fff;
+    color: #000;
+}
+
+.select2-results__option {
+	color: #999;
+}
+.select2-results__option[aria-selected] {
+	background-color:#444;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications {
+	background-color: #333;
+}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications .notification .notification-description {color:#111}
+.toolbar .toolbar-user .toolbar-user-notifications .notifications>ul>li .notification .timeleft.overdue {
+	color: #111;
+}
+div.sidebarNotificationWindow {
+	background-color: #444;
+	box-shadow: none;
+}
+div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
+	background-color: inherit;
+	border-color: #000;
+}
+
+
+.brand-icon.brand-dandomain {
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png;
+}
