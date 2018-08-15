@@ -577,7 +577,17 @@ thead .tbl__cell {
 }
 
 
+/* Platform */
 
+.user-list__header, .user-list__header.o__without-select-all.o__without-selected-users {
+  background-color: transparent;
+}
+
+/* Messages */
+.introduction-banner {background-color: #1f1f1f}
+
+.main__content-outlet {background-color: #1f1f1f}
+.btn__footer, .card, .tbl tbody {background-color: transparent}
 
 
 
