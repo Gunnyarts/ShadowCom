@@ -1,4 +1,4 @@
-/* Updated 15-08-2018 3:14 PM */
+/* Updated 15-08-2018 3:16 PM */
 
 body {background-color: #222;}
 
@@ -590,5 +590,7 @@ thead .tbl__cell {
 .btn__footer, .card, .tbl tbody {background-color: transparent}
 
 
-
+.left-nav__link.o__selected, .left-nav__link.o__selected .left-nav__icon__purchasable:after, .left-nav__link.o__selected .left-nav__icon__purchasable:before {
+  background-color: transparent;
+}
 
