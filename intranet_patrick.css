@@ -1,7 +1,9 @@
+
+
 .toolbar {
 
         background: #191c21;
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 body {
@@ -18,7 +20,7 @@ body {
     background-image: url(https://i.gyazo.com/a2916b0af581035adccc2c0947afc170.jpg);
 	
     Due
-    background-image: url(https://i.gyazo.com/a03dfdd57c93005e305ef4547344526e.jpg);
+    background-image: url(https://i.gyazo.com/a03dfdd57c93005e305ef4547344526e.jpg); 
 
 
     */
@@ -137,8 +139,9 @@ border-color: #0e1012;
 
 
 .content-body .tabsContainer .tabsContent {
-    background-color: #191c21de;
-    border-color: #191c21;
+    background-color: #191c21de!important;
+    border-color: #191c21!important;
+    border-bottom: 1px solid #2f3134!important;
 }
 
 
@@ -160,7 +163,7 @@ border-color: #0e1012;
 
 .content-body .tabsContainer .tabsContent .tab-streamer {
     background-color: #191c21!important;
-   border-color: #2f3134;
+   border-color: #2f3134!important;
 }
 
 
@@ -192,9 +195,9 @@ border-color: #0e1012;
 
 .sidebar {
 
-    color: #4a4a4a;
-    border-color: #191c21;
-    background-color: #191c21;
+    color: #4a4a4a!important;
+    border-color: #191c21!important;
+    background-color: #191c21!important;
 }
 
 .table-hover>tbody>tr:hover {
@@ -210,29 +213,31 @@ border-color: #0e1012;
 
 .sidebar .sidebar-nav {
 
-   border-color: #2f3134;
+   border-color: #2f3134!important;
 }
 
 .sidebar .sidebar-buttons {
 
     border-color: #2f3134;
+	border-top: 1px solid #2f3134!important;
+    border-bottom: 1px solid #2f3134!important;
     
 }
 
 .sidebar .type-container .type-header {
 
-    border-color: #2f3134;
+    border-color: #2f3134!important;
 }
 
 .sidebar .sidebar-item {
-    border-color: #2f3134;
+    border-color: #2f3134!important;
 
 }
 
 
 .sidebar .sidebar-item.sidebar-item-clickable:hover, .sidebar .sidebar-item.sidebar-item-clickable.active {
 
-    background-color: #252a31;
+    background-color: #252a31!important;
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
@@ -323,7 +328,7 @@ a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, 
 }
 
 .relationship-breadcrumb span>a {
-    color: #d2d2d2;
+    color: #d2d2d2!important;
  
 }
 
@@ -493,6 +498,8 @@ div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
 .brand-icon.brand-dandomain {
     background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png);
 }
+
 .table>thead>tr>td.warning, .table>tbody>tr>td.warning, .table>tfoot>tr>td.warning, .table>thead>tr>th.warning, .table>tbody>tr>th.warning, .table>tfoot>tr>th.warning, .table>thead>tr.warning>td, .table>tbody>tr.warning>td, .table>tfoot>tr.warning>td, .table>thead>tr.warning>th, .table>tbody>tr.warning>th, .table>tfoot>tr.warning>th {
-    background-color: #3c3a2f; 
+    background-color: #3c3a2f;
 }
+ 
