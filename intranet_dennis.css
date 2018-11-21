@@ -4,75 +4,75 @@
 
 /* Zitcom */
 body.theme-zitcom :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=zitcom"] img {
-	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg);
+	background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-logo-white.svg)!important;
 }
 .brand-icon.brand-zitcom {
-	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png);
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png)!important;
 }
 /* DanDomain */
-.brand-icon.brand-dandomain {background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png);}
+.brand-icon.brand-dandomain {background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png)!important;}
 /* ScanNet */
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"]  img, .reseller-logo.reseller-logo-scannet {
-    background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg);
+    background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg)!important;
 }
 body.theme-scannet div.relationship-breadcrumb > span > a:hover {
-	color: #4CD981;
+	color: #4CD981!important;
 }
 body.theme-scannet .toolbar {
-	border-top-color: #4CD981;
+	border-top-color: #4CD981!important;
 }
 body.theme-scannet div.menu>ul>li>a:hover, body.theme-scannet div.menu>ul>li.openMenuNode>a, body.theme-scannet div.menu ul.nav-sub li a:hover {
-	color: #4CD981;
+	color: #4CD981!important;
 }
 .brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
-	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png);
+	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png)!important;
 }
 body.theme-scannet .list-group-item.active, body.theme-scannet .list-group-item.active:hover, body.theme-scannet .list-group-item.active:focus, body.theme-scannet a.list-group-item:hover, body.theme-scannet button.list-group-item:hover, body.theme-scannet a.list-group-item:focus, body.theme-scannet button.list-group-item:focus {
-	background-color: #4CD981;
-    border-color: #4CD981;
-    color: #111;
+	background-color: #4CD981!important;
+    border-color: #4CD981!important;
+    color: #111!important;
 }
-body.theme-scannet .sidebar .sidebar-nav a:hover, body.theme-scannet .sidebar .sidebar-nav a.active {color: #4CD981;border-bottom-color: #4CD981;}
+body.theme-scannet .sidebar .sidebar-nav a:hover, body.theme-scannet .sidebar .sidebar-nav a.active {color: #4CD981!important;border-bottom-color: #4CD981!important;}
 
 /* Curanet */
 body.theme-curanet :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
-    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png)!important;
 }
 body.theme-curanet div.relationship-breadcrumb > span > a:hover {
-	color: #7AB55C;
+	color: #7AB55C!important;
 }
 body.theme-curanet .toolbar {
-	border-top-color: #7AB55C;
+	border-top-color: #7AB55C!important;
 }
 body.theme-curanet div.menu>ul>li>a:hover, body.theme-curanet div.menu>ul>li.openMenuNode>a, body.theme-curanet div.menu ul.nav-sub li a:hover {
-	color: #7AB55C;
+	color: #7AB55C!important;
 }
 body.theme-curanet .list-group-item.active, body.theme-curanet .list-group-item.active:hover, body.theme-curanet .list-group-item.active:focus, body.theme-curanet a.list-group-item:hover, body.theme-curanet button.list-group-item:hover, body.theme-curanet a.list-group-item:focus, body.theme-curanet button.list-group-item:focus {
-	background-color: #7AB55C;
-    border-color: #7AB55C;
-    color: #111;
+	background-color: #7AB55C!important;
+    border-color: #7AB55C!important;
+    color: #111!important;
 }
-body.theme-curanet .sidebar .sidebar-nav a:hover, body.theme-curanet .sidebar .sidebar-nav a.active {color: #7AB55C;border-bottom-color: #7AB55C;}
+body.theme-curanet .sidebar .sidebar-nav a:hover, body.theme-curanet .sidebar .sidebar-nav a.active {color: #7AB55C!important;border-bottom-color: #7AB55C!important;}
 
 /* Wannafind */
 body.theme-wannafind :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
-    background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png)!important;
 }
 body.theme-wannafind div.relationship-breadcrumb > span > a:hover {
-	color: #3C73E7;
+	color: #3C73E7!important;
 }
 body.theme-wannafind .toolbar {
-	border-top-color: #3C73E7;
+	border-top-color: #3C73E7!important;
 }
 body.theme-wannafind div.menu>ul>li>a:hover, body.theme-curanet div.menu>ul>li.openMenuNode>a, body.theme-curanet div.menu ul.nav-sub li a:hover {
-	color: #3C73E7;
+	color: #3C73E7!important;
 }
 body.theme-wannafind .list-group-item.active, body.theme-wannafind .list-group-item.active:hover, body.theme-wannafind .list-group-item.active:focus, body.theme-wannafind a.list-group-item:hover, body.theme-wannafind button.list-group-item:hover, body.theme-wannafind a.list-group-item:focus, body.theme-wannafind button.list-group-item:focus {
-	background-color: #3C73E7;
-    border-color: #3C73E7;
-    color: #fff;
+	background-color: #3C73E7!important;
+    border-color: #3C73E7!important;
+    color: #fff!important;
 }
-body.theme-wannafind .sidebar .sidebar-nav a:hover, body.theme-wannafind .sidebar .sidebar-nav a.active {color: #3C73E7;border-bottom-color: #3C73E7;}
+body.theme-wannafind .sidebar .sidebar-nav a:hover, body.theme-wannafind .sidebar .sidebar-nav a.active {color: #3C73E7!important;border-bottom-color: #3C73E7!important;}
 
 /********************/
 /* General styles 	*/
@@ -80,29 +80,29 @@ body.theme-wannafind .sidebar .sidebar-nav a:hover, body.theme-wannafind .sideba
 
 
 body {
-  background-color: #222;
-  color: #eee;
-  background-image: url(https://gunnyarts.github.io/ShadowCom/images/dennis/geo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #222!important;
+  color: #eee!important;
+  background-image: url(https://gunnyarts.github.io/ShadowCom/images/dennis/geo.jpg)!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  background-attachment: fixed!important;
 }
 body::before {
-	content: "";
-    display:block;
-    position: fixed;
-    left:0;
-    right:0;
-    top:0;
-    bottom:0;
-    background-color:rgba(0,0,0,0.30);
-    z-index:-1;
+	content: ""!important;
+    display:block!important;
+    position: fixed!important;
+    left:0!important;
+    right:0!important;
+    top:0!important;
+    bottom:0!important;
+    background-color:rgba(0,0,0,0.30)!important;
+    z-index:-1!important;
 }
 body > .toolbar {
-	background-color: #111;
+	background-color: #111!important;
 }
 .relationship-breadcrumb span>a {
-	color: #e6e6e6;
+	color: #e6e6e6!important;
 }
 
 
@@ -110,91 +110,91 @@ body > .toolbar {
 /* Dashboard */
 
 .box {
-    background-color: rgba(0,0,0,0.58);
+    background-color: rgba(0,0,0,0.58)!important;
 }
 .box .box-header {
-	background-color: inherit;
-    border-color: #444;
+	background-color: inherit!important;
+    border-color: #444!important;
 }
 tr.row-clickable:hover {
 	background-color: rgba(0,0,0,0.58)
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-	border-color: transparent;
+	border-color: transparent!important;
 }
 
 .box .box-header.box-header-flex .lnr.pull-right {
-	color: #fff;
+	color: #fff!important;
 }
 
 .box .box-header.box-header-flex .lnr.pull-right:hover {
-	color: #aaa;
+	color: #aaa!important;
 }
 /* waiting orders */
 .table>thead>tr>td.warning, .table>tbody>tr>td.warning, .table>tfoot>tr>td.warning, .table>thead>tr>th.warning, .table>tbody>tr>th.warning, .table>tfoot>tr>th.warning, .table>thead>tr.warning>td, .table>tbody>tr.warning>td, .table>tfoot>tr.warning>td, .table>thead>tr.warning>th, .table>tbody>tr.warning>th, .table>tfoot>tr.warning>th {
-	background-color: transparent;
+	background-color: transparent!important;
 }
-.text-warning {color: #fff;}
+.text-warning {color: #fff!important;}
 
 /*
 .form-control {
-	background-color: #333;
-    color: #fff;
-    border: 1px solid #000;
+	background-color: #333!important;
+    color: #fff!important;
+    border: 1px solid #000!important;
 }
-.form-control:focus, .form-control:hover,  .form-control:active {border:0;} 
+.form-control:focus, .form-control:hover,  .form-control:active {border:0!important;} 
 */
 .login-modal {background-color:#555}
 .login-modal:after {background-color: #222}
 /* Zenegy */
 .dashboard .box-zenegy .box-header img {
-    background-image: url(https://gunnyarts.github.io/ShadowCom/images/zenegy-white.png);
-    background-size: 106.11px;
-    background-repeat: no-repeat;
-    height: 20px;
-    width: 106.11px;
-    box-sizing: border-box;
-    padding-left: 106.11px;
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/zenegy-white.png)!important;
+    background-size: 106.11px!important;
+    background-repeat: no-repeat!important;
+    height: 20px!important;
+    width: 106.11px!important;
+    box-sizing: border-box!important;
+    padding-left: 106.11px!important;
 }
 .dashboard .box-zenegy tr.zenegy.zenegy-vacation {
-	color: #5fc2f5;
+	color: #5fc2f5!important;
 }
 
 /* Pending orders */
 .table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
-	background-color: #a22323;
+	background-color: #a22323!important;
 }
 .text-danger.glyphicon {
-	color: #eee;
+	color: #eee!important;
 }
 
 /* Dashboard sidebar */
 .dashboard .genfak-circle.genfak-circle-betalingsservice {
-    background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png);
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/betalingsservice-white.png)!important;
 }
 .dashboard .genfak-circle.genfak-circle-zitcom {
-    background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-white.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/zitcom-white.png)!important;
 }
 .dashboard .genfak-circle.genfak-circle-scannet {
-	background-image: url(https://intranet.zitcom.dk/img/logo/scannet-white.png);
+	background-image: url(https://intranet.zitcom.dk/img/logo/scannet-white.png)!important;
 }
 .dashboard .genfak-circle.genfak-circle-curanet {
-    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png);
+    background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png)!important;
 }
 .dashboard .genfak-circle.genfak-circle-clouddk {
-    background-image: url(https://gunnyarts.github.io/ShadowCom/images/clouddk-white.png);
+    background-image: url(https://gunnyarts.github.io/ShadowCom/images/clouddk-white.png)!important;
 }
 .box .box-content+.box-content {
-    border-top: 1px solid #444;
+    border-top: 1px solid #444!important;
 }
 
 /* subscription detail */
 .ui-tabs .ui-tabs-nav li {
-	background-color: #222;
-    border-color: #222;
+	background-color: #222!important;
+    border-color: #222!important;
 }
 .ui-tabs .ui-tabs-nav li a {
-	color: #ccc;
+	color: #ccc!important;
 }
 .ui-tabs .ui-tabs-nav li a:hover {
 	color: #fff !important;
@@ -210,20 +210,20 @@ tr.row-clickable:hover {
 }
 
 .content-body .tabsContainer .tabsContent {
-	background-color: rgba(17, 17, 17, 0.8);
-    border-color: #111;
+	background-color: rgba(17, 17, 17, 0.8)!important;
+    border-color: #111!important;
 }
 .ui-widget-content {
-	color: #eee;
+	color: #eee!important;
 }
 .content-body .tabsContainer .tabsContent .tab-streamer {
-	background-color: #111;
-    border-color: #555;
+	background-color: #111!important;
+    border-color: #555!important;
 }
 
 .productAdminTable>tbody>tr.productControl>td {
 	background-color: rgba(0,0,0,0.24) !important;
-    box-shadow: inset 0 11px 8px -10px #000, inset 0 -11px 8px -10px #000;
+    box-shadow: inset 0 11px 8px -10px #000, inset 0 -11px 8px -10px #000!important;
 }
 .table-hover>tbody>tr:hover {
 	background-color: #222 !important;
@@ -232,37 +232,37 @@ tr.row-clickable:hover {
 	background-color: transparent !important;
 }
 .list-group-item, a.list-group-item {
-	background-color: #333;
-    border-color: #333;
-    color: #ccc;
+	background-color: #333!important;
+    border-color: #333!important;
+    color: #ccc!important;
 }
-.well {background-color: rgba(0,0,0,0.24);border-color:transparent;}
-.table-striped>tbody>tr:nth-of-type(odd) {background-color: #111;}
+.well {background-color: rgba(0,0,0,0.24)!important;border-color:transparent!important;}
+.table-striped>tbody>tr:nth-of-type(odd) {background-color: #111!important;}
 
-.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {background-color:#232323;color:#55a60d}
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {background-color:#232323!important;color:#55a60d}
 
-.sidebar {background-color:#222;color:#eee;border-color:#111;}
-.sidebar .sidebar-nav, .sidebar .sidebar-buttons, .sidebar .type-container .type-header, .sidebar .sidebar-item {border-color:#444;}
-.sidebar .sidebar-item.sidebar-item-clickable:hover, .sidebar .sidebar-item.sidebar-item-clickable.active, .sidebar .sidebarContentHistory .date {background-color:#111;}
-.sidebar .sidebar-nav a {color:#ccc;}
-.sidebar .sidebar-nav a:hover, .sidebar .sidebar-nav a.active {color: #fff;border-bottom-color: #fff;}
+.sidebar {background-color:#222!important;color:#eee!important;border-color:#111!important;}
+.sidebar .sidebar-nav, .sidebar .sidebar-buttons, .sidebar .type-container .type-header, .sidebar .sidebar-item {border-color:#444!important;}
+.sidebar .sidebar-item.sidebar-item-clickable:hover, .sidebar .sidebar-item.sidebar-item-clickable.active, .sidebar .sidebarContentHistory .date {background-color:#111!important;}
+.sidebar .sidebar-nav a {color:#ccc!important;}
+.sidebar .sidebar-nav a:hover, .sidebar .sidebar-nav a.active {color: #fff!important;border-bottom-color: #fff!important;}
 
 .productAdminTable>tbody>tr.productControlOpen>td {background-color:#444}
 
 /* modal */
-.modal-content {background-color: #333;}
-.modal-header, .modal-footer {border-color:#111;}
+.modal-content {background-color: #333!important;}
+.modal-header, .modal-footer {border-color:#111!important;}
 
 /* Sales */
 div.brandpicker a img {
-	display:inline-block;
-    box-sizing: border-box;
-    width:140px;
-    height:30px;
-    padding-left:140px;
-    background-size:140px;
-    background-repeat:no-repeat;
-    background-position:center center;
+	display:inline-block!important;
+    box-sizing: border-box!important;
+    width:140px!important;
+    height:30px!important;
+    padding-left:140px!important;
+    background-size:140px!important;
+    background-repeat:no-repeat!important;
+    background-position:center center!important;
 }
 tbody > tr.mainlevel.open > td, tbody > tr.sublevel > td {
 	background-color: #222 !important;
@@ -271,71 +271,71 @@ tbody > tr.mainlevel.open > td, tbody > tr.sublevel > td {
 table.table>tbody>tr.colorOne {background-color:#111}
 
 .chosen-container .chosen-drop {
-    color: #333;
+    color: #333!important;
 }
 
 
 div.menu {
 
-    background: #111111;
+    background: #111111!important;
 }
 
 .toolbar .toolbar-header {
 
-    background-color: #111111;
+    background-color: #111111!important;
 }
 
 /* Notifications */
 
 .toolbar-user-notifications, .toolbar .toolbar-user .toolbar-user-notifications:hover, .toolbar .toolbar-user .toolbar-user-notifications.active {
-	background-color: #92032e;
+	background-color: #92032e!important;
 }
 .toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger {
-	background: #fff;
-    color: #000;
+	background: #fff!important;
+    color: #000!important;
 }
 
 .select2-results__option {
-	color: #999;
+	color: #999!important;
 }
 .select2-results__option[aria-selected] {
-	background-color:#444;
+	background-color:#444!important;
 }
 .toolbar .toolbar-user .toolbar-user-notifications .notifications {
-	background-color: #333;
+	background-color: #333!important;
 }
 .toolbar .toolbar-user .toolbar-user-notifications .notifications .notification .notification-description {color:#111}
 .toolbar .toolbar-user .toolbar-user-notifications .notifications>ul>li .notification .timeleft.overdue {
-	color: #111;
+	color: #111!important;
 }
 div.sidebarNotificationWindow {
-	background-color: #444;
-	box-shadow: none;
+	background-color: #444!important;
+	box-shadow: none!important;
 }
 div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
-	background-color: inherit;
-	border-color: #000;
+	background-color: inherit!important;
+	border-color: #000!important;
 }
 
 /* Call logger */
 
 .box.box-lightgray {
-	background: rgba(0,0,0,0.58);
-	color:#eee;
+	background: rgba(0,0,0,0.58)!important;
+	color:#eee!important;
 }
 .modal-logtime .modal-logtime-line:hover {
-	background-color:#222;
+	background-color:#222!important;
 }
 
 /* Brand history */
 .brand-history {
-	background-color: #ddd;
-    border-color: #ccc;
-    color: #000;
+	background-color: #ddd!important;
+    border-color: #ccc!important;
+    color: #000!important;
 }
 .brand-history .text-muted {
-	color: inherit;
+	color: inherit!important;
 }
 .brand-history-description {
-	color: inherit;
+	color: inherit!important;
 }
