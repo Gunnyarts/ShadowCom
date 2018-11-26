@@ -98,7 +98,7 @@ body::before {
     background-color:rgba(0,0,0,0.30)!important;
     z-index:-1!important;
 }
-body > .toolbar {
+body > .layout-flex > .toolbar {
 	background-color: #111!important;
 }
 .relationship-breadcrumb span>a {
