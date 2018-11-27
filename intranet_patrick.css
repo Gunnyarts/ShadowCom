@@ -468,7 +468,7 @@ background-color: #575757;
 	background-color: #92032e;
 }
 .toolbar .toolbar-user .toolbar-user-notifications .toolbar-notification-counter.toolbar-notification-counter-danger {
-	background: #fff;
+	background: #fff !important;
     color: #000;
 }
 
