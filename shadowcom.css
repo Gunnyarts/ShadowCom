@@ -1,4 +1,4 @@
-/* Updated 15-08-2018 3:16 PM */
+/* Updated 03-12-2018 09:10 PM */
 
 body {background-color: #222;}
 
@@ -594,3 +594,18 @@ thead .tbl__cell {
   background-color: transparent;
 }
 
+/* Better attachment links in inbox */
+.conversation__text > .layout__media {
+    background-color: #eaeaea !important;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+.conversation__text > .layout__media > .layout__media__ext > a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
