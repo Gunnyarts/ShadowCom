@@ -598,7 +598,7 @@ thead .tbl__cell {
 .conversation__text > .layout__media {
     background-color: #eaeaea !important;
     padding: 6px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border-radius: 5px;
     color: #333;
     font-weight: bold;
