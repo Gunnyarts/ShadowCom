@@ -605,6 +605,9 @@ thead .tbl__cell {
     font-weight: bold;
     text-decoration: none;
 }
+.conversation__text > .layout__media > .u__mr__10 {
+	margin-right: 0px !important;
+}
 .conversation__text > .layout__media > .u__mr__10 svg {
     background-color: #eaeaea !important;
     padding: 7px;
