@@ -1,4 +1,4 @@
-/* Updated 03-12-2018 09:10 PM */
+/* Updated 03-12-2018 09:40 AM */
 
 body {background-color: #222;}
 
@@ -595,17 +595,20 @@ thead .tbl__cell {
 }
 
 /* Better attachment links in inbox */
-.conversation__text > .layout__media {
+.conversation__text > .layout__media > .layout__media__ext > a {
+    display: block;
     background-color: #eaeaea !important;
     padding: 6px;
     margin: 10px 0;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     color: #333;
     font-weight: bold;
     text-decoration: none;
 }
-.conversation__text > .layout__media > .layout__media__ext > a {
+.conversation__text > .layout__media > .u__mr__10 svg {
+    background-color: #eaeaea !important;
+    padding: 7px;
+    margin: 10px 0;
+    border-radius: 5px 0 0 5px;
     color: #333;
-    font-weight: bold;
-    text-decoration: none;
 }
