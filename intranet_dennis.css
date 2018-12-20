@@ -10,7 +10,7 @@ body.theme-zitcom :not(.brand-history) .reseller-logo, div.brandpicker a[href="?
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/zitcom-thumb-white.png)!important;
 }
 /* DanDomain */
-div.brandpicker a[href="?brand=dandomain"] img {padding-left:0;}
+div.brandpicker a[href="?brand=dandomain"] img {padding-left:0 !important}
 .brand-icon.brand-dandomain {background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png)!important;}
 /* ScanNet */
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"]  img, .reseller-logo.reseller-logo-scannet {
