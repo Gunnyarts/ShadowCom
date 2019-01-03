@@ -16,7 +16,13 @@ div.brandpicker a[href="?brand=dandomain"] img {padding-left:0 !important}
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"]  img, .reseller-logo.reseller-logo-scannet {
     background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg)!important;
 }
-img.notification-avatar {
+img.notification-avatar[src*="scannet"] {
+  width: 27px !important;
+  height: 27px !important;
+  padding-left: 27px !important;
+  background-size: contain !important;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png);
 }
 body.theme-scannet div.relationship-breadcrumb > span > a:hover {
@@ -319,14 +325,6 @@ div.sidebarNotificationWindow {
 div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
 	background-color: inherit!important;
 	border-color: #000!important;
-}
-img.notification-avatar {
-  width: 27px !important;
-  height: 27px !important;
-  padding-left: 27px !important;
-  background-size: contain !important;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 
