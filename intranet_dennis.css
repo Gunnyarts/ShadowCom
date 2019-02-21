@@ -34,8 +34,9 @@ body.theme-scannet .toolbar {
 body.theme-scannet div.menu>ul>li>a:hover, body.theme-scannet div.menu>ul>li.openMenuNode>a, body.theme-scannet div.menu ul.nav-sub li a:hover {
 	color: #4CD981!important;
 }
-.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span {
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span, .customerheader .reseller-logo.reseller-logo-scannet {
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png)!important;
+	background-position: center;
 }
 body.theme-scannet .list-group-item.active, body.theme-scannet .list-group-item.active:hover, body.theme-scannet .list-group-item.active:focus, body.theme-scannet a.list-group-item:hover, body.theme-scannet button.list-group-item:hover, body.theme-scannet a.list-group-item:focus, body.theme-scannet button.list-group-item:focus {
 	background-color: #4CD981!important;
@@ -259,6 +260,11 @@ tr.row-clickable:hover {
 
 .productAdminTable>tbody>tr.productControlOpen>td {background-color:#444}
 
+.customerheader {
+    background-color: transparent;
+    border: none;
+}
+
 /* modal */
 .modal-content {background-color: #333!important;}
 .modal-header, .modal-footer {border-color:#111!important;}
@@ -352,3 +358,5 @@ div.sidebarNotificationWindow div.sidebarNotificationWindowWrittenBy {
 .brand-history-description {
 	color: inherit!important;
 }
+
+
