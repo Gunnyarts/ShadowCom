@@ -34,7 +34,7 @@ body.theme-scannet .toolbar {
 body.theme-scannet div.menu>ul>li>a:hover, body.theme-scannet div.menu>ul>li.openMenuNode>a, body.theme-scannet div.menu ul.nav-sub li a:hover {
 	color: #4CD981!important;
 }
-.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span, .customerheader .reseller-logo.reseller-logo-scannet {
+.brand-icon.brand-scannet, .relationship-breadcrumb span.scannet>a span, .customerheader .reseller-logo.reseller-logo-scannet, .tab-summaryheader .brand-logo.brand-logo-scannet {
 	background-image: url(https://gunnyarts.github.io/ShadowCom/images/sc-white.png)!important;
 	background-position: center;
 }
@@ -264,6 +264,10 @@ tr.row-clickable:hover {
     background-color: transparent;
     border: none;
 }
+.tab-summaryheader {
+  background-color: #212121;
+}
+
 
 /* modal */
 .modal-content {background-color: #333!important;}
