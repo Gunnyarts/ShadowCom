@@ -11,7 +11,7 @@ body.theme-zitcom :not(.brand-history) .reseller-logo, div.brandpicker a[href="?
 }
 /* DanDomain */
 div.brandpicker a[href="?brand=dandomain"] img {padding-left:0 !important}
-.brand-icon.brand-dandomain {background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png)!important;}
+.brand-icon.brand-dandomain, .tab-summaryheader .brand-logo.brand-logo-dandomain {background-image: url(https://gunnyarts.github.io/ShadowCom/images/dandomain.png)!important;}
 /* ScanNet */
 body.theme-scannet .reseller-logo, div.brandpicker a[href="?brand=scannet"]  img, .reseller-logo.reseller-logo-scannet {
     background-image: url(https://intranet.zitcom.dk/img/logo/scannet-logo-white.svg)!important;
@@ -46,7 +46,7 @@ body.theme-scannet .list-group-item.active, body.theme-scannet .list-group-item.
 body.theme-scannet .sidebar .sidebar-nav a:hover, body.theme-scannet .sidebar .sidebar-nav a.active {color: #4CD981!important;border-bottom-color: #4CD981!important;}
 
 /* Curanet */
-body.theme-curanet :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=curanet"] img {
+body.theme-curanet :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=curanet"] img, .tab-summaryheader .brand-logo.brand-logo-curanet {
     background-image: url(https://intranet.zitcom.dk/img/logo/curanet-white.png)!important;
 }
 body.theme-curanet div.relationship-breadcrumb > span > a:hover {
@@ -266,6 +266,7 @@ tr.row-clickable:hover {
 }
 .tab-summaryheader {
   background-color: #212121;
+  border-color: #424242;
 }
 
 
