@@ -69,6 +69,9 @@ body.theme-curanet .sidebar .sidebar-nav a:hover, body.theme-curanet .sidebar .s
 body.theme-wannafind :not(.brand-history) .reseller-logo, div.brandpicker a[href="?brand=wannafind"] img {
     background-image: url(https://intranet.zitcom.dk/img/logo/wannafind.png)!important;
 }
+body.theme-wannafind .reseller-logo, div.brandpicker a[href="?brand=wannafind"]  img, .reseller-logo.reseller-logo-wannafind {
+  background-image: url(https://intranet.zitcom.dk/img/icons/breadcrumb/wannafind.png);
+}
 body.theme-wannafind div.relationship-breadcrumb > span > a:hover {
 	color: #3C73E7!important;
 }
