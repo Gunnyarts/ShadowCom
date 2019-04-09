@@ -10,7 +10,7 @@
 
 @-moz-document url-prefix("https://solutions.zitcom.dk/intercom") {
     .card-columns {columns: 1} /* Number of columns */
-
+    /*comment*/
     /*
         hide all named boxes but your own (replace your-id with your actual id)
         inspect box with your name and copy the id - ex. 1872071
