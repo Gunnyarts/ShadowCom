@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           Solutions Intercom Darkmode
+@namespace      github.com/gunnyarts/ShadowCom
+@version        1.0.0
+@description    Darker theme and option to exlude the rest of your team from view
+@author         Dennis Jensen
+@updateURL      https://gunnyarts.github.io/ShadowCom/userstyles/solutions_intercom.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://solutions.zitcom.dk/intercom") {
+    .card-columns {columns: 1} /* Number of columns */
+
+    /*
+        hide all named boxes but your own (replace your-id with your actual id)
+        inspect box with your name and copy the id - ex. 1872071
+    */
+    /* .card-columns > div:not([id="your-id"]) {display: none;} */
+    
+    
+    /* Dark Styling for Solutions Intercom board */
+
+    body.sidebar-collapse > .wrapper > nav {border-color: #111 !important;}
+    body.sidebar-collapse > .wrapper > .main-sidebar {width: 0}
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {margin-left: 0 !important}
+    .content-wrapper {background-color: #222}
+
+
+    .card {
+        background-color: #555;
+        color: #ccc;
+    }
+    .content-wrapper > .container-fluid > .row:first-child > div > .card {background-color: #333}
+    .card a, .card .a-link:link, .card .a-link:visited {color: #ddd}
+    
+}
