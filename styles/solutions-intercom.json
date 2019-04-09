@@ -1,0 +1,20 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1554839383928,
+		"name": "solutions.zitcom.dk",
+		"sections": [
+			{
+				"code": "@import \"https://gunnyarts.github.io/ShadowCom/solutions_intercom.css\";\n\n.card-columns {columns: 1} /* Number of columns */\n\n/*\n    hide all named boxes but your own (replace your-id with your actual id)\n    inspect box with your name and copy the id - ex. 1872071\n*/\n/* .card-columns > div:not([id=\"your-id\"]) {display: none;} */",
+				"urlPrefixes":[
+      "https://solutions.zitcom.dk/intercom"
+    ]
+			}
+		],
+		"updateDate": 1554843551802
+	}
+]
