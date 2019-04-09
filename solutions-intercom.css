@@ -1,0 +1,14 @@
+/* Dark Styling for Solutions Intercom board */
+
+body.sidebar-collapse > .wrapper > nav {border-color: #111 !important;}
+body.sidebar-collapse > .wrapper > .main-sidebar {width: 0}
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {margin-left: 0 !important}
+.content-wrapper {background-color: #222}
+
+
+.card {
+    background-color: #555;
+    color: #ccc;
+}
+.content-wrapper > .container-fluid > .row:first-child > div > .card {background-color: #333}
+.card a, .card .a-link:link, .card .a-link:visited {color: #ddd}
