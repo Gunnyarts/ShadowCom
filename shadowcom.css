@@ -1,619 +1,243 @@
-/* Updated 03-12-2018 09:40 AM */
-
-body {background-color: #222;}
-
-.color-map__early-2018-brand-refresh .conversation__inbox__outlet, .color-map__early-2018-brand-refresh .conversation__inbox__current-conversation {
-    background-color: #333 !important;
-}
-
-.color-map__early-2018-brand-refresh .conversation__inbox__list-header, .color-map__early-2018-brand-refresh .conversation__inbox__current-context, .color-map__early-2018-brand-refresh .conversation__inbox__list, .color-map__early-2018-brand-refresh .conversation__inbox__list-filter, .color-map__early-2018-brand-refresh .conversation__list__item {
-    background-color: #1f1f1f;
-}
-
-.color-map__early-2018-brand-refresh .conversation__inbox__list-wrapper {
-        border-right: 1px solid rgba(0, 0, 0, 0.83);
-}
-
-.color-map__early-2018-brand-refresh .submenu__collapse-toggle__icon {
-    color: #c7c7c7;
-}
-
-.submenu__collapse-toggle__icon {
-    color: #d0d0d0;
-}
-.conversation__inbox__list-header.o__uses-product-refresh-iteration {
-	border-bottom-color: transparent;
-}
-
-.color-map__early-2018-brand-refresh {
-    color: #c9c9c9;
-    background-color: #eee;
-}
-
-
-
-.color-map__early-2018-brand-refresh .btn.o__secondary, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay, .color-map__early-2018-brand-refresh .f__custom-select__box {
-    color: #c9c9c9;
-}
-
-
-.color-map__early-2018-brand-refresh .submenu {
-    background-image: none;
-    background-color: #181818;
-}
-
-
-.color-map__early-2018-brand-refresh .nav-vertical__link, .color-map__early-2018-brand-refresh .nav-vertical__link.ember-transitioning-out, .color-map__early-2018-brand-refresh .submenu__header__search-icon, .color-map__early-2018-brand-refresh .submenu__header__title, .color-map__early-2018-brand-refresh .submenu__sections__section__items__item, .color-map__early-2018-brand-refresh .submenu__sections__section__title__link {
-    color: #cecece;
-}
-
-
-.color-map__early-2018-brand-refresh .conversation__list__item.o__active, .color-map__early-2018-brand-refresh .conversation__list__item.o__active:hover, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected:hover, .color-map__early-2018-brand-refresh .conversation__list__item:hover {
-    background-color: #4c4c4c;
-}
-
-
-.beta__left-nav-colors.color-map__early-2018-brand-refresh .inbox__main-container__wrapper, .beta__left-nav-colors.color-map__early-2018-brand-refresh .left-nav.o__vertical-nav, .beta__left-nav-colors.color-map__early-2018-brand-refresh .nav-vertical {
-    background-image: none;
-    background-color: #020202;
-}
-
-
-.color-map__early-2018-brand-refresh .lock__overlay, .lock__overlay {
-    background-color: rgba(65, 65, 65, 0.9);
-}
-
-
-.color-map__early-2018-brand-refresh .profile__location.o__product-refresh, .color-map__early-2018-brand-refresh .t__conversation-summary {
-    color: #b3b3b3;
-}
-
-.color-map__early-2018-brand-refresh .t__h4 {
-    font-size: 14px;
-    color: #d5d5d5;
-}
-
-.color-map__early-2018-brand-refresh .conversation__list__item__main-participant__name {
-    color: #d5d5d5;
-}
-
-.color-map__early-2018-brand-refresh .conversation__list__item.o__active .conversation__list__item__summary {
-    color: #d5d5d5;
-}
-
-.color-map__early-2018-brand-refresh .btn.o__secondary:hover, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay:hover, .color-map__early-2018-brand-refresh .f__custom-select__box.o__subtle:hover, .color-map__early-2018-brand-refresh .f__custom-select__box:hover {
-    color: #286efa;
-    border: 1px solid #286efa;
-    box-shadow: none;
-    background-color: #252525;
-}
-
-
-.color-map__early-2018-brand-refresh .btn.o__destructive, .color-map__early-2018-brand-refresh .btn.o__destructive:focus, .color-map__early-2018-brand-refresh .btn.o__destructive:hover, .color-map__early-2018-brand-refresh .btn.o__secondary, .color-map__early-2018-brand-refresh .btn.o__secondary-destructive, .color-map__early-2018-brand-refresh .btn.o__secondary-destructive:focus, .color-map__early-2018-brand-refresh .btn.o__secondary-destructive:hover, .color-map__early-2018-brand-refresh .btn.o__secondary-live, .color-map__early-2018-brand-refresh .btn.o__secondary:focus, .color-map__early-2018-brand-refresh .btn.o__secondary:hover, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay:focus, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay:hover, .color-map__early-2018-brand-refresh .f__custom-select__box, .color-map__early-2018-brand-refresh .f__custom-select__box:focus, .color-map__early-2018-brand-refresh .f__custom-select__box:hover {
-    background-color: #020202;
-}
-
-.color-map__early-2018-brand-refresh .conversation__inbox, .conversation__inbox {
-    background: #ccc;
-}
-.color-map__early-2018-brand-refresh .inbox__card__header {
-    background-color: #1f1f1f;
-}
-.color-map__early-2018-brand-refresh .conversation__card__title__em-link {
-    color: #ccc;
-}
-.color-map__early-2018-brand-refresh .btn.o__secondary, .color-map__early-2018-brand-refresh .educate__icon-selector.overlay, .color-map__early-2018-brand-refresh .f__custom-select__box {
-    color: #ccc;
-}
-
-.color-map__early-2018-brand-refresh .t__h3 {
-    color: #a4a4a4;
-}
-
-.color-map__early-2018-brand-refresh .profile-sidebar-section__section-title {
-    color: #a4a4a4;
-}
-.profile-sidebar-section__section-title {
-    font-weight: 500;
-    color: #a4a4a4;
-}
-
-.color-map__early-2018-brand-refresh .ds-new__dropdown, .ds-new__dropdown, .if-this-then-that__main {
-    background-color: #313131;
-}
-
-.color-map__early-2018-brand-refresh .dropdown__list-item, .color-map__early-2018-brand-refresh .ds-new__dropdown__block__item {
-    font-weight: 500;
-    padding: 6px 12px;
-    color: #b0b0b0;
-}
-
-.color-map__early-2018-brand-refresh .conversation__bubble.o__user-comment {
-    background-color: #393939!important;
-    color: #eee !important;
-   border-color: #333!important;
-}
-.color-map__early-2018-brand-refresh .conversation__bubble.o__admin-comment {
-   background-color: #444!important;
-   color: #fff!important;
-   border-color:#444!important;
-}
-
-.color-map__early-2018-brand-refresh .t__body {
-    color: #d2d2d2;
-}
-
-.color-map__early-2018-brand-refresh .conversation__mini-card:hover {
-    background-color: #333!important;
-    border-color: #1e1e1e;
-}
-
-.color-map__early-2018-brand-refresh .submenu__information-overlay {
-background: #333;
-
-}
-
-.color-map__early-2018-brand-refresh .tooltips__inbox-hovercard__title {
-    color: #fafafa;
-}
-
-.color-map__early-2018-brand-refresh .submenu__information-overlay__caret-vector {
-    fill: #333;
-}
-
-.submenu__information-overlay__caret-vector {
-    fill: #333;
-    stroke: #333;
-}
-
-
-.card, .color-map__early-2018-brand-refresh .card {
-    background-color: #222;
-}
-.color-map__early-2018-brand-refresh .inbox__conversation-controls__pane-selector.o__note-selected {
-    background-color: #333;
-}
-.color-map__early-2018-brand-refresh .inbox__conversation-controls__internal-part {
-    background-color: #333 !important;
-}
-.color-map__early-2018-brand-refresh .tabs__discrete-tab, .color-map__early-2018-brand-refresh .tabs__tab {
-    color: #ccc
-}
-
-.color-map__early-2018-brand-refresh .conversation__bubble.o__admin-comment.o__is-typing-on {
-    background-color: #333 !important;
-    border-color: #333 !important;
-}
-
-.color-map__early-2018-brand-refresh .conversation__bubble.o__admin-note {
-    border-color: #ffe8c2 !important;
-    background-color: #ffe8c2 !important;
-    color: black;
-}
-
-.color-map__early-2018-brand-refresh .conversation__list__item.o__active .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item.o__active:hover .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item.o__active:not(.o__selected) .conversation__list__timestamp, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item.o__selected:hover .conversation__card__header__company-name, .color-map__early-2018-brand-refresh .conversation__list__item:hover .conversation__card__header__company-name {
-    color: #b0b0b0;
-}
-
-.conversation__list__item.o__active .conversation__list__item__summary__quotes, .conversation__list__item.o__active:hover .conversation__list__item__summary__quotes, .conversation__list__item__summary__quotes {
-    background-color: transparent;
-}
-
-.beta__left-nav-colors.color-map__early-2018-brand-refresh .left-nav.o__vertical-nav .product-icon__link.o__subscribed .product-icon__symbol {
-    fill: #6b6b6b!important;
-}
-
-.conversation__outlet__inner__background.o__background-1, .color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray {
-   background-color: #222 !important;
-}
-
-.color-map__early-2018-brand-refresh .conversation__bubble.o__user-comment {
-   background-color: #393939;
-   color: #fff !important;
-   border-color: #333;
-}
-
-.color-map__early-2018-brand-refresh .inbox__conversation-controls__pane-selector.o__note-selected {
-    background-color: #ffe8c2;
-}
-
-.color-map__early-2018-brand-refresh .inbox__conversation-controls__internal-part {
-    background-color: #ffe8c2 !important;
-    color: black;
-}
- 
-
-.color-map__early-2018-brand-refresh .left-nav__link.o__guide .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__messenger .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__operator .left-nav__icon, .color-map__early-2018-brand-refresh .left-nav__link.o__product-changes .left-nav__icon {
-    fill: #a4a3a3!important;
-}
-.beta__product-refresh-iter-2, .beta__product-refresh-iter-2 .left-nav__link.o__selected, .beta__product-refresh-iter-2 .left-nav__link.o__selected .left-nav__icon__purchasable:after, .beta__product-refresh-iter-2 .left-nav__link.o__selected .left-nav__icon__purchasable:before {
-    background-color: transparent;
-}
-
-
-.color-map__early-2018-brand-refresh .user-list__header.o__visual-refresh, .color-map__early-2018-brand-refresh .user-list__header.o__without-select-all.o__without-selected-users.o__visual-refresh, .user-list__header.o__visual-refresh, .user-list__header.o__without-select-all.o__without-selected-users.o__visual-refresh {
-    background-color: #444;
-    border-bottom: 0;
-}
-
-.color-map__early-2018-brand-refresh .nav-vertical__search__input {
-    background-color: transparent;
-    border: 0px solid rgba(0,0,0,.1);
-    outline: 0;
-    color: #bfbfbf;
-}
-
-
-.color-map__early-2018-brand-refresh .nav-vertical__search__backing {
-    background-color: #585858;
-
-}
-
-
-
-.color-map__early-2018-brand-refresh .inbox__conversation-controls__pane-selector, .ember-power-calendar, .ember-power-calendar-days, .ember-power-calendar-days *, .ember-power-calendar-nav, .ember-power-calendar-nav *, .import.csv *, .import.csv .csv_completion .tagging_form {
-
-    background: #333;
-}
-
-.color-map__early-2018-brand-refresh .conversation__inbox__list-wrapper {background-color:#1f1f1f}
-
-
-.color-map__early-2018-brand-refresh .message__editor__audience__sidebar {
-    background-color: #333333;
-}
-
-.color-map__early-2018-brand-refresh .message__editor__audience__main, .message__editor__audience__main {
-    background: #333333;
-}
-
-.color-map__early-2018-brand-refresh .message__editor__panel__inner-container, .message__editor__panel__inner-container {
-    background-color: #333333;
-}
-
-
-.color-map__early-2018-brand-refresh .f__horizontal-select.o__selected {
-    background-color: #1f1f1f;
-    border-color: #286efa;
-    box-shadow: inset 0 0 0 1px #286efa;
-}
-
-.color-map__early-2018-brand-refresh .f__horizontal-select {
-    background-color: #333;
-    border-color: #1f1f1f #1f1f1f #1f1f1f transparent;
-}
-
-.color-map__early-2018-brand-refresh .f__horizontal-select.o__disabled:hover {
-    background-color: #1f1f1f;
-}
-
-.f__horizontal-select.o__disabled:hover {
-    background-color: #1f1f1f;
-}
-.color-map__early-2018-brand-refresh .f__horizontal-select:active {
-    background-color: #1f1f1f;
-    box-shadow: 0 1px 3px 0 rgba(59,62,66,.1);
-}
-
-.color-map__early-2018-brand-refresh .f__horizontal-select:hover {
-    background-color: #1f1f1f;
-}
-
-.color-map__early-2018-brand-refresh .message__editor__review__panel, .message__editor__review__panel {
-    background-color: #333;
-}
-
-.color-map__early-2018-brand-refresh .message__editor__review__validation-message {
-    background: #1f1f1f;
-    border: 1px solid rgba(0,0,0,.2);
-}
-
-.color-map__early-2018-brand-refresh .reporting__report-card-filters {
-    background-color: #333;
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    border-top: 1px solid rgba(0,0,0,.2);
-}
-
-.color-map__early-2018-brand-refresh .users-and-companies__predicates-editor {
-    background-color: #333;
-}
-
-/**************************/
-/*  Articles & Helpcenter */
-/**************************/
-.beta__left-nav-colors .main, .color-map__early-2018-brand-refresh .beta__left-nav-colors .main {
-    background-color: #222;
-}
-.color-map__early-2018-brand-refresh .t__h1 {
-    color: #ccc;
-}
-.btn__footer, .color-map__early-2018-brand-refresh .tbl__cell, .color-map__early-2018-brand-refresh td.tbl__cell, .tbl__cell, td.tbl__cell {
-    background-color: #333;
-}
-.color-map__early-2018-brand-refresh .educate__collection__card__icon, .color-map__early-2018-brand-refresh .educate__collection__dropdown__icon, .color-map__early-2018-brand-refresh .educate__icon {
-    stroke: #fff;
-}
-.color-map__early-2018-brand-refresh .c__darkest {
-    color: #fff;
-}
-.beta__left-nav-colors .about__overlay.o__no-product, .beta__left-nav-colors .about__overlay.o__productized, .color-map__early-2018-brand-refresh .beta__left-nav-colors .about__overlay.o__no-product, .color-map__early-2018-brand-refresh .beta__left-nav-colors .about__overlay.o__productized {
-    background-color: #222;
-}
-/**************************/
-/*  Insights                  */
-/**************************/
-.beta__left-nav-colors .main__content-outlet {
-    background-color: #222;
-}
-.color-map__early-2018-brand-refresh thead tr:first-child th.tbl__cell {
-    border-color: #333;
-    background-color: #333;
-}
-.color-map__early-2018-brand-refresh .t__h2 {
-    color: #fff;
-}
-/**************************/
-/*  About                 */
-/**************************/
-.color-map__early-2018-brand-refresh .about {
-    background-color: #333;
-}
-.color-map__early-2018-brand-refresh .about__section.o__info {
-    background-color: #333;
-}
-
-
-
-/*****************************/
-/*  Messages                */
-/******************************/
-.color-map__early-2018-brand-refresh .message__list-legacy__message-list-title, .message__list-legacy__message-list-title {
-    background-color: #1f1f1f;
-    border-color: #1f1f1f;
-}
-.color-map__early-2018-brand-refresh .message__list-legacy__message-list-outer-container, .message__list-legacy__message-list-outer-container {
-    background-color: #222;
-}
-.color-map__early-2018-brand-refresh .message__list-legacy__message-list-table.tbl.o__fit th, .message__list-legacy__message-list-table.tbl.o__fit th {
-    background-color: #393939;
-}
-.color-map__early-2018-brand-refresh .message__editor__panel__title {
-    background-color: #333;
-}
-.color-map__early-2018-brand-refresh h2.message__editor__panel__fadable-text {
-    color: #fff;
-}
-.message__editor__panel__fadable-text.o__product-ui-enabled {
-    color: #ccc;
-}
-.color-map__early-2018-brand-refresh .message__editor__content, .message__editor__content {
-    background-color: #333;
-}
-.color-map__early-2018-brand-refresh .message__editor__stats__container {
-    background-color: #444;
-}
-.color-map__early-2018-brand-refresh .message__editor__stats__tab.o__active {
-    background-color: #ccc;
-}
-.color-map__early-2018-brand-refresh .message__editor__stats__tab:hover:not(.o__disabled):not(.o__active) {
-    background-color: #bbb;
-}
-.color-map__early-2018-brand-refresh .table__body__wrapper {
-    background-color: #444;
-}
-thead .tbl__cell {
-    background-color: #444 !important;
-}
-.color-map__early-2018-brand-refresh .message__editor__panel__fadable-text.o__product-ui-enabled {
-    color: #ccc;
-}
-/* Campaigns > Example Campaign */
-.color-map__early-2018-brand-refresh .content-editor__step,.color-map__early-2018-brand-refresh .campaign__setup-header ,.campaign__setup-content, .color-map__early-2018-brand-refresh .campaign__setup-content {
-    background-color: #333;
-}
-.campaign__icon::before {background: linear-gradient(to bottom,rgba(255,255,255,0) 0,#111 100%) !important}
-.campaign__icon > svg > circle {fill: #111 !important;}
-.campaign__icon::after {background:linear-gradient(to top,rgba(255,255,255,0) 0,#111 100%) !important}
-.color-map__early-2018-brand-refresh .campaign__entry-exit__item, .color-map__early-2018-brand-refresh .campaign__entry-exit {border-color: #111;}
-
-
-
-
-.conversation__stream::-webkit-scrollbar {
-    width: 1em;
-}
- 
-.conversation__stream::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
-}
- 
-.conversation__stream::-webkit-scrollbar-thumb {
-  background-color: #444;
-  outline: 0px solid slategrey;
-}
-
-.o__vertical-nav::-webkit-scrollbar {
-    width: 1em;
-}
- 
-.o__vertical-nav::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
-}
- 
-.o__vertical-nav::-webkit-scrollbar-thumb {
-  background-color: #444;
-  outline: 0px solid slategrey;
-}
-
-.o__scrolls::-webkit-scrollbar-thumb {
-  background-color: #444;
-  outline: 0px solid slategrey;
-}
-
-.o__scrolls::-webkit-scrollbar {
-    width: 1em;
-}
- 
-.o__scrolls::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
-}
-.ember-view::-webkit-scrollbar-thumb {
-  background-color: #444;
-  outline: 0px solid slategrey;
-}
-
-.ember-view::-webkit-scrollbar {
-    width: 1em;
-}
- 
-.ember-view::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 9px rgba(0,0,0,0.7);
-}
-
-
-.color-map__early-2018-brand-refresh .visibility__row {
-    color: #888;
-    background-color: #333;
-  
-}
-
-.color-map__early-2018-brand-refresh .visibility__row {
-    border: 0;
-    border-bottom: 1px solid #444;
-    padding: 5px 20px 5px 10px;
-}
-
-.color-map__early-2018-brand-refresh .color-map__early-2018-brand-refresh .visibility__row:first-of-type, .color-map__early-2018-brand-refresh .visibility__row:first-of-type {
-    border-top: 1px solid #444;
-}
-
-.color-map__early-2018-brand-refresh .visibility__row__name {
-    color: #fff;
-}
-
-
-.color-map__early-2018-brand-refresh .m__rule-card__content-wrapper {
- 
-    background-color: #444;
-}
-
-
-
-.color-map__early-2018-brand-refresh .m__rule-card__content-wrapper {
- 
-    background-color: #444;
-}
-
-
-.color-map__early-2018-brand-refresh .card__header.o__expanded {
-    background-color: #333;
-}
-
-
-
-.color-map__early-2018-brand-refresh .m__rule-card__predicate-dropdown, .color-map__early-2018-brand-refresh .m__rule-card__predicate-input {
-    color: #e0dfdf;
-}
-
-.beta__left-nav-colors .m__rules__priority-indicator__text, .color-map__early-2018-brand-refresh .beta__left-nav-colors .m__rules__priority-indicator__text {
-    background-color: #333;
-}
-
-.color-map__early-2018-brand-refresh .m__rules__priority-indicator:before {
-    background-color: #333;
-}
-
-.color-map__early-2018-brand-refresh .ds-new__dropdown__group__filter__input {
-    color: white;
-}
-
-/* Account settings */
-.card__inner {
-	background-color: #333 !important;
-	border-color: #1f1f1f;
-}
-.card__inner .layout__box .layout__media {
-	border-color: #1f1f1f;
-}
-
-/* Remove stupid gradients */
-.submenu__sections__section__mask {
-    background-image: none !important;
-}
-.left-nav {
-	background: #1f1f1f;
-}
-.product-icon__link.o__subscribed .product-icon__symbol, .product-icon__link .product-icon__symbol {
-	fill: #ccc !important;
-}
-
-
-.profile__note-textarea {
+/* Variables */
+
+    :root {
+        --bg-main: #333;
+        --bg-2: #222;
+        --bg-3: #111;
+
+        --nav-bg: #111;
+
+        --text-main: #eee;
+        --text-contrast: #111;
+        --text-links: #55c4e0;
+        --text-hover: #ddd;
+        --text-faded: #999;
+/*         --highlight: rgb(0, 90, 160);
+        --highlight-active: rgb(90, 180, 250); */
+        
+        --highlight: rgb(241, 31, 171);
+        --highlight-active: rgb(234, 140, 217);
+        --highlight-active-color: #111;
+
+        --tooltip-bg: #333;
+        --tooltip-text: #65ff82;
+        --tooltip-highlight: #ff6582;
+
+        --away-toggle-bg: #111;
+        --away-toggle-switch: #888;
+        --away-toggle-off: #59eae5;
+        --away-toggle-on: #ff6582;
+
+        --notif-bg: #ffe2b3;
+        --notif-text: #111;
+
+        --filter-btn-bg: #888;
+        --filter-btn-text: #fff;
+        --filter-btn-bg-active: #555;
+        --filter-btn-text-active: #ccc;
+
+        --btn-bg: transparent;
+        --btn-text: #ccc;
+        --btn-bg-active: transparent;
+        --btn-text-active: rgb(234, 140, 217);
+        
+        --scrollbar-bg: #555;
+        --scrollbar-thumb: #222;
+        --scrollbar-width: 8px;
+        
+        --conversation-admin-bg: #222;
+        --conversation-admin-text: #eee;
+        --conversation-admin-link: #279dd9;
+        --conversation-admin-link-hover: #279dd9;
+        --conversation-customer-bg: #444;
+        --conversation-customer-text: #eee;
+        --conversation-customer-link: #6cb3ff;
+        --conversation-customer-link-hover: #8ec4fd;
+        --conversation-note-bg: #FEEDAF;
+        --conversation-note-text: #000;
+        --conversation-note-link: #2355ca;
+        --conversation-note-link-hover: #5783ea;
+        --conversation-mention-bg: #fbc916;
+        --conversation-mention-text: #222;
+    }
+    /***********/
+    /* General */
+    /***********/
+
+    body {
+        background-color: var(--bg-main);
+        color: var(--text-main);
+    }
+    .main {background-color: var(--bg-main)}
+    .application__component {color: var(--text-main)}
+
+    .t__body, .t__h1, .t__h2, .t__h3, .t__h1__deem, .t__h2__deem {color:var(--text-main)}
+
+    .filter-block {background-color:var(--filter-btn-bg);color:var(--filter-btn-text)}
+    .filter-block__details, .filter-block__details__specific-error, .filter-block__name {color:var(--filter-btn-text)}
+    .filter-block.o__clickable:hover, .filter-block.o__open, .filter-block.o__open:hover {background-color:var(--filter-btn-bg-active)}
+    .filter-block.o__clickable:hover .filter-block__details, .filter-block.o__clickable:hover .filter-block__name, .filter-block.o__open .filter-block__details, .filter-block.o__open .filter-block__name, .filter-block.o__open:hover .filter-block__details, .filter-block.o__open:hover .filter-block__name,.filter-block__delete {color:var(--filter-btn-text-active)}
+
+    .f__custom-select__box, .btn.o__destructive, .btn.o__destructive:focus, .btn.o__destructive:hover, .btn.o__secondary, .btn.o__secondary-destructive, .btn.o__secondary-destructive:focus, .btn.o__secondary-destructive:hover, .btn.o__secondary-live, .btn.o__secondary:focus, .btn.o__secondary:hover {background-color: var(--btn-bg);color:var(--btn-text);border-color:transparent;}
+
+
+    .product-icon__link.ember-transitioning-in .product-icon__symbol, .product-icon__link.o__selected.o__subscribed:not(.ember-transitioning-out) .product-icon__symbol, .product-icon__link.o__selected:not(.ember-transitioning-out) .product-icon__symbol, .product-icon__link.o__subscribed.ember-transitioning-in .product-icon__symbol, .product-icon__link.o__subscribed:hover .product-icon__symbol {fill: inherit !important;}
+
+    .dropdown, .overlay {background-color: var(--tooltip-bg)}
+    .dropdown__list-item.o__item-selected {color: var(--highlight-active)}
+    .dropdown__list-item.o__item-selected .interface-icon path {fill: var(--highlight-active) !important}
+    .dropdown__list-item.o__hoverable:hover {background-color: var(--highlight-active); color: var(--highlight-active-color)}
+    .dropdown__list-item.o__item-selected:hover .interface-icon path {fill: var(--highlight-active-color) !important}
+    
+    .submenu__header__search-icon > .interface-icon > path, .submenu__collapse-toggle__icon > .interface-icon > path {fill: var(--text-main) !important}
+    .submenu__header__search-icon:hover > .interface-icon > path, .submenu__collapse-toggle__icon:hover > .interface-icon > path {fill: var(--highlight-active) !important}
+    
+    .btn.o__primary, .btn.o__primary:focus {background-color: var(--highlight-active); color: var(--highlight-active-color);}
+    
+    
+    
+    /* scrollbars */
+    ::-webkit-scrollbar              { background-color: var(--scrollbar-bg); width: var(--scrollbar-width) }
+    ::-webkit-scrollbar-thumb        { background-color: var(--scrollbar-thumb) }
+    ::-webkit-scrollbar-button       { displaY:none }
+    ::-webkit-scrollbar-track        { background-color: transparent}
+    ::-webkit-scrollbar-track-piece  { background-color: transparent }
+    ::-webkit-scrollbar-corner       { background-color: transparent }
+    ::-webkit-resizer                { background-color: transparent }
+    
+    
+    /*******/
+    /* Nav */
+    /*******/
+
+    .left-nav {background-color: var(--nav-bg)}
+
+    .left-nav__link, .product-icon__link.o__subscribed .product-icon__symbol,.product-icon__link .product-icon__symbol, .left-nav__link.o__appstore .left-nav__icon, .left-nav__link.o__guide .left-nav__icon, .left-nav__link.o__messenger .left-nav__icon, .left-nav__link.o__operator .left-nav__icon, .left-nav__link.o__product-changes .left-nav__icon, .left-nav__link.o__appstore .left-nav__icon, .left-nav__link.o__guide .left-nav__icon, .left-nav__link.o__messenger .left-nav__icon, .left-nav__link.o__operator .left-nav__icon, .left-nav__link.o__product-changes .left-nav__icon, .left-nav__link.o__product-tours .left-nav__icon, .left-nav__link.o__reporting .left-nav__icon {fill: var(--highlight) !important}
+    .left-nav__link.o__selected, .left-nav__link:hover .left-nav__icon, .left-nav__link:hover,.left-nav__link.o__appstore.ember-transitioning-in .left-nav__icon, .left-nav__link.o__appstore.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__appstore:hover .left-nav__icon, .left-nav__link.o__guide.ember-transitioning-in .left-nav__icon, .left-nav__link.o__guide.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__guide:hover .left-nav__icon, .left-nav__link.o__messenger.ember-transitioning-in .left-nav__icon, .left-nav__link.o__messenger.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__messenger:hover .left-nav__icon, .left-nav__link.o__operator.ember-transitioning-in .left-nav__icon, .left-nav__link.o__operator.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__operator:hover .left-nav__icon, .left-nav__link.o__product-changes.ember-transitioning-in .left-nav__icon, .left-nav__link.o__product-changes.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__product-changes:hover .left-nav__icon, .left-nav__link.o__product-tours.ember-transitioning-in .left-nav__icon, .left-nav__link.o__product-tours.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__product-tours:hover .left-nav__icon, .left-nav__link.o__reporting.ember-transitioning-in .left-nav__icon, .left-nav__link.o__reporting.o__selected:not(.ember-transitioning-out) .left-nav__icon, .left-nav__link.o__reporting:hover .left-nav__icon  {fill: var(--highlight-active) !important;}
+    
+
+    .left-nav__link.o__selected, .left-nav__link.o__selected .left-nav__icon__purchasable:after, .left-nav__link.o__selected .left-nav__icon__purchasable:before {background-color: var(--nav-bg)}
+    .left-nav__link .left-nav__icon,.product-icon__link .product-icon__symbol  {transition-delay: 0s !important; transition-duration: 0s !important;}
+
+    /************/
+    /* Platform */
+    /************/
+
+
+
+
+
+    /* Messages */
+
+    /************/
+    /* Inbox    */
+    /************/
+    
+    .submenu__sections__section, .submenu__sections__section__items.o__section-padding-right, .submenu__sections__section__title.o__section-padding-right, .submenu__sections__section__items__inner {padding: 0}
+    .nav-vertical__link {padding: 8px 12px !important}
+    
+    .submenu, .submenu__header__title {background-color: var(--bg-2) !important; color: var(--text-main) !important;}
+    .submenu__sections__section__mask {background-image: none !important}
+    .submenu__sections__section__title__link, .nav-vertical__link, .submenu__sections__section__items__item__count {color: var(--text-main) !important}
+    
+    .nav-vertical__link.ember-transitioning-in, .nav-vertical__link.ember-transitioning-in:hover, .nav-vertical__link.o__selected:not(.ember-transitioning-out), .nav-vertical__link.o__selected:not(.ember-transitioning-out):hover, .nav-vertical__link:hover, .nav-vertical__settings-icon:hover {background-color: var(--highlight-active) !important; color: var(--highlight-active-color) !important}
+    .nav-vertical__link.ember-transitioning-in .submenu__sections__section__items__item__count, .nav-vertical__link.o__selected:not(.ember-transitioning-out) .submenu__sections__section__items__item__count, .nav-vertical__link:hover .submenu__sections__section__items__item__count {color: var(--highlight-active-color) !important}
    
-    background-color: rgb(255, 232, 194);
+    
+    .conversation__inbox__list-wrapper, .conversation__inbox__list-header, .conversation__inbox__list-filter, .conversation__inbox__list {
+        background-color: var(--bg-2);
+        border-color: var(--bg-main) !important;
+    }
+    .conversation__list__item.o__active, .conversation__list__item.o__active:hover,  .conversation__list__item:hover {background-color: var(--bg-main)}
+    .conversation__list__item:hover {background-color: var(--bg-2)}
+    .conversation__list__item {background-color: var(--bg-3)}
+    
+    .conversation__list__item.o__active .conversation__list__item__main-participant__name, .conversation__list__item.o__selected .conversation__list__item__main-participant__name, .conversation__list__item:hover .conversation__list__item__main-participant__name, .submenu__sections__section__title__link:hover {color: var(--highlight-active) !important}
+    .conversation__list__item.o__active:not(.o__selected), .conversation__list__item.o__active .conversation__card__header {border-left-color: var(--highlight-active)}
+    
+    .conversation__list__item.o__active .conversation__list__item__summary, .conversation__list__item.o__selected .conversation__list__item__summary, .conversation__list__item:hover .conversation__list__item__summary, .conversation__list__item__main-participant__name, .conversation__list__item.o__active .conversation__card__header__company-name, .conversation__list__item.o__selected .conversation__card__header__company-name, .conversation__list__item:hover .conversation__card__header__company-name, .conversation__list__item.o__active .conversation__list__timestamp, .conversation__list__item.o__active:not(.o__selected) .conversation__list__timestamp, .conversation__list__item.o__selected .conversation__list__timestamp {color: var(--text-faded)}
+    
+    .conversation__list__badge.o__unread {background-color: var(--highlight)}
+    
+    .tutorial-helper__inbox-conversations .submenu__sections__section__items__show-more {margin-left: 5px;}
+    .btn__tertiary__deemphasized, .nav-vertical__settings-icon {color: var(--text-faded)}
+    .btn__tertiary__deemphasized:hover, .nav-vertical__settings-icon:hover {color: var(--highlight-active) !important; background-color: initial !important}
+    
+    .f__custom-select__box.o__subtle, .f__custom-select__box {
+        background-color: var(--btn-bg);
+        border-color: var(--btn-text);
+        color: var(--btn-text);
+    }
+    .f__custom-select__box.o__subtle:hover, .f__custom-select__box:hover {
+        background-color: var(--btn-bg-active);
+        border-color: var(--btn-text-active);
+        color: var(--btn-text-active);
+    }
+    
+    .quick-action {color: var(--color-faded)}
+    .quick-action:active, .quick-action:hover {color: var(--highlight-active)}
+    
+    .submenu__information-overlay {background-color: var(--tooltip-bg)}
+    .submenu__information-overlay__caret-vector {fill: var(--tooltip-bg);stroke:var(--tooltip-bg)}
+    .tooltips__inbox-hovercard__title {color: var(--text-main)}
+    
+    
+    .conversation__inbox__outlet, .conversation__inbox__current-conversation, .inbox__card__header {background-color: var(--bg-main)}
+    .conversation__card__title__em-link {color: var(--text-main)}
+    .conversation__card__title__em-link:hover {color: var(--highlight-active)}
+    
+    .conversation__bubble.o__admin-comment, .conversation__bubble.o__admin-comment.o__is-typing-on {background-color: var(--conversation-admin-bg); border-color: var(--conversation-admin-bg)}
+    .conversation__bubble.o__operator-comment, .conversation__bubble.o__admin-comment .conversation__text, .conversation__bubble.o__admin-comment.o__is-typing-on .conversation__text {color: var(--conversation-admin-text)}
+    .conversation__bubble.o__admin-comment a {color: var(--conversation-customer-link)}
+    .conversation__bubble.o__admin-comment a:hover {color: var(--conversation-customer-link-hover)}
+    
+    .conversation__bubble.o__bot-comment, .conversation__bubble.o__user-comment {background-color: var(--conversation-customer-bg); border-color: var(--conversation-customer-bg);}
+    .conversation__bubble.o__user-comment {color: var(--conversation-customer-text);}
+    .conversation__bubble.o__user-comment a {color: var(--conversation-customer-link)}
+    .conversation__bubble.o__user-comment a:hover {color: var(--conversation-customer-link-hover)}
+    
+/*     .conversation__bubble.o__admin-note {background-color: var(--conversation-note-bg); border-color: var(--conversation-note-bg); color: var(--conversation-note-text)} */
+    .conversation__bubble.o__admin-note {background-color: var(--conversation-note-bg); border-color: var(--conversation-note-bg); color: var(--conversation-note-text)}
+    .conversation__bubble.o__admin-note a {color: var(--conversation-note-link)}
+    .conversation__bubble.o__admin-note a:hover {color: var(--conversation-note-link-hover)}
+    
+    
+    .conversation__action__text, .conversation__action__text a {color: var(--color-faded)}
+    .conversation__action__text a:hover {color: var(--highlight-active)}
+    .tabs__tab.o__in-pane-selector.o__selected, .tabs__tab.o__in-pane-selector.o__selected:hover, .tabs__tab.o__selected:hover, .tabs__tab.o__in-pane-selector:hover, .tabs__tab:hover {color: var(--highlight-active); border-bottom-color: var(--highlight-active);}
+    
+    .conversation__text .entity_mention {background-color: var(--conversation-mention-bg);color: var(--conversation-mention-text) !important;}
+    
+    .card {background-color: var(--conversation-admin-bg); }
+    .card.o__selected {border-color: var(--highlight-active)}
+    .inbox__conversation-composer__wrapper {color: var(--conversation-admin-text);}
+    .inbox__conversation-composer__wrapper a {color: var(--conversation-admin-link);}
+    .inbox__conversation-composer__wrapper a:hover {color: var(--conversation-admin-link-hover);}
+    
+    
+    .inbox__conversation-controls__internal-part, .inbox__conversation-controls__pane-selector.o__note-selected {background-color: var(--conversation-note-bg);}
+    .inbox__conversation-controls__internal-part .inbox__conversation-composer__wrapper {color: var(--conversation-note-text);}
+    .inbox__conversation-controls__internal-part .inbox__conversation-composer__wrapper a {color: var(--conversation-note-link);}
+    .inbox__conversation-controls__internal-part .inbox__conversation-composer__wrapper a:hover {color: var(--conversation-note-link-hover);}
+    
+    
+    .conversation__inbox__current-context {background-color: var(--bg-2); color: var(--text-faded)}
+    .profile-sidebar-section__section-title {color: var(--text-main)}
+    .conversation__mini-card:hover {border-color: var(--highlight-active)}
+    
+    
+    
+    
+    /* Articles */
 
-}
+    /* Messenger */
 
-.color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray+div.layout__box .conversation__bubble.o__operator-comment {
-  background-color: #444 !important;
-  color: #fff !important;
-  border-color: #444 !important;
-}
+    /* Operator */
 
-.color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray+div.layout__box .conversation__bubble.o__user-comment {
-  background-color: #393939!important;
-  color: #eee !important;
-  border-color: #333!important;
-}
+    /* App Store */
 
+    /* Product Changes */
 
-.color-map__early-2018-brand-refresh .conversation__outlet__inner__background.o__background-gray+div.layout__box .conversation__bubble.o__admin-comment {
-  background-color: #444 !important;
-  color: #fff !important;
-  border-color: #444 !important;
-}
-.conversation__action__text {
-    background-color: initial;
-}
+    /* Settings */
 
-
-/* Platform */
-
-.user-list__header, .user-list__header.o__without-select-all.o__without-selected-users {
-  background-color: transparent;
-}
-
-/* Messages */
-.introduction-banner {background-color: #1f1f1f}
-
-.main__content-outlet {background-color: #1f1f1f}
-.btn__footer, .card, .tbl tbody {background-color: transparent}
-
-
-.left-nav__link.o__selected, .left-nav__link.o__selected .left-nav__icon__purchasable:after, .left-nav__link.o__selected .left-nav__icon__purchasable:before {
-  background-color: transparent;
-}
-
-/* Better attachment links in inbox */
-.conversation__text > .layout__media > .layout__media__ext > a {
-    display: block;
-    padding: 6px;
-    border-radius: 0 5px 5px 0;
-}
-.conversation__text > .layout__media > .u__mr__10 {
-	margin-right: 0px !important;
-}
-.conversation__text > .layout__media > .u__mr__10 svg {
-    padding: 7px;
-    border-radius: 5px 0 0 5px;
-}
-.conversation__text > .layout__media > .u__mr__10 svg, .conversation__text > .layout__media > .layout__media__ext > a {
-    background-color: #eaeaea !important;
-	margin-bottom: 10px;
-    color: #333;
-    font-weight: bold;
-    text-decoration: none;
-}
-.conversation__text > .layout__media:nth-child(1) > .u__mr__10 svg, .conversation__text > .layout__media:nth-child(1) > .layout__media__ext > a {
-	margin-top: 10px;
-}
+    /* Your Account */
