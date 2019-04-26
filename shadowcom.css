@@ -85,7 +85,7 @@
     .submenu__header__search-icon > .interface-icon > path, .submenu__collapse-toggle__icon > .interface-icon > path {fill: var(--text-main) !important}
     .submenu__header__search-icon:hover > .interface-icon > path, .submenu__collapse-toggle__icon:hover > .interface-icon > path {fill: var(--highlight-active) !important}
     
-    .btn.o__primary, .btn.o__primary:focus {background-color: var(--highlight-active); color: var(--highlight-active-color);}
+    .btn.o__primary, .btn.o__primary:focus, .btn.o__primary.o__forced-active, .btn.o__primary:active, .btn.o__primary:hover {background-color: var(--highlight-active); color: var(--highlight-active-color);}
     
     
     
