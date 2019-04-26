@@ -12,10 +12,9 @@
         --text-links: #55c4e0;
         --text-hover: #ddd;
         --text-faded: #999;
-        --highlight: rgb(0, 90, 160);
+		
+        --highlight: rgb(200, 217, 230);
         --highlight-active: rgb(90, 180, 250); 
-        
-        
         --highlight-active-color: #111;
 
         --tooltip-bg: #333;
