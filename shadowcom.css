@@ -30,15 +30,10 @@
         --notif-bg: #ffe2b3;
         --notif-text: #111;
 
-        --filter-btn-bg: #888;
-        --filter-btn-text: #fff;
-        --filter-btn-bg-active: #555;
-        --filter-btn-text-active: #ccc;
-
         --btn-bg: transparent;
-        --btn-text: #ccc;
+        --btn-text: var(--highlight);
         --btn-bg-active: transparent;
-        --btn-text-active: rgb(234, 140, 217);
+        --btn-text-active: var(--highlight-active);
         
         --scrollbar-bg: #555;
         --scrollbar-thumb: #222;
