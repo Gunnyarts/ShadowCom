@@ -218,6 +218,7 @@
     .profile-sidebar-section__section-title {color: var(--text-main)}
     .conversation__mini-card:hover {border-color: var(--highlight-active)}
     
+	.lock__overlay {background-color: var(--bg-3); opacity: 0.95;}
     
     
     
