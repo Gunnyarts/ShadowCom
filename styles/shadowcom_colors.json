@@ -1,0 +1,20 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1554839383928,
+		"name": "Shadowcom Colors",
+		"sections": [
+			{
+				"code": "/* Variables */\n\n:root {\n  --bg-2: #222;\n  --bg-3: #111;\n  --bg-main: #333;\n  --btn-bg: transparent;\n  --btn-border: transparent;\n  --btn-text: var(--highlight);\n  --btn-active-bg: transparent;\n  --btn-active-border: var(--btn-active-text);\n  --btn-active-text: var(--highlight-active);\n  --btn-primary-active-bg: var(--highlight-active);\n  --btn-primary-bg: var(--highlight);\n  --btn-primary-active-text: var(--highlight-text);\n  --btn-primary-text: var(--highlight-text);\n  --conversation-admin-bg: #222;\n  --conversation-admin-link-hover: #279dd9;\n  --conversation-admin-link: #279dd9;\n  --conversation-admin-text: #eee;\n  --conversation-customer-bg: #444;\n  --conversation-customer-link-hover: #8ec4fd;\n  --conversation-customer-link: #6cb3ff;\n  --conversation-customer-text: #eee;\n  --conversation-mention-bg: #fbc916;\n  --conversation-mention-text: #222;\n  --conversation-note-bg: #FEEDAF;\n  --conversation-note-link-hover: #5783ea;\n  --conversation-note-link: #2355ca;\n  --conversation-note-text: #000;\n  --highlight-active: rgb(90, 180, 250);\n  --highlight-text: #111;\n  --highlight: rgb(200, 217, 230);\n  --hr: rgba(0,0,0,.1);\n  --intercom-bubble-bg: var(--highlight);\n  --intercom-bubble-text: var(--highlight-text);\n  --nav-bg: #111;\n  --notif-bg: #ffe2b3;\n  --notif-text: #111;\n  --scrollbar-bg: #555;\n  --scrollbar-thumb: #222;\n  --scrollbar-width: 8px;\n  --start-logo: url(https://gunnyarts.github.io/ShadowCom/images/intercom-wide.png);\n  --text-faded: #999;\n  --text-link: var(--highlight);\n  --text-link-hover: var(--highlight-active);\n  --text-main: #eee;\n  --tooltip-bg: var(--bg-main);\n  --tooltip-link: #5ca2d6;\n  --tooltip-text: var(--text-main);\n}",
+				"urlPrefixes":[
+      "https://app.intercom.io"
+    ]
+			}
+		],
+		"updateDate": 1554843551802
+	}
+] 
