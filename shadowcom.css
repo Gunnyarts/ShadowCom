@@ -48,8 +48,6 @@
     --tooltip-bg: var(--bg-main);
     --tooltip-link: #5ca2d6;
     --tooltip-text: var(--text-main);
-    --highlight: rgb(253, 204, 209);
-    --highlight-active: rgb(235, 141, 162);
   }
   /***********/
   /* General */
