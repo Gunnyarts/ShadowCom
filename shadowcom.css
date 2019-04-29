@@ -353,6 +353,14 @@
   .modal__header__close__link:hover {
     color: var(--highlight-active);
   }
+
+  .ds-new__modal__container {
+    background-color: var(--bg-2);
+  }
+  .m__composer-help__code {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+  }
   
   .inbox__access-banner {
     background-color: var(--bg-2);
