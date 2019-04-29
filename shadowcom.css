@@ -103,7 +103,7 @@
   .t__solo-link:hover,
   .t__solo-link__outer:active .t__solo-link__inner,
   .t__solo-link__outer:hover .t__solo-link__inner {
-    color: var(--text-link-hover);
+    color: var(--text-link-hover) !important;
   }
   
   .filter-block {
@@ -365,6 +365,10 @@
   .inbox__access-banner {
     background-color: var(--bg-2);
     color: var(--text-main)
+  }
+
+  .btn__footer, .card, .tbl tbody {
+    background-color: var(--bg-main);
   }
   /* scrollbars */
   
@@ -893,7 +897,14 @@
   .profile-sidebar-tabbar__tab.o__active {
     border-color: var(--highlight)
   }
-  /* Articles */
+  /************/
+  /* Platform */
+  /************/
+
+  .user-list__header {
+      background-color: transparent !important;
+  }
+
   /* Messenger */
   /* Operator */
   /* App Store */
