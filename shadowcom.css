@@ -769,7 +769,8 @@
   }
   
   .conversation__bubble.o__bot-comment,
-  .conversation__bubble.o__user-comment {
+  .conversation__bubble.o__user-comment,
+  .conversation__bubble.o__user-comment.o__is-typing-on {
     background-color: var(--conversation-customer-bg);
     border-color: var(--conversation-customer-bg);
   }
