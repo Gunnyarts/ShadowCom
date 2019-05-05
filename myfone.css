@@ -76,7 +76,12 @@ body {color: var(--text-main)}
 
 .form-control.toggle > label:before {background-color:  var(--bg-2)}
 .form-control.toggle > label:after {background-color: #666;}
-.form-control.toggle > input[type="checkbox"]:checked ~ label:after {background-color: #250}
+.form-control.toggle > input[type="checkbox"]:checked ~ label:after {background-color: var(--bg-1)}
+
+.automated-profile-switch-section {background-color: var(--btn-bg); border-color: var(--btn-bg); color:var(btn-text)}
+.automated-profile-switch-section span:first-of-type {color: inherit;}
+
+.profile-control-section .mf-checkmark, .profile-control-section ul li a:before {color: inherit}
 /* Text color */
 
 h1, h2, h3, h4, h5, h6, p {color: var(--text-main)}
@@ -84,7 +89,7 @@ h1, h2, h3, h4, h5, h6, p {color: var(--text-main)}
 
 .queue-details-value {color: var(--highlight)}
 .content, .avatar-profile-picture.no-picture {color: var(--text-main);}
-.queue-blue-box {background-color: var(--highlight);}
+.queue-blue-box {background-color: var(--highlight);color:var(--highlight-text)}
 .queuemember, .queuecaller {
   background-color: var(--status-calling-bg);
   border-color: var(--status-calling-border);
