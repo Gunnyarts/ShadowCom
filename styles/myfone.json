@@ -1,0 +1,1 @@
+[{"method":"saveStyle","name":"Myfone","enabled":true,"sections":[{"urls":[],"urlPrefixes":[],"domains":["myfone.dk"],"regexps":[],"code":"@import \"https://gunnyarts.github.io/ShadowCom/myfone.css\";"}],"updateUrl":null,"md5Url":null,"url":null,"originalMd5":null,"id":60}]
