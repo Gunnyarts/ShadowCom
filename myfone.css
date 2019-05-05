@@ -96,9 +96,9 @@ h1, h2, h3, h4, h5, h6, p {color: var(--text-main)}
   color: var(--status-calling-text);
 }
 .queuemember[dndstatus="1"]{
-  background-color: var(--status-dnd-bg);
-  border-color: var(--status-dnd-border);
-  color: var(--status-dnd-text);
+  background-color: var(--status-dnd-bg) !important;
+  border-color: var(--status-dnd-border) !important;
+  color: var(--status-dnd-text) !important;
 }
 .queuemember[status="1"], .queuemember[status="9"] {
   background-color: var(--status-busy-bg);
