@@ -800,6 +800,10 @@
   .conversation__bubble.o__admin-note a:hover {
     color: var(--conversation-note-link-hover)
   }
+  .conversation__text.o__note pre, .conversation__text.o__admin-note pre {
+      border-color: var(--conversation-note-text);
+      color: var(--conversation-note-text);
+  }
   
   .profile__note-textarea,
   .profile__note-textarea.o__focused,
