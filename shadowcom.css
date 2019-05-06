@@ -843,7 +843,9 @@
   .card.o__selected {
     border-color: var(--highlight-active)
   }
-  
+  .simple-composer__input {
+    color: var(--text-main);  
+  }
   .inbox__conversation-composer__wrapper {
     color: var(--conversation-admin-text);
   }
@@ -902,6 +904,7 @@
   .profile-sidebar-tabbar__tab.o__active {
     border-color: var(--highlight)
   }
+  
   /************/
   /* Platform */
   /************/
