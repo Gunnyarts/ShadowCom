@@ -39,7 +39,7 @@
     --notif-text: #111;
     --scrollbar-bg: var(--bg-3);
     --scrollbar-thumb: var(--highlight);
-    --scrollbar-width: 8px;
+    --scrollbar-width: 5px;
     --start-logo: url(https://gunnyarts.github.io/ShadowCom/images/intercom-wide.png);
     --text-faded: #999;
     --text-link: var(--highlight);
