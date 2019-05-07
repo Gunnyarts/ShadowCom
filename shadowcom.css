@@ -37,8 +37,8 @@
     --nav-bg: #111;
     --notif-bg: #ffe2b3;
     --notif-text: #111;
-    --scrollbar-bg: #555;
-    --scrollbar-thumb: #222;
+    --scrollbar-bg: var(--bg-3);
+    --scrollbar-thumb: var(--highlight);
     --scrollbar-width: 8px;
     --start-logo: url(https://gunnyarts.github.io/ShadowCom/images/intercom-wide.png);
     --text-faded: #999;
