@@ -884,6 +884,12 @@
     color: var(--text-main)
   }
   
+  .conversation__inbox__current-context.o__new-sidebar {
+	  background-color: var(--bg-2);
+  }
+  .ds-new__card {
+	  background-color: var(--bg-3);
+  }
   .conversation__mini-card:hover {
     border-color: var(--highlight-active)
   }
