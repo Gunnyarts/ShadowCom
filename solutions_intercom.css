@@ -12,3 +12,17 @@ body.sidebar-collapse > .wrapper > .main-sidebar {width: 0}
 }
 .content-wrapper > .container-fluid > .row:first-child > div > .card {background-color: #333}
 .card a, .card .a-link:link, .card .a-link:visited {color: #ddd}
+
+
+.header {
+  background-color: #000;
+}
+.header-brand > img {
+  height: 2rem;
+  width: 182px;
+  padding-left: 182px;
+  overflow-x: hidden;
+  background-image: url('https://gunnyarts.github.com/ShadowCom/images/team-blue_white.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
