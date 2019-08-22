@@ -13,7 +13,7 @@ body.sidebar-collapse > .wrapper > .main-sidebar {width: 0}
 .content-wrapper > .container-fluid > .row:first-child > div > .card {background-color: #333}
 .card a, .card .a-link:link, .card .a-link:visited {color: #ddd}
 
-
+body {background-color: #1a1a1a; }
 .header {
   background-color: #000;
 }
