@@ -61,6 +61,10 @@ html, body {min-width:0!important}
   overflow: hidden;
 }
 .contact-type-navigation.fill-box + .home-box { left:0px; }
+.queue-management-dropdown {
+    width: 400px;
+    max-width: 100%;
+}
 
 /* Border color */
 .home-right, .home-right-bottom, .content, .queue-item {border-color: var(--border);}
