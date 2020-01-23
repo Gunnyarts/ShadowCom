@@ -53,7 +53,9 @@
     li.queue-item {width:100%;min-width:100%;max-width:100%;position:relative;display:block;left:0 !important;top:0 !important;margin:5px 0;}
 }
 
-
+/* Layout */
+html, body {min-width:0!important}
+.header, .main-content {min-width: 0px;}
 
 /* Border color */
 .home-right, .home-right-bottom, .content, .queue-item {border-color: var(--border);}
