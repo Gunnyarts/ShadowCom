@@ -56,6 +56,11 @@
 /* Layout */
 html, body {min-width:0!important}
 .header, .main-content {min-width: 0px;}
+.contact-type-navigation.fill-box {
+  width: 0px;
+  overflow: hidden;
+}
+.contact-type-navigation.fill-box + .home-box { left:0px; }
 
 /* Border color */
 .home-right, .home-right-bottom, .content, .queue-item {border-color: var(--border);}
