@@ -1,5 +1,5 @@
   /* Variables */
-  
+
   :root {
     --bg-2: #222;
     --bg-3: #111;
@@ -52,12 +52,12 @@
   /***********/
   /* General */
   /***********/
-  
+
   body {
     background-color: var(--bg-main);
     color: var(--text-main);
   }
-  
+
   .main,
   .main__content-outlet,
   .main__content,
@@ -67,12 +67,12 @@
     background-color: var(--bg-main);
     border-radius: 0;
   }
-  
+
   .application__component {
     color: var(--text-main);
     background-color: var(--bg-main)
   }
-  
+
   .t__body,
   .t__h1,
   .t__h2,
@@ -92,37 +92,37 @@
   .t__label {
     color: var(--text-main)
   }
-  
+
   .t__solo-link,
   .t__solo-link__outer,
   a {
     color: var(--text-link)
   }
-  
+
   .t__solo-link:active,
   .t__solo-link:hover,
   .t__solo-link__outer:active .t__solo-link__inner,
   .t__solo-link__outer:hover .t__solo-link__inner {
     color: var(--text-link-hover) !important;
   }
-  
+
   .filter-block {
     background-color: var(--filter-btn-bg);
     color: var(--filter-btn-text)
   }
-  
+
   .filter-block__details,
   .filter-block__details__specific-error,
   .filter-block__name {
     color: var(--filter-btn-text)
   }
-  
+
   .filter-block.o__clickable:hover,
   .filter-block.o__open,
   .filter-block.o__open:hover {
     background-color: var(--filter-btn-bg-active)
   }
-  
+
   .filter-block.o__clickable:hover .filter-block__details,
   .filter-block.o__clickable:hover .filter-block__name,
   .filter-block.o__open .filter-block__details,
@@ -132,7 +132,7 @@
   .filter-block__delete {
     color: var(--filter-btn-text-active)
   }
-  
+
   .f__custom-select__box,
   .btn.o__destructive,
   .btn.o__destructive:focus,
@@ -148,7 +148,7 @@
     color: var(--btn-text);
     border-color: var(--btn-border);
   }
-  
+
   .f__custom-select__box.o__opened:hover,
   .btn.o__destructive:focus,
   .btn.o__destructive:hover,
@@ -162,7 +162,7 @@
     color: var(--btn-active-text);
     border-color: var(--btn-active-text);
   }
-  
+
   .product-icon__link.ember-transitioning-in .product-icon__symbol,
   .product-icon__link.o__selected.o__subscribed:not(.ember-transitioning-out) .product-icon__symbol,
   .product-icon__link.o__selected:not(.ember-transitioning-out) .product-icon__symbol,
@@ -170,25 +170,25 @@
   .product-icon__link.o__subscribed:hover .product-icon__symbol {
     fill: inherit !important;
   }
-  
+
   .dropdown,
   .overlay {
     background-color: var(--tooltip-bg)
   }
-  
+
   .dropdown__list-item.o__item-selected {
     color: var(--highlight-active)
   }
-  
+
   .dropdown__list-item.o__item-selected .interface-icon path {
     fill: var(--highlight-active) !important
   }
-  
+
   .dropdown__list-item.o__hoverable:hover {
     background-color: var(--highlight-active);
     color: var(--highlight-text)
   }
-  
+
   .dropdown__list-item.o__hoverable:hover .interface-icon path,
   .dropdown__list-item.o__hoverable:hover .visibility__icon .interface-icon circle,
   .dropdown__list-item.o__hoverable:hover .visibility__icon .interface-icon ellipse,
@@ -200,22 +200,22 @@
   .dropdown__list-item.o__selected .interface-icon path {
     fill: var(--highlight-text) !important
   }
-  
+
   .submenu__header__search-icon > .interface-icon > path,
   .submenu__collapse-toggle__icon > .interface-icon > path {
     fill: var(--text-main) !important
   }
-  
+
   .submenu__header__search-icon:hover > .interface-icon > path,
   .submenu__collapse-toggle__icon:hover > .interface-icon > path {
     fill: var(--highlight-active) !important
   }
-  
+
   .btn.o__primary {
     background-color: var(--btn-primary-bg);
     color: var(--btn-primary-text);
   }
-  
+
   .btn.o__primary:focus,
   .btn.o__primary.o__forced-active,
   .btn.o__primary:active,
@@ -223,51 +223,51 @@
     background-color: var(--btn-primary-active-bg);
     color: var(--btn-primary-active-text);
   }
-  
+
   .pill {
     background-color: var(--btn-primary-bg);
   }
-  
+
   .pill > .t__group-label {
     color: var(--btn-primary-text);
   }
-  
+
   .pill > .pill__icon svg path {
     fill: var(--btn-primary-text) !important;
   }
-  
+
   .pill:hover {
     background-color: var(--btn-primary-active-bg);
   }
-  
+
   .pill:hover > .t__group-label {
     color: var(--btn-primary-active-text);
   }
-  
+
   .pill:hover > .pill__icon svg path {
     fill: var(--btn-primary-active-text) !important;
   }
-  
+
   .dialog__overlay__inner {
     background-color: var(--bg-main)
   }
-  
+
   .dialog__body {
     background: inherit
   }
-  
+
   .user__hovercard {
     background-color: var(--bg-2);
   }
-  
+
   .user__hovercard > svg > path {
     fill: var(--bg-2)
   }
-  
+
   .user__hovercard__row.o__bottom {
     border-top-color: var(--hr);
   }
-  
+
   .user__hovercard .t__solo-link:active,
   .user__hovercard .t__solo-link:hover,
   .user__hovercard .t__solo-link__outer:active .t__solo-link__inner,
@@ -276,24 +276,24 @@
     color: var(--highlight-active);
     opacity: 1;
   }
-  
+
   .ds-new__dropdown {
     background-color: var(--bg-main)
   }
-  
+
   .ds-new__dropdown__group__filter__icon,
   .ds-new__dropdown__group__filter__input {
     color: var(--text-main)
   }
-  
+
   .ds-new__dropdown__group__filter__input:focus {
     border-color: var(--highlight-active)
   }
-  
+
   .ds-new__dropdown__block__item {
     color: var(--text-main)
   }
-  
+
   .ds-new__dropdown__block__item.o__selected,
   .ds-new__dropdown__block__item:hover,
   .dropdown__list-item.o__hoverable:hover,
@@ -303,52 +303,52 @@
     color: var(--highlight-text);
     fill: var(--highlight-text);
   }
-  
+
   .ds-new__dropdown__block__item.o__selected .interface-icon path {
     fill: inherit !important;
   }
-  
+
   .overlay__standard-tooltip,
   .packaging__tooltip {
     background-color: var(--tooltip-bg);
     color: var(--tooltip-text)
   }
-  
+
   .overlay__standard-tooltip svg > path,
   .packaging__tooltip svg > path {
     fill: var(--tooltip-bg);
   }
-  
+
   .overlay__standard-tooltip a {
     color: var(--tooltip-link)
   }
-  
+
   .menu__popover {
     background-color: var(--bg-2);
     color: var(--text-main);
   }
-  
+
   .menu__popover__triangle::after {
     border-right-color: var(--bg-2)
   }
-  
+
   .menu__popover__item {
     color: var(--text-main)
   }
-  
+
   .menu__popover__item.o__selected,
   .menu__popover__item:hover {
     color: var(--highlight-active)
   }
-  
+
   .modal {
     background-color: var(--bg-main);
   }
-  
+
   .modal .btn__tertiary {
     color: var(--highlight);
   }
-  
+
   .modal .btn__tertiary:hover,
   .modal__header__close__link:hover {
     color: var(--highlight-active);
@@ -361,7 +361,7 @@
     background-color: var(--btn-bg);
     color: var(--btn-text);
   }
-  
+
   .inbox__access-banner {
     background-color: var(--bg-2);
     color: var(--text-main)
@@ -371,43 +371,43 @@
     background-color: var(--bg-main);
   }
   /* scrollbars */
-  
+
   ::-webkit-scrollbar {
     background-color: var(--scrollbar-bg);
     width: var(--scrollbar-width)
   }
-  
+
   ::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-thumb)
   }
-  
+
   ::-webkit-scrollbar-button {
     displaY: none
   }
-  
+
   ::-webkit-scrollbar-track {
     background-color: transparent
   }
-  
+
   ::-webkit-scrollbar-track-piece {
     background-color: transparent
   }
-  
+
   ::-webkit-scrollbar-corner {
     background-color: transparent
   }
-  
+
   ::-webkit-resizer {
     background-color: transparent
   }
   /***********/
   /* Start   */
   /***********/
-  
+
   .start {
     position: initial !important;
   }
-  
+
   .start__nav__logo {
     background-image: var(--start-logo);
     height: 30px;
@@ -419,13 +419,13 @@
     background-position: center center;
     background-repeat: no-repeat;
   }
-  
+
   .m__login__main-login__ad {
     background-color: var(--bg-2);
     box-shadow: none;
     border-color: var(--bg-2)
   }
-  
+
   .start__description-text,
   .start__body,
   .start__h1,
@@ -438,7 +438,7 @@
   .m__login__submission__form {
     color: var(--text-main)
   }
-  
+
   .m__login__secondary-page {
     border-color: var(--bg-2);
     position: absolute;
@@ -446,27 +446,27 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   .loading__main-application {
     background-color: var(--bg-main) !important;
   }
-  
+
   #intercom-container-body {
     background-color: var(--intercom-bubble-bg);
   }
-  
+
   .intercom-launcher svg > path {
     fill: var(--intercom-bubble-text)
   }
   /*******/
   /* Nav */
   /*******/
-  
+
   .left-nav,
   .layout__box.left-nav__bottom {
     background-color: var(--nav-bg)
   }
-  
+
   .left-nav__link,
   .product-icon__link.o__subscribed .product-icon__symbol,
   .product-icon__link .product-icon__symbol,
@@ -484,7 +484,7 @@
   .left-nav__link.o__reporting .left-nav__icon {
     fill: var(--highlight) !important
   }
-  
+
   .left-nav__link.o__selected,
   .left-nav__link:hover .left-nav__icon,
   .left-nav__link:hover,
@@ -511,40 +511,40 @@
   .left-nav__link.o__reporting:hover .left-nav__icon {
     fill: var(--highlight-active) !important;
   }
-  
+
   .left-nav__link.o__selected,
   .left-nav__link.o__selected .left-nav__icon__purchasable:after,
   .left-nav__link.o__selected .left-nav__icon__purchasable:before {
     background-color: var(--nav-bg)
   }
-  
+
   .left-nav__link .left-nav__icon,
   .product-icon__link .product-icon__symbol {
     transition-delay: 0s !important;
     transition-duration: 0s !important;
   }
-  
+
   .submenu__sections__section,
   .submenu__sections__section__items.o__section-padding-right,
   .submenu__sections__section__title.o__section-padding-right,
   .submenu__sections__section__items__inner {
     padding: 0
   }
-  
+
   .nav-vertical__link {
     padding: 8px 12px !important
   }
-  
+
   .submenu,
   .submenu__header__title {
     background-color: var(--bg-2) !important;
     color: var(--text-main) !important;
   }
-  
+
   .submenu__sections__section__mask {
     background-image: none !important
   }
-  
+
   .submenu__sections__section__title__link,
   .nav-vertical__link,
   .submenu__sections__section__items__item__count,
@@ -553,7 +553,7 @@
   .submenu__sections__section__title__link.ember-transitioning-in {
     color: var(--text-main) !important
   }
-  
+
   .nav-vertical__link.ember-transitioning-in,
   .nav-vertical__link.ember-transitioning-in:hover,
   .nav-vertical__link.o__selected:not(.ember-transitioning-out),
@@ -569,7 +569,16 @@
     background-color: var(--highlight-active) !important;
     color: var(--highlight-text) !important
   }
-  
+
+  .nav-vertical__link.ember-transitioning-in a,
+  .nav-vertical__link.ember-transitioning-in:hover a,
+  .nav-vertical__link.o__selected:not(.ember-transitioning-out) a,
+  .nav-vertical__link.o__selected:not(.ember-transitioning-out):hover a,
+  .nav-vertical__link:hover a,
+  .nav-vertical__settings-icon:hover a {
+    color: var(--highlight-text) !important
+  }
+
   .nav-vertical__link.ember-transitioning-in .submenu__sections__section__items__item__count,
   .nav-vertical__link.o__selected:not(.ember-transitioning-out) .submenu__sections__section__items__item__count,
   .nav-vertical__link:hover .submenu__sections__section__items__item__count {
@@ -580,17 +589,17 @@
   /************/
   /* Messages */
   /************/
-  
+
   .messenger-settings__title {
     background: transparent
   }
-  
+
   .hero-banner__container {
     background-color: var(--bg-2)
   }
   /* Inbox    */
   /************/
-  
+
   .conversation__inbox__list-wrapper,
   .conversation__inbox__list-header,
   .conversation__inbox__list-filter,
@@ -598,54 +607,54 @@
     background-color: var(--bg-2);
     border-color: var(--bg-main) !important;
   }
-  
+
   .conversation__inbox__list-header__inbox-name:hover,
   .conversation__inbox__list-header__inbox-name:hover .t__h1 {
     color: var(--highlight-active);
   }
-  
+
   .inbox__inbox-picker__link {
     color: var(--text-main) !important;
   }
-  
+
   .inbox__inbox-picker__item.o__selected .inbox__inbox-picker__link {
     background-color: var(--highlight-active);
     color: var(--highlight-text) !important;
   }
-  
+
   .inbox__inbox-picker__item.o__selected .submenu__sections__section__items__item__count,
   .inbox__inbox-picker__link:hover .submenu__sections__section__items__item__count,
   .inbox__inbox-picker__link:hover {
     color: var(--highlight-text) !important;
     background-color: var(--highlight-active);
   }
-  
+
   .conversation__list__item.o__active,
   .conversation__list__item.o__active:hover,
   .conversation__list__item:hover {
     background-color: var(--bg-main)
   }
-  
+
   .conversation__list__item:hover {
     background-color: var(--bg-2)
   }
-  
+
   .conversation__list__item {
     background-color: var(--bg-3)
   }
-  
+
   .conversation__list__item.o__active .conversation__list__item__main-participant__name,
   .conversation__list__item.o__selected .conversation__list__item__main-participant__name,
   .conversation__list__item:hover .conversation__list__item__main-participant__name,
   .submenu__sections__section__title__link:hover {
     color: var(--highlight-active) !important
   }
-  
+
   .conversation__list__item.o__active:not(.o__selected),
   .conversation__list__item.o__active .conversation__card__header {
     border-left-color: var(--highlight-active)
   }
-  
+
   .conversation__list__item.o__active .conversation__list__item__summary,
   .conversation__list__item.o__selected .conversation__list__item__summary,
   .conversation__list__item:hover .conversation__list__item__summary,
@@ -665,37 +674,37 @@
     border: 1px solid var(--text-main);
     padding: 5px;
   }
-  
+
   .conversation__list__badge.o__unread {
     background-color: var(--highlight)
   }
-  
+
   .tutorial-helper__inbox-conversations .submenu__sections__section__items__show-more {
     margin-left: 5px;
   }
-  
+
   .btn__tertiary__deemphasized,
   .nav-vertical__settings-icon {
     color: var(--text-faded)
   }
-  
+
   .btn__tertiary__deemphasized:hover,
   .nav-vertical__settings-icon:hover {
     color: var(--highlight-active) !important;
     background-color: initial !important
   }
-  
+
   .f__custom-select__box.o__subtle,
   .f__custom-select__box {
     background-color: var(--btn-bg);
     border-color: var(--btn-border);
     color: var(--btn-text);
   }
-  
+
   .f__custom-select__box .layout__media__ext {
     color: var(--btn-text);
   }
-  
+
   .f__custom-select__box.o__subtle:hover,
   .f__custom-select__box:hover,
   .f__custom-select__box.o__opened,
@@ -706,97 +715,97 @@
     border-color: var(--btn-active-text);
     color: var(--btn-active-text);
   }
-  
+
   .f__custom-select__box.o__opened .layout__media__ext,
   .f__custom-select__box:hover .layout__media__ext {
     color: var(--btn-active-text);
   }
-  
+
   .quick-action {
     color: var(--color-faded)
   }
-  
+
   .quick-action:active,
   .quick-action:hover {
     color: var(--highlight-active)
   }
-  
+
   .submenu__information-overlay {
     background-color: var(--tooltip-bg)
   }
-  
+
   .submenu__information-overlay__caret-vector {
     fill: var(--tooltip-bg);
     stroke: var(--tooltip-bg)
   }
-  
+
   .tooltips__inbox-hovercard__title {
     color: var(--text-main)
   }
-  
+
   .conversation__inbox__outlet,
   .conversation__inbox__current-conversation,
   .inbox__card__header {
     background-color: var(--bg-main)
   }
-  
+
   .conversation__card__title__em-link {
     color: var(--text-main)
   }
-  
+
   .conversation__card__title__em-link:hover {
     color: var(--highlight-active)
   }
-  
+
   .conversation__bubble.o__admin-comment,
   .conversation__bubble.o__admin-comment.o__is-typing-on {
     background-color: var(--conversation-admin-bg);
     border-color: var(--conversation-admin-bg)
   }
-  
+
   .conversation__bubble.o__operator-comment,
   .conversation__bubble.o__admin-comment .conversation__text,
   .conversation__bubble.o__admin-comment.o__is-typing-on .conversation__text {
     color: var(--conversation-admin-text)
   }
-  
+
   .conversation__bubble.o__admin-comment a {
     color: var(--conversation-customer-link)
   }
-  
+
   .conversation__bubble.o__admin-comment a:hover {
     color: var(--conversation-customer-link-hover)
   }
-  
+
   .conversation__bubble.o__bot-comment,
   .conversation__bubble.o__user-comment,
   .conversation__bubble.o__user-comment.o__is-typing-on {
     background-color: var(--conversation-customer-bg);
     border-color: var(--conversation-customer-bg);
   }
-  
+
   .conversation__bubble.o__user-comment {
     color: var(--conversation-customer-text);
   }
-  
+
   .conversation__bubble.o__user-comment a {
     color: var(--conversation-customer-link)
   }
-  
+
   .conversation__bubble.o__user-comment a:hover {
     color: var(--conversation-customer-link-hover)
   }
-  
+
   .conversation__bubble.o__admin-note {
     background-color: var(--conversation-note-bg);
     border-color: var(--conversation-note-bg);
     color: var(--conversation-note-text)
   }
-  
+
   .conversation__bubble.o__admin-note a {
     color: var(--conversation-note-link)
   }
-  
+
   .conversation__bubble.o__admin-note a:hover {
     color: var(--conversation-note-link-hover)
   }
@@ -804,7 +813,7 @@
       border-color: var(--conversation-note-text);
       color: var(--conversation-note-text);
   }
-  
+
   .profile__note-textarea,
   .profile__note-textarea.o__focused,
   .profile__note-textarea:focus {
@@ -812,16 +821,16 @@
     border-color: var(--conversation-note-bg);
     color: var(--conversation-note-text)
   }
-  
+
   .conversation__action__text,
   .conversation__action__text a {
     color: var(--color-faded)
   }
-  
+
   .conversation__action__text a:hover {
     color: var(--highlight-active)
   }
-  
+
   .tabs__tab.o__in-pane-selector.o__selected,
   .tabs__tab.o__in-pane-selector.o__selected:hover,
   .tabs__tab.o__selected:hover,
@@ -830,60 +839,60 @@
     color: var(--highlight-active);
     border-bottom-color: var(--highlight-active);
   }
-  
+
   .conversation__text .entity_mention {
     background-color: var(--conversation-mention-bg);
     color: var(--conversation-mention-text) !important;
   }
-  
+
   .card {
     background-color: var(--conversation-admin-bg);
   }
-  
+
   .card.o__selected {
     border-color: var(--highlight-active)
   }
   .simple-composer__input {
-    color: var(--text-main);  
+    color: var(--text-main);
   }
   .inbox__conversation-composer__wrapper {
     color: var(--conversation-admin-text);
   }
-  
+
   .inbox__conversation-composer__wrapper a {
     color: var(--conversation-admin-link);
   }
-  
+
   .inbox__conversation-composer__wrapper a:hover {
     color: var(--conversation-admin-link-hover);
   }
-  
+
   .inbox__conversation-controls__internal-part,
   .inbox__conversation-controls__pane-selector.o__note-selected {
     background-color: var(--conversation-note-bg);
   }
-  
+
   .inbox__conversation-controls__internal-part .inbox__conversation-composer__wrapper {
     color: var(--conversation-note-text);
   }
-  
+
   .inbox__conversation-controls__internal-part .inbox__conversation-composer__wrapper a {
     color: var(--conversation-note-link);
   }
-  
+
   .inbox__conversation-controls__internal-part .inbox__conversation-composer__wrapper a:hover {
     color: var(--conversation-note-link-hover);
   }
-  
+
   .conversation__inbox__current-context {
     background-color: var(--bg-2);
     color: var(--text-faded)
   }
-  
+
   .profile-sidebar-section__section-title {
     color: var(--text-main)
   }
-  
+
   .conversation__inbox__current-context.o__new-sidebar {
 	  background-color: var(--bg-2);
   }
@@ -893,24 +902,24 @@
   .conversation__mini-card:hover {
     border-color: var(--highlight-active)
   }
-  
+
   .lock__overlay {
     background-color: var(--bg-3);
     opacity: 0.95;
   }
-  
+
   .inbox__conversation-header__change-participants-popover {
     background-color: var(--bg-2)
   }
-  
+
   .inbox__conversation-header__change-participants-popover svg > path {
     fill: var(--bg-2)
   }
-  
+
   .profile-sidebar-tabbar__tab.o__active {
     border-color: var(--highlight)
   }
-  
+
   /************/
   /* Platform */
   /************/
