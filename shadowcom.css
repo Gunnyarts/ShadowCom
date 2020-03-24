@@ -534,6 +534,7 @@
   .nav-vertical__link {
     padding: 8px 12px !important
   }
+  .nav-vertical__draggable-item {background-color: inherit}
 
   .submenu,
   .submenu__header__title {
