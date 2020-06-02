@@ -6,6 +6,8 @@
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
 // @grant        none
+// @updateURL	 https://gunnyarts.github.io/ShadowCom/userscripts/intercom_tag_enforcer/intercom_tag_enforcer.user.js
+// @downloadURL  https://gunnyarts.github.io/ShadowCom/userscripts/intercom_tag_enforcer/intercom_tag_enforcer.user.js
 // ==/UserScript==
 
 (function() {
