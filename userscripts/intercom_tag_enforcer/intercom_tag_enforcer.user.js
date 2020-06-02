@@ -52,7 +52,6 @@
                 conversation_control.style.display = "block"
                 tagdiv.removeEventListener('click', addTag)
             }
-
             isfirstload = false
         }, 1000);
     }
