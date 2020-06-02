@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tags
 // @namespace    https://gunnyarts.com
-// @version      1.21
+// @version      1.22
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
