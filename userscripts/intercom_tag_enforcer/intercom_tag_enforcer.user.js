@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Intercom Tags
+// @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
 // @version      1.22
 // @description  Check Intercom tags
