@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.23
+// @version      1.24
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -38,6 +38,16 @@
                 if (isfirstload){
                     tagdiv.addEventListener('click', scrollToTop)
                 }
+            } else if ( conversation_stream.firstElementChild.querySelector('.o__admin')) {
+                let tagdiv = document.getElementById("TAGDIV")
+                if (tag){
+                    tagdiv.innerHTML = "Tag: " + tag
+                } else {
+                    tagdiv.innerHTML = "Outgoing - No tag needed."
+                }
+                tagdiv.className = "hasTag"
+                conversation_control.style.display = "block"
+                tagdiv.removeEventListener('click', addTag)
             } else if (tag == false){
                 let tagdiv = document.getElementById("TAGDIV")
                 tagdiv.innerHTML = "No tag! Please click here to add tag."
