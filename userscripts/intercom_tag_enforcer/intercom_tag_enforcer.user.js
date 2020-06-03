@@ -23,6 +23,7 @@
         let isfirstload = true
         setInterval(function() {
             let tag = getTag()
+            let conversation_stream = document.querySelector('.conversation__stream')
             let conversation_control = document.querySelector('.js_conversation_control_form')
             if (!document.getElementById("TAGDIV")) {
                 let el = document.querySelector("div.conversation__card__content-expanded__controls")
