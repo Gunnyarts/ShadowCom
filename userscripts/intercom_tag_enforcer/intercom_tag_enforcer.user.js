@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.24
+// @version      1.25
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -23,16 +23,17 @@
         let isfirstload = true
         setInterval(function() {
             let tag = getTag()
+            let tagdiv = document.getElementById("TAGDIV")
             let conversation_stream = document.querySelector('.conversation__stream')
             let conversation_control = document.querySelector('.js_conversation_control_form')
-            if (!document.getElementById("TAGDIV")) {
+            if (tagdiv == null) {
                 let el = document.querySelector("div.conversation__card__content-expanded__controls")
                 let elChild = document.createElement('div')
                 elChild.id = "TAGDIV"
                 el.insertBefore(elChild, el.firstChild);
+                tagdiv = elChild
             }
             if (detect_lazyload()){
-                let tagdiv = document.getElementById("TAGDIV")
                 tagdiv.innerHTML = "Lazyload detected - click here to scroll up and activate."
                 tagdiv.className = "lazyloadDetected"
                 conversation_control.style.display = "none"
@@ -40,7 +41,6 @@
                     tagdiv.addEventListener('click', scrollToTop)
                 }
             } else if ( conversation_stream.firstElementChild.querySelector('.o__admin')) {
-                let tagdiv = document.getElementById("TAGDIV")
                 if (tag){
                     tagdiv.innerHTML = "Tag: " + tag
                 } else {
@@ -50,18 +50,16 @@
                 conversation_control.style.display = "block"
                 tagdiv.removeEventListener('click', addTag)
             } else if (tag == false){
-                let tagdiv = document.getElementById("TAGDIV")
                 tagdiv.innerHTML = "No tag! Please click here to add tag."
                 tagdiv.className = "noTag"
                 conversation_control.style.display = "none"
                 tagdiv.addEventListener('click', addTag)
 
             } else {
-                let tagdiv = document.getElementById("TAGDIV")
-                tagdiv.innerHTML = "Tag: " + tag
+                tagdiv.innerHTML = "Tag: " + tag + "  ( click to update )"
                 tagdiv.className = "hasTag"
                 conversation_control.style.display = "block"
-                tagdiv.removeEventListener('click', addTag)
+                tagdiv.addEventListener('click', addTag)
             }
             isfirstload = false
         }, 1000);
@@ -97,7 +95,6 @@
 
     //scroll to top
     function scrollToTop(){
-        console.log('clicked')
         let el = document.querySelector('.conversation__stream')
         let itv = setInterval(function() {
             if(detect_lazyload()){
@@ -120,7 +117,7 @@
     }
 
     let style = document.createElement("style")
-    style.innerHTML = "<style type=\"text/css\">#TAGDIV:empty{display:none}#TAGDIV{margin:0 15px;border-radius:5px;padding:5px;line-height:1;position:relative;z-index:9999;}#TAGDIV.hasTag{background-color:#63b32d;color:#fff;font-size:12px}#TAGDIV.noTag{background-color:#e64646;color:#fff;font-weight:700;cursor:pointer;}#TAGDIV.lazyloadDetected{background-color:#999;color:#fff;cursor:pointer;}</style>"
+    style.innerHTML = "<style type=\"text/css\">#TAGDIV:empty{display:none}#TAGDIV{margin:0 15px;border-radius:5px;padding:5px;line-height:1;position:relative;z-index:999;cursor:pointer;}#TAGDIV.hasTag{background-color:#63b32d;color:#fff;font-size:12px}#TAGDIV.noTag{background-color:#e64646;color:#fff;font-weight:700;}#TAGDIV.lazyloadDetected{background-color:#999;color:#fff;}</style>"
     document.body.appendChild(style)
 
 })();
