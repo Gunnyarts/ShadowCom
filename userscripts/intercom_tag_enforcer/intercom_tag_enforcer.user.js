@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.25
+// @version      1.26
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -37,9 +37,7 @@
                 tagdiv.innerHTML = "Lazyload detected - click here to scroll up and activate."
                 tagdiv.className = "lazyloadDetected"
                 conversation_control.style.display = "none"
-                if (isfirstload){
-                    tagdiv.addEventListener('click', scrollToTop)
-                }
+                tagdiv.addEventListener('click', scrollToTop)
             } else if ( conversation_stream.firstElementChild.querySelector('.o__admin')) {
                 if (tag){
                     tagdiv.innerHTML = "Tag: " + tag
@@ -48,17 +46,20 @@
                 }
                 tagdiv.className = "hasTag"
                 conversation_control.style.display = "block"
+                tagdiv.removeEventListener('click', scrollToTop)
                 tagdiv.removeEventListener('click', addTag)
             } else if (tag == false){
                 tagdiv.innerHTML = "No tag! Please click here to add tag."
                 tagdiv.className = "noTag"
                 conversation_control.style.display = "none"
+                tagdiv.addEventListener('click', scrollToTop)
                 tagdiv.addEventListener('click', addTag)
 
             } else {
                 tagdiv.innerHTML = "Tag: " + tag + "  ( click to update )"
                 tagdiv.className = "hasTag"
                 conversation_control.style.display = "block"
+                tagdiv.addEventListener('click', scrollToTop)
                 tagdiv.addEventListener('click', addTag)
             }
             isfirstload = false
