@@ -29,6 +29,7 @@ body {background-color: #1a1a1a; }
 .bg-warning {color: #000;}
 footer, .footer {background-color: #000;}
 .card .text-right { color: #ccc; }
+.card .text-right.bg-warning { color: #000; }
 
 
 .table thead th, .markdown > table thead th {color: #fff}
