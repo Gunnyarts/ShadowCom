@@ -387,8 +387,7 @@
 
   .pagination__for-user-table.o__white, .saved-contents__modal__edit-overlay {background: var(--bg-main)}
 
-  input[type=text], input[type=email] { background-color: var(--bg-3); }
-
+  input[type=text], input[type=email], .tagger__holder { background-color: var(--bg-3); }
 
 
   /* scrollbars */
