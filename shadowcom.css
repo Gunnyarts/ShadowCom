@@ -89,7 +89,8 @@
   .start__h6,
   .t__h1__deem,
   .t__h2__deem,
-  .t__label {
+  .t__label,
+  .text {
     color: var(--text-main)
   }
 
@@ -277,6 +278,11 @@
     opacity: 1;
   }
 
+  .popover__content, .popover__content-container>[data-popper-arrow]:after {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+  }
+
   .ds-new__dropdown {
     background-color: var(--bg-main)
   }
@@ -370,6 +376,21 @@
   .btn__footer, .card, .tbl tbody {
     background-color: var(--bg-main);
   }
+
+  .saved-contents__list-item {color: var(--text-main)}
+
+  .banner.o__help {
+    color: var(--text-main);
+    fill: var(--text-main)!important;
+    background-color: var(--bg-3);
+  }
+
+  .pagination__for-user-table.o__white, .saved-contents__modal__edit-overlay {background: var(--bg-main)}
+
+  input[type=text], input[type=email] { background-color: var(--bg-3); }
+
+
+
   /* scrollbars */
 
   ::-webkit-scrollbar {
