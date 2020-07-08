@@ -558,7 +558,8 @@
   .nav-vertical__draggable-item {background-color: inherit}
 
   .submenu,
-  .submenu__header__title {
+  .submenu__header__title,
+  .submenu__collapse-toggle__icon {
     background-color: var(--bg-2) !important;
     color: var(--text-main) !important;
   }
