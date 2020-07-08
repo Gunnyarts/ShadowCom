@@ -156,7 +156,7 @@ tr.row-clickable:hover {
     color: #fff!important;
     border: 1px solid #000!important;
 }
-.form-control:focus, .form-control:hover,  .form-control:active {border:0!important;} 
+.form-control:focus, .form-control:hover,  .form-control:active {border:0!important;}
 */
 .login-modal {background-color:#555}
 .login-modal:after {background-color: #222}
@@ -272,6 +272,8 @@ tr.row-clickable:hover {
   border-color: #424242;
 }
 
+.box-gray-arrow {background: #333;}
+.box-gray-arrow:after {border-top-color:#333;}
 
 /* modal */
 .modal-content {background-color: #333!important;}
