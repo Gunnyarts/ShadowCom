@@ -379,7 +379,7 @@
 
   .saved-contents__list-item {color: var(--text-main)}
 
-  .banner.o__help {
+  .banner.o__help, .discovery-banner {
     color: var(--text-main);
     fill: var(--text-main)!important;
     background-color: var(--bg-3);
@@ -388,6 +388,13 @@
   .pagination__for-user-table.o__white, .saved-contents__modal__edit-overlay {background: var(--bg-main)}
 
   input[type=text], input[type=email], .tagger__holder, .tagger__holder > input { background-color: var(--bg-3); }
+
+.m__saved-replies__list-item.o__hoverable:hover, .m__saved-replies__list-item.o__selected, .m__saved-replies__list-item.o__selected .m__saved-replies__list-item__summary {
+  background-color: var(--highlight-active);
+}
+.m__saved-replies__list-item.o__hoverable:hover a, .m__saved-replies__list-item.o__selected a, .m__saved-replies__list-item.o__selected .m__saved-replies__list-item__summary a {
+  color: var(--highlight-text)
+}
 
 
   /* scrollbars */
