@@ -396,6 +396,8 @@
   color: var(--highlight-text)
 }
 
+.saved-replies__popover__content {color: var(--text-main)}
+
 
   /* scrollbars */
 
