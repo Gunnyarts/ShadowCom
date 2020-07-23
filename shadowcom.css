@@ -68,7 +68,6 @@
     border-radius: 0;
   }
 
-
   .application__component {
     color: var(--text-main);
     background-color: var(--bg-main)
@@ -91,8 +90,7 @@
   .t__h1__deem,
   .t__h2__deem,
   .t__label,
-  .text,
-  .c__darkest {
+  .text {
     color: var(--text-main)
   }
 
@@ -620,31 +618,6 @@
   /************/
   /* Platform */
   /************/
-
-  .profile, .profile__sidebar {
-    background-color: var(--bg-main);
-    border-radius: 0;
-  }
-
-  .profile__map-overlay {
-    background: linear-gradient(to bottom,rgba(5,5,5,0) 40%, var(--nav-bg) 100%);
-  }
-  .profile__static-map-overlay {background: linear-gradient(to right,var(--nav-bg) 0,rgba(5,5,5,0) 20%,rgba(5,5,5,0) 80%,var(--nav-bg) 100%);}
-  .profile__styled-map-container {background: var(--nav-bg);}
-  .profile__static-map-container > div > a > img {filter: invert(1)}
-  .profile .conversation__card__title__text {color: var(--text-main)}
-  .profile .conversation__card__title__text > a {color: var(--highlight)}
-
-  .profile .inbox__card__header-collapsed {background-color: var(--bg-2)}
-  .profile .conversation__card__content-collapsed {background-color: var(--bg-3)}
-
-  .tbl tbody.js__users-table__body {background-color: var(--bg-2);}
-
-  .user-list__header {
-      background-color: transparent !important;
-  }
-
-  /************/
   /* Messages */
   /************/
 
@@ -978,11 +951,15 @@
     border-color: var(--highlight)
   }
 
+  /************/
+  /* Platform */
+  /************/
 
+  .user-list__header {
+      background-color: transparent !important;
+  }
 
-
-
-
+  /* Messenger */
   /* Operator */
   /* App Store */
   /* Product Changes */
