@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.26
+// @version      1.27
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -20,12 +20,14 @@
     }, 3000);
 
     function inject() {
-        let isfirstload = true
         setInterval(function() {
             let tag = getTag()
             let tagdiv = document.getElementById("TAGDIV")
-            let conversation_stream = document.querySelector('.conversation__stream')
-            let conversation_control = document.querySelector('.js_conversation_control_form')
+            let isOutgoing = document.querySelector('.conversation__stream').firstElementChild.querySelector('.o__admin') != null
+            let scroll = false
+            let hideControls = true
+            let tagClass = "noTag"
+            let tagMessage = ""
             if (tagdiv == null) {
                 let el = document.querySelector("div.conversation__card__content-expanded__controls")
                 let elChild = document.createElement('div')
@@ -33,51 +35,71 @@
                 el.insertBefore(elChild, el.firstChild);
                 tagdiv = elChild
             }
-            if (detect_lazyload()){
-                tagdiv.innerHTML = "Lazyload detected - click here to scroll up and activate."
-                tagdiv.className = "lazyloadDetected"
-                conversation_control.style.display = "none"
-                tagdiv.addEventListener('click', scrollToTop)
-            } else if ( conversation_stream.firstElementChild.querySelector('.o__admin')) {
-                if (tag){
-                    tagdiv.innerHTML = "Tag: " + tag
-                } else {
-                    tagdiv.innerHTML = "Outgoing - No tag needed."
+            if (tag) {
+                let args = {
+                    tagMessage: "Tag: " + tag + "  ( click to update )",
+                    tagClass: "hasTag",
+                    hideControls: false,
+                    scroll: false
                 }
-                tagdiv.className = "hasTag"
-                conversation_control.style.display = "block"
-                tagdiv.removeEventListener('click', scrollToTop)
-                tagdiv.removeEventListener('click', addTag)
+                updateTag(args)
+            } else if (detect_lazyload()){
+                let args = {
+                    tagMessage: "Lazyload detected - click here to scroll up and activate.",
+                    tagClass: "lazyloadDetected",
+                    hideControls: true,
+                    scroll: true
+                }
+                updateTag(args)
+            } else if ( isOutgoing) {
+                let args = {
+                    tagMessage: "Outgoing - No tag needed.",
+                    tagClass: "hasTag",
+                    hideControls: false,
+                    scroll: false
+                }
+                updateTag(args)
             } else if (tag == false){
-                tagdiv.innerHTML = "No tag! Please click here to add tag."
-                tagdiv.className = "noTag"
-                conversation_control.style.display = "none"
-                tagdiv.addEventListener('click', scrollToTop)
-                tagdiv.addEventListener('click', addTag)
-
+                let args = {
+                    tagMessage: "No tag! Please click here to add tag.",
+                    tagClass: "noTag",
+                    hideControls: true,
+                    scroll: false
+                }
+                updateTag(args)
             } else {
-                tagdiv.innerHTML = "Tag: " + tag + "  ( click to update )"
-                tagdiv.className = "hasTag"
-                conversation_control.style.display = "block"
-                tagdiv.addEventListener('click', scrollToTop)
-                tagdiv.addEventListener('click', addTag)
+                let args = {
+                    tagMessage: "Error loading tag - please check console or refresh page.",
+                    tagClass: "noTag",
+                    hideControls: true,
+                    scroll: false
+                }
+                updateTag(args)
             }
-            isfirstload = false
         }, 1000);
     }
 
     function getTag() {
         let filter = Array.prototype.filter
-        let tags = document.querySelectorAll('.conversation__bubble a')
+        let tags = document.querySelectorAll('.pill a')
         tags = filter.call( tags, function( node ) {
             return (node.href).includes('search?tagIds')
         })
         // if outgoing only
-        if (!(document.querySelector(".conversation__bubble-container.o__user-comment"))){
-            return "Outgoing only - no tag needed"
-        } else if (tags[0]){
-            let firstTag = (tags[0].text).trim()
-            return firstTag
+        if (tags[0]){
+            return (tags[tags.length - 1].text).trim()
+        } else {
+            return false
+        }
+    }
+    function getTagElement() {
+        let filter = Array.prototype.filter
+        let tags = document.querySelectorAll('.pill a')
+        tags = filter.call( tags, function( node ) {
+            return (node.href).includes('search?tagIds')
+        })
+        if (tags[0]){
+            return (tags[tags.length - 1])
         } else {
             return false
         }
@@ -85,9 +107,7 @@
 
     // detect lazyload
     function detect_lazyload(){
-        let conversation_stream = document.querySelector('.conversation__stream')
-        let first_element = conversation_stream.firstElementChild
-        if (first_element.classList[0] == "sp__3"){
+        if (document.querySelector('.conversation__stream').firstElementChild.classList[0] == "sp__3"){
             return true
         } else {
             return false
@@ -98,23 +118,47 @@
     function scrollToTop(){
         let el = document.querySelector('.conversation__stream')
         let itv = setInterval(function() {
-            if(detect_lazyload()){
+            if(detect_lazyload() && !getTag()){
                 el.scrollTo(0,0)
             } else {
                 clearInterval(itv)
-                el.scrollBy(0,20000)
+                el.scrollBy(0,100000)
                 document.getElementById('TAGDIV').removeEventListener('click', scrollToTop)
             }
-        }, 1000)
+        }, 2000)
     }
+
     // trigger add tag
     function addTag(){
         let first_element = document.querySelector('.conversation__stream').firstElementChild
-        if (first_element.classList[0] == "sp__3"){
-           alert('Lazyload still detected!')
+        let tagElement = getTagElement()
+        if (first_element.classList[0] == "sp__3" && !getTag()){
+           console.log('Detected lazyload and no tags - scrolling up to look')
+        } else if (tagElement) {
+            tagElement.closest('.conversation__bubble-container').querySelector('.quick-action').click()
         } else {
             first_element.querySelector('.quick-action').click()
         }
+    }
+
+    function updateTag(args = {scroll:false, hideControls:true,tagClass:"noTag", tagMessage:""}) {
+        let tag = getTag()
+        let tagdiv = document.getElementById("TAGDIV")
+        let conversation_stream = document.querySelector('.conversation__stream')
+        let conversation_control = document.querySelector('.js_conversation_control_form')
+        tagdiv.innerHTML = args.tagMessage
+        tagdiv.className = args.tagClass
+        if (args.hideControls){
+            conversation_control.style.display = "none"
+        } else {
+            conversation_control.style.display = "block"
+        }
+        if (args.scroll){
+            tagdiv.addEventListener('click', scrollToTop)
+        } else {
+            tagdiv.removeEventListener('click', scrollToTop)
+        }
+        tagdiv.addEventListener('click', addTag)
     }
 
     let style = document.createElement("style")
