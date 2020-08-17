@@ -543,7 +543,7 @@
 
   .left-nav__link.o__selected,
   .left-nav__link.o__selected .left-nav__icon__purchasable:after,
-  .left-nav__link.o__selected .left-nav__icon__purchasable:before {
+  .left-nav__link.o__selected .left-nav__icon__purchasable:before, .left-nav__link.bg-gray-light {
     background-color: var(--nav-bg)
   }
 
@@ -552,6 +552,23 @@
     transition-delay: 0s !important;
     transition-duration: 0s !important;
   }
+
+  .left-nav__link.o__selected,
+.left-nav__link.o__selected .left-nav__icon__purchasable:after,
+.left-nav__link.o__selected .left-nav__icon__purchasable:before{
+  background-color: var(--nav-bg) !important;
+}
+
+.left-nav__link-opener, .left-nav__link.bg-gray-light {
+  background-color: var(--nav-bg) !important;
+}
+
+.left-nav__link.o__appstore .left-nav__icon, .left-nav__link.o__messenger .left-nav__icon, .left-nav__link.o__operator .left-nav__icon, .left-nav__link.o__overflow-menu .left-nav__icon, .left-nav__link.o__product .left-nav__icon, .left-nav__link.o__product-changes .left-nav__icon, .left-nav__link.o__product-tours .left-nav__icon, .left-nav__link.o__reporting .left-nav__icon, .left-nav__link.o__tours .left-nav__icon {
+fill: var(--highlight) !important
+}
+
+.product-icon__stroke { stroke: var(--highlight) !important;}
+.product-icon__fill { fill: var(--highlight) !important;}
 
   .submenu__sections__section,
   .submenu__sections__section__items.o__section-padding-right,
