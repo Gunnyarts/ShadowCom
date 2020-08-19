@@ -61,7 +61,7 @@
                 updateTag(args)
             } else if (tag == false){
                 let args = {
-                    tagMessage: "No tag! Please click here to add tag.",
+                    tagMessage: "No tag! Reply locked. Please click here to add tag and unlock reply tab.",
                     tagClass: "noTag",
                     hideControls: true,
                     scroll: false
@@ -69,7 +69,7 @@
                 updateTag(args)
             } else {
                 let args = {
-                    tagMessage: "Error loading tag - please check console or refresh page.",
+                    tagMessage: "Error loading tag - please check console and/or refresh page.",
                     tagClass: "noTag",
                     hideControls: true,
                     scroll: false
