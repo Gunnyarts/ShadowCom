@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.29
+// @version      1.30
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -18,6 +18,7 @@
         console.log("TagChecker injected!");
         inject();
     }, 3000);
+    var tagAdded = 0
 
     function inject() {
         setInterval(function() {
@@ -138,6 +139,7 @@
             tagElement.closest('.conversation__bubble-container').querySelector('.quick-action').click()
         } else {
             first_element.querySelector('.quick-action').click()
+            tagAdded = 1
         }
     }
 
@@ -155,6 +157,10 @@
             }
         } else {
             reply_tab.style.display = "block"
+            if (tagAdded){
+              reply_tab.click()
+              tagAdded = 0
+            }
         }
         if (args.scroll){
             tagdiv.addEventListener('click', scrollToTop)
