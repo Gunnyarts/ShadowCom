@@ -90,7 +90,8 @@
   .t__h1__deem,
   .t__h2__deem,
   .t__label,
-  .text {
+  .text,
+  .text:not(.o__inline-link) {
     color: var(--text-main)
   }
 
@@ -388,6 +389,7 @@
   .pagination__for-user-table.o__white, .saved-contents__modal__edit-overlay {background: var(--bg-main)}
 
   input[type=text], input[type=email], .tagger__holder, .tagger__holder > input { background-color: var(--bg-3); }
+.nav-vertical__search__input {color: var(--text-main) !important}
 
 .m__saved-replies__list-item.o__hoverable:hover, .m__saved-replies__list-item.o__selected, .m__saved-replies__list-item.o__selected .m__saved-replies__list-item__summary {
   background-color: var(--highlight-active);
@@ -559,6 +561,13 @@
   background-color: var(--nav-bg) !important;
 }
 
+.product-icon__link:hover .product-icon__fill {fill: var(--highlight-active) !important;}
+.product-icon__link:hover .product-icon__stroke {stroke: var(--highlight-active) !important;}
+
+
+.left-nav__link.o__selected svg > path[fill="#334BFA"] {fill: var(--highlight-active) !important}
+.left-nav__link.o__selected svg > path[stroke="#334BFA"] {stroke: var(--highlight-active) !important}
+
 .left-nav__link-opener, .left-nav__link.bg-gray-light {
   background-color: var(--nav-bg) !important;
 }
@@ -569,6 +578,7 @@ fill: var(--highlight) !important
 
 .product-icon__stroke { stroke: var(--highlight) !important;}
 .product-icon__fill { fill: var(--highlight) !important;}
+.product-icon__link:hover .product-icon__fill {fill: var(--highlight-active) !important;}
 
   .submenu__sections__section,
   .submenu__sections__section__items.o__section-padding-right,
