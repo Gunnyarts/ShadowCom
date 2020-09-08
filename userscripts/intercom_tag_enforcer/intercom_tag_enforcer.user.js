@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.30
+// @version      1.31
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -80,6 +80,18 @@
         }, 1000);
     }
 
+    // F2 keyboard shortcut
+    document.addEventListener('keyup', keypress)
+    function keypress(e){
+        if(e.which == 113) { //F2
+            if (detect_lazyload()){
+                scrollToTop()
+            } else {
+                addTag()
+            }
+        }
+    }
+
     function getTag() {
         let filter = Array.prototype.filter
         let tags = document.querySelectorAll('.pill a')
@@ -125,6 +137,9 @@
                 clearInterval(itv)
                 el.scrollBy(0,100000)
                 document.getElementById('TAGDIV').removeEventListener('click', scrollToTop)
+                if (getTag()){
+                    document.querySelector('.inbox__conversation-controls__pane-selector.tabs > .tabs__tab:nth-of-type(1)').click()
+                }
             }
         }, 2000)
     }
