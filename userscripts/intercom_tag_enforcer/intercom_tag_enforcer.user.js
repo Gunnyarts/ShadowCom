@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Intercom Tag Enforcer
 // @namespace    https://gunnyarts.com
-// @version      1.31
+// @version      1.32
 // @description  Check Intercom tags
 // @author       Dennis Jensen
 // @match        https://app.intercom.com/*
@@ -186,7 +186,7 @@
     }
 
     let style = document.createElement("style")
-    style.innerHTML = "<style type=\"text/css\">#TAGDIV:empty{display:none}#TAGDIV{margin:0 15px;border-radius:5px;padding:5px;line-height:1;position:relative;z-index:999;cursor:pointer;}#TAGDIV.hasTag{background-color:#63b32d;color:#fff;font-size:12px}#TAGDIV.noTag{background-color:#e64646;color:#fff;font-weight:700;}#TAGDIV.lazyloadDetected{background-color:#999;color:#fff;}</style>"
+    style.innerHTML = "<style type=\"text/css\">#TAGDIV:empty{display:none}#TAGDIV{margin:0 15px;border-radius:5px;padding:5px;line-height:1;position:relative;z-index:0;cursor:pointer;}#TAGDIV.hasTag{background-color:#63b32d;color:#fff;font-size:12px}#TAGDIV.noTag{background-color:#e64646;color:#fff;font-weight:700;}#TAGDIV.lazyloadDetected{background-color:#999;color:#fff;}</style>"
     document.body.appendChild(style)
 
 })();
