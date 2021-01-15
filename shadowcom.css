@@ -854,7 +854,7 @@ fill: var(--highlight) !important
     color: var(--conversation-customer-link-hover)
   }
 
-  .conversation__bubble.o__admin-note {
+  .conversation__bubble.o__admin-note, .o__admin-note .text, .o__admin-note .text:not(.o__inline-link) {
     background-color: var(--conversation-note-bg);
     border-color: var(--conversation-note-bg);
     color: var(--conversation-note-text)
