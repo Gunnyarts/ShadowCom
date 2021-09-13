@@ -158,6 +158,12 @@ tr.row-clickable:hover {
 }
 .form-control:focus, .form-control:hover,  .form-control:active {border:0!important;}
 */
+
+input.form-control.error {
+  background-color: #b94a48;
+  color:#fff;
+}
+
 .login-modal {background-color:#555}
 .login-modal:after {background-color: #222}
 /* Zenegy */
