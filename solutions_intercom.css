@@ -35,3 +35,7 @@ footer, .footer {background-color: #000;}
 .table thead th, .markdown > table thead th {color: #fff}
 
 .table-hover > tbody i { color: #aaa }
+
+.table thead th, .markdown > table thead th {
+  background-color: #444;
+}
